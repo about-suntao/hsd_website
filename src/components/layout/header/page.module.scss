@@ -1,0 +1,855 @@
+@media screen and (min-width: 1401px) {
+    .header {
+        width: 100%;
+        position: sticky;
+        left: 0;
+        top: 0;
+        .top {
+            width: 100%;
+            height: 3.75rem;
+            background: #012247;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .topBox {
+                width: 87rem;
+                display: flex;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: 400;
+                font-size: 0.88rem;
+                line-height: 1.4rem;
+                letter-spacing: 1px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        transform: rotate(180deg);
+                        margin-right: 1rem;
+                    }
+                }
+                .position {
+                    margin-left: 1.25rem;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .container {
+                width: 87rem;
+                height: 6.88rem;
+                display: flex;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 15.5rem;
+                        height: 3.06rem;
+                    }
+                }
+                .menu {
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        li {
+                            width: 7rem;
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                border: none;
+                                background: transparent;
+                            }
+                            a {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #16213a;
+                                line-height: 1.6rem;
+                                letter-spacing: 1px;
+                                text-decoration: none;
+                            }
+                            .active {
+                                a {
+                                    color: #252c68;
+                                    font-weight: bold;
+                                }
+                            }
+                            a:hover {
+                                color: #252c68;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icons {
+                        margin-left: 1rem;
+                        font-size: 1.5rem;
+                        color: #012247;
+                        span + span {
+                            margin-left: 1.5rem;
+                        }
+                    }
+                    .btn {
+                        margin-left: 2rem;
+                        button {
+                            width: 7.38rem;
+                            height: 3.13rem;
+                            background: #253468;
+                            border: none;
+                            color: white;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 1000;
+            :global {
+                .ant-drawer:focus-visible {
+                    outline: none;
+                }
+                .ant-drawer-right > .ant-drawer-content-wrapper {
+                    width: 15rem !important;
+                }
+                .ant-drawer .ant-drawer-body {
+                    padding: 0;
+                    background: #012247;
+                }
+            }
+            .drawerNav {
+                ul {
+                    width: 100%;
+                    list-style: none;
+                    padding-top: 3cqh;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        button {
+                            border: none;
+                            background: transparent;
+                        }
+                        a {
+                            font-size: 1.2rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                        }
+                        .active {
+                            a {
+                                color: #5bdae2;
+                            }
+                        }
+                        a:hover {
+                            color: #5bdae2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        .top {
+            width: 100%;
+            height: 3.75rem;
+            background: #012247;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .topBox {
+                width: 90%;
+                display: flex;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: 400;
+                font-size: 0.88rem;
+                line-height: 1.4rem;
+                letter-spacing: 1px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        transform: rotate(180deg);
+                        margin-right: 1rem;
+                    }
+                }
+                .position {
+                    margin-left: 1.25rem;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .container {
+                width: 90%;
+                height: 6.88rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 13rem;
+                        height: 2.8rem;
+                    }
+                }
+                .menu {
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        li {
+                            width: 5.8rem;
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                border: none;
+                                background: transparent;
+                            }
+                            a {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #16213a;
+                                line-height: 1.6rem;
+                                letter-spacing: 1px;
+                                text-decoration: none;
+                            }
+                            .active {
+                                a {
+                                    color: #252c68;
+                                    font-weight: bold;
+                                }
+                            }
+                            a:hover {
+                                color: #252c68;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icons {
+                        font-size: 1.5rem;
+                        color: #012247;
+                        span + span {
+                            margin-left: 1rem;
+                        }
+                    }
+                    .btn {
+                        margin-left: 1.5rem;
+                        button {
+                            width: 6.8rem;
+                            height: 3rem;
+                            background: #253468;
+                            border: none;
+                            color: white;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 1000;
+            :global {
+                .ant-drawer:focus-visible {
+                    outline: none;
+                }
+                .ant-drawer-right > .ant-drawer-content-wrapper {
+                    width: 15rem !important;
+                }
+                .ant-drawer .ant-drawer-body {
+                    padding: 0;
+                    background: #012247;
+                }
+            }
+            .drawerNav {
+                ul {
+                    width: 100%;
+                    list-style: none;
+                    padding-top: 3cqh;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        button {
+                            border: none;
+                            background: transparent;
+                        }
+                        a {
+                            font-size: 1.2rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                        }
+                        .active {
+                            a {
+                                color: #5bdae2;
+                            }
+                        }
+                        a:hover {
+                            color: #5bdae2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        .top {
+            width: 100%;
+            height: 3.75rem;
+            background: #012247;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .topBox {
+                width: 90%;
+                display: flex;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: 400;
+                font-size: 0.88rem;
+                line-height: 1.4rem;
+                letter-spacing: 1px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        transform: rotate(180deg);
+                        margin-right: 1rem;
+                    }
+                }
+                .position {
+                    margin-left: 1.25rem;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .container {
+                width: 90%;
+                height: 6.88rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 12rem;
+                        height: 2.6rem;
+                    }
+                }
+                .menu {
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        li {
+                            width: 5rem;
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                border: none;
+                                background: transparent;
+                            }
+                            a {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #16213a;
+                                line-height: 1.6rem;
+                                letter-spacing: 1px;
+                                text-decoration: none;
+                            }
+                            .active {
+                                a {
+                                    color: #252c68;
+                                    font-weight: bold;
+                                }
+                            }
+                            a:hover {
+                                color: #252c68;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icons {
+                        margin-left: 1rem;
+                        font-size: 1.5rem;
+                        color: #012247;
+                        span + span {
+                            margin-left: 1rem;
+                        }
+                    }
+                    .btn {
+                        margin-left: 1rem;
+                        button {
+                            width: 5.8rem;
+                            height: 2.8rem;
+                            background: #253468;
+                            border: none;
+                            color: white;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 1000;
+            :global {
+                .ant-drawer:focus-visible {
+                    outline: none;
+                }
+                .ant-drawer-right > .ant-drawer-content-wrapper {
+                    width: 15rem !important;
+                }
+                .ant-drawer .ant-drawer-body {
+                    padding: 0;
+                    background: #012247;
+                }
+            }
+            .drawerNav {
+                ul {
+                    width: 100%;
+                    list-style: none;
+                    padding-top: 3cqh;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        button {
+                            border: none;
+                            background: transparent;
+                        }
+                        a {
+                            font-size: 1.2rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                        }
+                        .active {
+                            a {
+                                color: #5bdae2;
+                            }
+                        }
+                        a:hover {
+                            color: #5bdae2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        .top {
+            width: 100%;
+            height: 3.75rem;
+            background: #012247;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .topBox {
+                width: 90%;
+                display: flex;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: 400;
+                font-size: 0.88rem;
+                line-height: 1.4rem;
+                letter-spacing: 1px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        transform: rotate(180deg);
+                        margin-right: 1rem;
+                    }
+                }
+                .position {
+                    margin-left: 1.25rem;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .container {
+                width: 96%;
+                height: 6.88rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 10rem;
+                        height: 2.2rem;
+                    }
+                }
+                .menu {
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        li {
+                            width: 4.5rem;
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                border: none;
+                                background: transparent;
+                            }
+                            a {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.9rem;
+                                color: #16213a;
+                                line-height: 1.6rem;
+                                letter-spacing: 1px;
+                                text-decoration: none;
+                            }
+                            .active {
+                                a {
+                                    color: #252c68;
+                                    font-weight: bold;
+                                }
+                            }
+                            a:hover {
+                                color: #252c68;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icons {
+                        margin-left: 0.5rem;
+                        font-size: 1.2rem;
+                        color: #012247;
+                        span + span {
+                            margin-left: 0.5rem;
+                        }
+                    }
+                    .btn {
+                        margin-left: 0.5rem;
+                        button {
+                            width: 5rem;
+                            height: 2.6rem;
+                            background: #253468;
+                            border: none;
+                            color: white;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.9rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 1000;
+            :global {
+                .ant-drawer:focus-visible {
+                    outline: none;
+                }
+                .ant-drawer-right > .ant-drawer-content-wrapper {
+                    width: 15rem !important;
+                }
+                .ant-drawer .ant-drawer-body {
+                    padding: 0;
+                    background: #012247;
+                }
+            }
+            .drawerNav {
+                ul {
+                    width: 100%;
+                    list-style: none;
+                    padding-top: 3cqh;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        button {
+                            border: none;
+                            background: transparent;
+                        }
+                        a {
+                            font-size: 1.2rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                        }
+                        .active {
+                            a {
+                                color: #5bdae2;
+                            }
+                        }
+                        a:hover {
+                            color: #5bdae2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 1000;
+        .top {
+            width: 100%;
+            height: 3.75rem;
+            background: #012247;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .topBox {
+                width: 96%;
+                display: flex;
+                justify-content: center;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: 400;
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                letter-spacing: 1px;
+                .phone {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        transform: rotate(180deg);
+                        margin-right: 0.5rem;
+                    }
+                }
+                .position {
+                    margin-left: 0.5rem;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            .container {
+                width: 96%;
+                height: 6.88rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 10rem;
+                        height: 2.2rem;
+                    }
+                }
+                .menu {
+                    display: none;
+                }
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icons {
+                        margin-left: 0.5rem;
+                        font-size: 1.5rem;
+                        color: #012247;
+                        span + span {
+                            margin-left: 0.5rem;
+                        }
+                    }
+                    .btn {
+                        margin-left: 1rem;
+                        button {
+                            width: 5rem;
+                            height: 2.6rem;
+                            background: #253468;
+                            border: none;
+                            color: white;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.9rem;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .mobileNav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            z-index: 1000;
+            :global {
+                .ant-drawer:focus-visible {
+                    outline: none;
+                }
+                .ant-drawer-right > .ant-drawer-content-wrapper {
+                    width: 12rem !important;
+                }
+                .ant-drawer .ant-drawer-body {
+                    padding: 0;
+                    background: #012247;
+                }
+            }
+            .drawerNav {
+                ul {
+                    width: 100%;
+                    list-style: none;
+                    padding-top: 3cqh;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        button {
+                            border: none;
+                            background: transparent;
+                        }
+                        a {
+                            font-size: 1.2rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-decoration: none;
+                        }
+                        .active {
+                            a {
+                                color: #5bdae2;
+                            }
+                        }
+                        a:hover {
+                            color: #5bdae2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1020 @@
+@media screen and (min-width: 1501px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        height: 33.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 87rem;
+            padding-top: 2.69rem;
+            display: flex;
+            .school {
+                .logo {
+                    width: 22rem;
+                    height: 4.75rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    padding-left: 7rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+                .qrBox {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 8.25rem;
+                            height: 8.25rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                margin-left: 8.44rem;
+                h2 {
+                    margin-bottom: 0.88rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card + .card {
+                    margin-top: 1.5rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.25rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.46rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 1rem;
+                            p {
+                                margin-top: 0;
+                                font-size: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.17rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                margin-left: 6.56rem;
+                h2 {
+                    margin-bottom: 1.19rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                p {
+                    font-size: 1rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.17rem;
+                }
+                p + p {
+                    margin-top: 1.5rem;
+                }
+            }
+            .news {
+                margin-left: 8.13rem;
+                h2 {
+                    margin-bottom: 0.13rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card {
+                    margin-top: 1.5rem;
+                    display: flex;
+                    .card_left {
+                        width: 6.25rem;
+                        height: 4.38rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 0.75rem;
+                        p {
+                            margin-top: 0.63rem;
+                            margin-bottom: 0.75rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.17rem;
+                        }
+                        span {
+                            font-size: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1501px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        height: 33.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 80rem;
+            padding-top: 2.69rem;
+            display: flex;
+            justify-content: space-between;
+            .school {
+                .logo {
+                    width: 22rem;
+                    height: 4.75rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    padding-left: 7rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+                .qrBox {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 8.25rem;
+                            height: 8.25rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                h2 {
+                    margin-bottom: 0.88rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card + .card {
+                    margin-top: 1.5rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.25rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.46rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 1rem;
+                            p {
+                                margin-top: 0;
+                                font-size: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.17rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                h2 {
+                    margin-bottom: 1.19rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                p {
+                    font-size: 1rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.17rem;
+                }
+                p + p {
+                    margin-top: 1.5rem;
+                }
+            }
+            .news {
+                h2 {
+                    margin-bottom: 0.13rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card {
+                    margin-top: 1.5rem;
+                    display: flex;
+                    .card_left {
+                        width: 6.25rem;
+                        height: 4.38rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 0.75rem;
+                        p {
+                            margin-top: 0.63rem;
+                            margin-bottom: 0.75rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.17rem;
+                        }
+                        span {
+                            font-size: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1301px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        height: 33.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 75rem;
+            padding-top: 2.69rem;
+            display: flex;
+            justify-content: space-between;
+            .school {
+                .logo {
+                    width: 22rem;
+                    height: 4.75rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    padding-left: 7rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+                .qrBox {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 8.25rem;
+                            height: 8.25rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                h2 {
+                    margin-bottom: 0.88rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card + .card {
+                    margin-top: 1.5rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.25rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.46rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 1rem;
+                            p {
+                                margin-top: 0;
+                                font-size: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.17rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                h2 {
+                    margin-bottom: 1.19rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                p {
+                    font-size: 1rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.17rem;
+                }
+                p + p {
+                    margin-top: 1.5rem;
+                }
+            }
+            .news {
+                h2 {
+                    margin-bottom: 0.13rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card {
+                    margin-top: 1.5rem;
+                    display: flex;
+                    .card_left {
+                        width: 6.25rem;
+                        height: 4.38rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 0.75rem;
+                        p {
+                            margin-top: 0.63rem;
+                            margin-bottom: 0.75rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.17rem;
+                        }
+                        span {
+                            font-size: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1101px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 80%;
+            padding: 3rem 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10%;
+            .school {
+                width: 40%;
+                margin-bottom: 2rem;
+                .logo {
+                    width: 19rem;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    padding-left: 6rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+                .qrBox {
+                    width: 19rem;
+                    display: flex;
+                    justify-content: flex-end;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 7rem;
+                            height: 7rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                width: 45%;
+                h2 {
+                    margin-bottom: 0.88rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card + .card {
+                    margin-top: 1.5rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.25rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.46rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 1rem;
+                            p {
+                                margin-top: 0;
+                                font-size: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.17rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                width: 40%;
+
+                h2 {
+                    margin-bottom: 1.19rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                p {
+                    font-size: 1rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.17rem;
+                }
+                p + p {
+                    margin-top: 1.5rem;
+                }
+            }
+            .news {
+                width: 45%;
+                h2 {
+                    margin-bottom: 0.13rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card {
+                    margin-top: 1.5rem;
+                    display: flex;
+                    .card_left {
+                        width: 6.25rem;
+                        height: 4.38rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 0.75rem;
+                        p {
+                            margin-top: 0.63rem;
+                            margin-bottom: 0.75rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.17rem;
+                        }
+                        span {
+                            font-size: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1101px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 80%;
+            padding: 3rem 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10%;
+            .school {
+                width: 40%;
+                margin-bottom: 2rem;
+                .logo {
+                    width: 19rem;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    padding-left: 4rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                }
+                .qrBox {
+                    width: 19rem;
+                    display: flex;
+                    justify-content: flex-end;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 7rem;
+                            height: 7rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                width: 45%;
+                h2 {
+                    margin-bottom: 0.88rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card + .card {
+                    margin-top: 1.5rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.25rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.46rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 1rem;
+                            p {
+                                margin-top: 0;
+                                font-size: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.17rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                width: 40%;
+
+                h2 {
+                    margin-bottom: 1.19rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                p {
+                    font-size: 1rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.17rem;
+                }
+                p + p {
+                    margin-top: 1.5rem;
+                }
+            }
+            .news {
+                width: 45%;
+                h2 {
+                    margin-bottom: 0.13rem;
+                    font-size: 1.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 1.9rem;
+                }
+                .card {
+                    margin-top: 1.5rem;
+                    display: flex;
+                    .card_left {
+                        width: 6.25rem;
+                        height: 4.38rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 0.75rem;
+                        p {
+                            margin-top: 0.63rem;
+                            margin-bottom: 0.75rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.17rem;
+                        }
+                        span {
+                            font-size: 0.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
+        background: #00162d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            padding: 3rem 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .school {
+                width: 100%;
+                margin-bottom: 3.33rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .logo {
+                    width: 19rem;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .mark {
+                    width: 100%;
+                    margin-top: 0.13rem;
+                    margin-bottom: 1.94rem;
+                    font-size: 1.25rem;
+                    font-family: Source Han Sans SC VF, sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                    line-height: 1.46rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                .qrBox {
+                    width: 19rem;
+                    display: flex;
+                    justify-content: center;
+                    .qrCode {
+                        margin-left: 1rem;
+                        img {
+                            width: 7rem;
+                            height: 7rem;
+                        }
+                        p {
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 0.81rem;
+                            font-size: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.17rem;
+                        }
+                    }
+                }
+            }
+            .contact {
+                width: 50%;
+                h2 {
+                    margin-bottom: 1.17rem;
+                    font-size: 2.17rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 2.54rem;
+                }
+                .card + .card {
+                    margin-top: 1.83rem;
+                }
+                .card {
+                    p {
+                        font-size: 1.67rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        color: #ffffff;
+                        line-height: 1.95rem;
+                    }
+                    .cardBody {
+                        margin-top: 1rem;
+                        display: flex;
+                        .left {
+                            font-size: 1.17rem;
+                            color: #ffffff;
+                        }
+                        .right {
+                            margin-left: 0.75rem;
+                            p {
+                                font-size: 1.17rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                color: #ffffff;
+                                line-height: 1.87rem;
+                            }
+                            p + p {
+                                margin-top: 0.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .situation {
+                width: 30%;
+                h2 {
+                    margin-bottom: 1.58rem;
+                    font-size: 2.17rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 2.54rem;
+                }
+                p {
+                    font-size: 1.33rem;
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.56rem;
+                }
+                p + p {
+                    margin-top: 2rem;
+                }
+            }
+            .news {
+                margin-top: 3.33rem;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                h2 {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 0.17rem;
+                    font-size: 2.17rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    color: #ffffff;
+                    line-height: 2.54rem;
+                }
+                .card {
+                    margin-top: 2rem;
+                    display: flex;
+                    .card_left {
+                        width: 8.33rem;
+                        height: 5.83rem;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 1rem;
+                        p {
+                            margin-top: 0.83rem;
+                            margin-bottom: 1rem;
+                            font-size: 1.3rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #e7b82a;
+                            line-height: 1.56rem;
+                        }
+                        span {
+                            font-size: 1.17rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            color: #ffffff;
+                            line-height: 1.37rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
