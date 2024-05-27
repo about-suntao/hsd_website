@@ -1,0 +1,52 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfaf8;
+    .container {
+        margin: 3.19rem 0;
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li + li {
+                margin-left: 7.13rem;
+            }
+            li {
+                .num {
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: bold;
+                    font-size: 5.5rem;
+                    color: #62d395;
+                    line-height: 8.8rem;
+                    letter-spacing: 7px;
+                    text-align: center;
+                }
+                .label {
+                    font-family: Microsoft YaHei UI, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.6rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            li:nth-child(2) {
+                .num {
+                    color: #ff7335;
+                }
+            }
+            li:nth-child(3) {
+                .num {
+                    color: #f7d78a;
+                }
+            }
+            li:nth-child(4) {
+                .num {
+                    color: #83a4f8;
+                }
+            }
+        }
+    }
+}

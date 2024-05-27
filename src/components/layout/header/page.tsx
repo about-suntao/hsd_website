@@ -15,7 +15,9 @@ function Header() {
   const path = usePathname()
 
   const [open, setOpen] = useState(false);
-
+  function openNewWindow(url) {
+    window.open(url, '_blank');
+  }
   const menus = [
     {
       label: (<Link href="/">首页</Link>),
@@ -40,7 +42,7 @@ function Header() {
       label: (<Link href="/news">新闻资讯</Link>),
       key: 'news',
     }, {
-      label: (<Link href="/">招生简章</Link>),
+      label: (<a href="javascript:void(0)" onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
       key: 'recruitStudent',
     },
   ];

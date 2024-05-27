@@ -1,0 +1,71 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../../public/img/home/divisionBg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .container {
+        margin-top: 8.13rem;
+        margin-bottom: 4.44rem;
+        width: 87rem;
+        display: flex;
+        color: white;
+        .left {
+            img {
+                width: 35.19rem;
+                height: 36.31rem;
+            }
+        }
+        .right {
+            margin-left: 2.5rem;
+            .titleEn {
+                font-family: Abhaya Libre, sans-serif;
+                font-weight: 400;
+                font-size: 1.7rem;
+                line-height: 2.8rem;
+                letter-spacing: 2px;
+            }
+            h2 {
+                margin-top: 0.63rem;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: bold;
+                font-size: 2.25rem;
+                line-height: 2.64rem;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+            .article {
+                margin: 1.25rem 0;
+                font-family: Microsoft YaHei UI, sans-serif;
+                font-weight: 400;
+                font-size: 1.25rem;
+                color: #ffffff;
+                line-height: 2.25rem;
+                letter-spacing: 1px;
+            }
+            ul {
+                list-style: none;
+                li + li {
+                    margin-top: 0.63rem;
+                }
+                li {
+                    display: flex;
+                    img {
+                        width: 2.13rem;
+                        height: 2rem;
+                    }
+                    p {
+                        margin-left: 1.44rem;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.19rem;
+                        color: #ffffff;
+                        line-height: 2.14rem;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
