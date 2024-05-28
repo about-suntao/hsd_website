@@ -1,0 +1,394 @@
+@media screen and (min-width: 1501px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 6.25rem 0;
+            width: 90rem;
+            display: flex;
+            justify-content: space-between;
+            .left {
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #00162d;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.88rem;
+                        color: #00162d;
+                        line-height: 3rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .article {
+                    margin: 1.87rem 0;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                .partner {
+                    margin-left: 1.31rem;
+                    width: 23.44rem;
+                    height: 4.75rem;
+                    background: #fdfaf8;
+                    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-left: -1.31rem;
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                    p {
+                        margin-left: 1.38rem;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.06rem;
+                        color: #00162d;
+                        line-height: 1.91rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li {
+                        margin-top: 1.88rem;
+                        min-width: 14rem;
+                        display: flex;
+                        align-items: center;
+                        font-size: 2.25rem;
+                        p {
+                            margin-left: 0.63rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.13rem;
+                            color: #00162d;
+                            line-height: 2.02rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+            .right {
+                margin-left: 1.75rem;
+                img {
+                    width: 48rem;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 5.5rem 0;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                width: 50%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #00162d;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.88rem;
+                        color: #00162d;
+                        line-height: 3rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .article {
+                    margin: 1rem 0;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.15rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                .partner {
+                    margin-left: 1.31rem;
+                    width: 23.44rem;
+                    height: 4.75rem;
+                    background: #fdfaf8;
+                    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-left: -1.31rem;
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                    p {
+                        margin-left: 1.38rem;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.06rem;
+                        color: #00162d;
+                        line-height: 1.91rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li {
+                        margin-top: 1.5rem;
+                        min-width: 14rem;
+                        display: flex;
+                        align-items: center;
+                        font-size: 2.25rem;
+                        p {
+                            margin-left: 0.63rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.13rem;
+                            color: #00162d;
+                            line-height: 2.02rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 48%;
+                margin-left: 1.75rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 4.5rem 0;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            .left {
+                width: 50%;
+                .title {
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #00162d;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        color: #00162d;
+                        line-height: 3rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .article {
+                    margin: 1rem 0;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.15rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                .partner {
+                    margin-left: 1.31rem;
+                    width: 23.44rem;
+                    height: 4.75rem;
+                    background: #fdfaf8;
+                    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-left: -1.31rem;
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                    p {
+                        margin-left: 1.38rem;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.06rem;
+                        color: #00162d;
+                        line-height: 1.91rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li {
+                        margin-top: 1rem;
+                        min-width: 14rem;
+                        display: flex;
+                        align-items: center;
+                        font-size: 2rem;
+                        p {
+                            margin-left: 0.63rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.13rem;
+                            color: #00162d;
+                            line-height: 2.02rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 48%;
+                margin-top: 7rem;
+                margin-left: 1.5rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 3rem 0;
+            width: 90%;
+            .left {
+                width: 100%;
+                .title {
+                    width: 100%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #00162d;
+                        line-height: 2.64rem;
+                        letter-spacing: 2px;
+                    }
+                    p {
+                        font-family: Abhaya Libre, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.2rem;
+                        color: #00162d;
+                        line-height: 3rem;
+                        letter-spacing: 2px;
+                    }
+                }
+                .article {
+                    margin: 1rem 0;
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.15rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                .partner {
+                    margin-left: 1.31rem;
+                    width: 23.44rem;
+                    height: 4.75rem;
+                    background: #fdfaf8;
+                    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-left: -1.31rem;
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                    p {
+                        margin-left: 1.38rem;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.06rem;
+                        color: #00162d;
+                        line-height: 1.91rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li {
+                        margin-top: 1rem;
+                        min-width: 14rem;
+                        display: flex;
+                        align-items: center;
+                        font-size: 2rem;
+                        p {
+                            margin-left: 0.63rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.13rem;
+                            color: #00162d;
+                            line-height: 2.02rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 100%;
+                margin-top: 2rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
