@@ -4,53 +4,65 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { PhoneOutlined, EnvironmentFilled, MenuOutlined, SearchOutlined } from '@ant-design/icons';
-import { Input, Drawer } from 'antd';
+import { Input, Drawer, Menu } from 'antd';
+import type { MenuProps } from 'antd';
 import logoImg from '../../../../public/img/home/logo.png'
 
 import styles from './page.module.scss'
 
+type MenuItem = Required<MenuProps>['items'][number];
+
 function Header() {
+
+  const [isMenuVisible, setIsMenuVisible] = useState(window.innerWidth > 768);
 
   const [current, setCurrent] = useState('home');
   const path = usePathname()
 
   const [open, setOpen] = useState(false);
-  function openNewWindow(url) {
+  function openNewWindow(url: string) {
     window.open(url, '_blank');
   }
-  const menus = [
+  const items: MenuItem[] = [
     {
-      label: (<Link href="/">首页</Link>),
+      label: <Link href="/">首页</Link>,
       key: 'home',
     },
     {
       label: (<Link href="/school">学校概况</Link>),
       key: 'school',
-    }, {
+    },
+    {
       label: (<Link href="/course">课程设置</Link>),
       key: 'course',
     }, {
       label: (<Link href="/international">国际合作</Link>),
       key: 'international',
-    }, {
-      label: (<Link href="/team">师资团队</Link>),
+    },
+    {
+      label: '师资团队',
       key: 'team',
+      children: [
+        { label: '管理团队', key: 'management' },
+        { label: '教学团队', key: 'teach' },
+      ],
     }, {
       label: (<Link href="/campusClass">校园风采</Link>),
       key: 'campusClass',
-    }, {
+    },
+    {
       label: (<Link href="/news">新闻资讯</Link>),
       key: 'news',
     }, {
       label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
       key: 'recruitStudent',
-    },
+    }
   ];
 
-  const handleActive = (key: string) => {
-    setCurrent(key)
+  const onClick: MenuProps['onClick'] = (e) => {
+    setCurrent(e.key);
     onClose()
-  }
+  };
 
   const onClose = () => {
     setOpen(false);
@@ -68,6 +80,17 @@ function Header() {
       setCurrent(newPath)
     }
   }, [path])
+
+  // menu组件小于768隐藏后，放大不会重载，解决这个问题
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMenuVisible(window.innerWidth > 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
 
   return (
@@ -94,19 +117,7 @@ function Header() {
             <Image src={logoImg} alt=''></Image>
           </div>
           <div className={styles.menu}>
-            <ul>
-              {
-                menus.map((item: any) => {
-                  return (
-                    <li key={item?.key} >
-                      <button onClick={() => handleActive(item?.key)}>
-                        <span className={`${current === item.key ? styles.active : ''}`}>{item?.label}</span>
-                      </button>
-                    </li>
-                  )
-                })
-              }
-            </ul>
+            {isMenuVisible && (<Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />)}
           </div>
           <div className={styles.right}>
             <div className={styles.icons}>
@@ -128,19 +139,7 @@ function Header() {
           onClose={onClose}
         >
           <div className={styles.drawerNav}>
-            <ul>
-              {
-                menus.map((item: any) => {
-                  return (
-                    <li key={item?.key} >
-                      <button onClick={() => handleActive(item?.key)}>
-                        <span className={`${current === item.key ? styles.active : ''}`}>{item?.label}</span>
-                      </button>
-                    </li>
-                  )
-                })
-              }
-            </ul>
+            <Menu onClick={onClick} selectedKeys={[current]} mode="inline" items={items} />
           </div>
         </Drawer>
       </div>

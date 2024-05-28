@@ -15,6 +15,31 @@ body {
     user-select: none;
 }
 
+/* menu 下拉菜单样式，挂载在全局，只能全局修改 */
+.ant-menu-light.ant-menu-submenu > .ant-menu {
+    border-top: 2px solid #012247;
+    border-radius: 0;
+}
+.ant-menu-light > .ant-menu:not(.ant-menu-horizontal) .ant-menu-item {
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0 !important;
+}
+.ant-menu-light > .ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background: transparent !important;
+    font-weight: bold;
+}
+
+.ant-menu-light > .ant-menu:not(.ant-menu-horizontal) .ant-menu-item {
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0 !important;
+}
+
+.ant-menu-light > .ant-menu .ant-menu-item-selected {
+    background: transparent !important;
+    color: #012247 !important;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
     html,
     body {
