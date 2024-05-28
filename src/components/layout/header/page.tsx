@@ -42,7 +42,7 @@ function Header() {
       label: (<Link href="/news">新闻资讯</Link>),
       key: 'news',
     }, {
-      label: (<a href="javascript:void(0)" onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
+      label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
       key: 'recruitStudent',
     },
   ];
