@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './mission.module.scss'
 import Image from 'next/image'
 
-import M1 from '../../../../public/img/school/M1.png'
-import M2 from '../../../../public/img/school/M2.png'
-import M3 from '../../../../public/img/school/M3.png'
-import M4 from '../../../../public/img/school/M4.png'
+import M1 from '../../../../../public/img/school/M1.png'
+import M2 from '../../../../../public/img/school/M2.png'
+import M3 from '../../../../../public/img/school/M3.png'
+import M4 from '../../../../../public/img/school/M4.png'
 
 
 function Mission() {

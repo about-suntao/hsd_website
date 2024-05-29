@@ -29,8 +29,13 @@ function Header() {
       key: 'home',
     },
     {
-      label: (<Link href="/school">学校概况</Link>),
+      label: '学校概况',
       key: 'school',
+      children: [
+        { label: (<Link href="/school/profile">学校概况</Link>), key: 'profile' },
+        { label: '德育特色', key: 'moralEducation' },
+        { label: '教学特色', key: 'teachFeature' },
+      ],
     },
     {
       label: (<Link href="/course">课程设置</Link>),
@@ -44,7 +49,7 @@ function Header() {
       key: 'team',
       children: [
         { label: '管理团队', key: 'management' },
-        { label: '教学团队', key: 'teach' },
+        { label: '教学团队', key: 'teachTeam' },
       ],
     }, {
       label: (<Link href="/campusClass">校园风采</Link>),
@@ -76,8 +81,9 @@ function Header() {
     if (path === '/') {
       setCurrent('home')
     } else {
-      const newPath = path.substring(1)
-      setCurrent(newPath)
+      const newPath = path.split('/')
+      const key = newPath[newPath.length - 1]
+      setCurrent(key)
     }
   }, [path])
 

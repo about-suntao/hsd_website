@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './introduce.module.scss'
 import Image from 'next/image'
 import { CheckCircleOutlined } from '@ant-design/icons';
-import partnerImg from '../../../../public/img/school/partner.png'
-import schoolImg from '../../../../public/img/school/school.png'
+import partnerImg from '../../../../../public/img/school/partner.png'
+import schoolImg from '../../../../../public/img/school/school.png'
 
 function Introduce() {
   const data = [
