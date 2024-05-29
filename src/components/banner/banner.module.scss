@@ -69,7 +69,7 @@
 @media screen and (max-width: 768px) {
     .pages {
         width: 100%;
-        height: 20rem;
+        height: 18rem;
         background-image: url('../../../public/img/school/banner.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -81,19 +81,21 @@
         h1 {
             font-family: Microsoft YaHei, sans-serif;
             font-weight: bold;
-            font-size: 3rem;
+            font-size: 2rem;
             color: #00162d;
-            line-height: 4rem;
+            line-height: 3rem;
             letter-spacing: 5px;
             text-align: center;
         }
         p {
+            word-break: break-all; /* 强制单词在任何地方换行 */
+            white-space: normal; /* 默认情况下文本会换行 */
             margin-top: 1.25rem;
             font-family: Abhaya Libre, sans-serif;
             font-weight: bold;
-            font-size: 2.5rem;
+            font-size: 1.5rem;
             color: #00162d;
-            line-height: 4rem;
+            line-height: 3rem;
             letter-spacing: 5px;
             text-align: center;
         }

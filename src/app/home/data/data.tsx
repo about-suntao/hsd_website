@@ -17,7 +17,7 @@ function Data() {
       num: '20+',
       label: '课程开设',
     }, {
-      id: 3,
+      id: 4,
       num: '45000余',
       label: '占地面积',
     },

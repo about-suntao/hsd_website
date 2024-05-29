@@ -14,7 +14,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 
 function Header() {
 
-  const [isMenuVisible, setIsMenuVisible] = useState(window.innerWidth > 768);
+  const [isMenuVisible, setIsMenuVisible] = useState(true);
 
   const [current, setCurrent] = useState('home');
   const path = usePathname()
