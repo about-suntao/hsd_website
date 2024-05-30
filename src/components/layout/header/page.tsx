@@ -32,13 +32,13 @@ function Header() {
       label: '学校概况',
       key: 'school',
       children: [
-        { label: (<Link href="/school/profile">学校概况</Link>), key: 'profile' },
+        { label: (<Link href="/school/profile">走近华盛达</Link>), key: 'profile' },
         { label: '德育特色', key: 'moralEducation' },
         { label: '教学特色', key: 'teachFeature' },
       ],
     },
     {
-      label: (<Link href="/course">课程设置</Link>),
+      label: (<Link href="/course">班型介绍</Link>),
       key: 'course',
     }, {
       label: (<Link href="/international">国际合作</Link>),

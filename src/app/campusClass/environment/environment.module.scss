@@ -1,0 +1,529 @@
+@media screen and (min-width: 1600px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 98rem;
+            margin-bottom: 6.25rem;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title_left {
+                    display: flex;
+                    .icon {
+                        img {
+                            width: 3.25rem;
+                            height: 5.5rem;
+                        }
+                    }
+                    .titleBox {
+                        margin-left: 1.5rem;
+                        h2 {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.25rem;
+                            color: #051631;
+                            line-height: 2.64rem;
+                            letter-spacing: 2px;
+                            text-align: left;
+                        }
+                        p {
+                            margin-top: 0.63rem;
+                            font-family: Abhaya Libre, sans-serif;
+                            font-weight: 400;
+                            font-size: 2rem;
+                            color: #051631;
+                            line-height: 3.2rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .changeBtn {
+                    button + button {
+                        margin-left: 5rem;
+                    }
+                    button {
+                        font-size: 2rem;
+                        border: none;
+                        background: transparent;
+                    }
+                }
+            }
+            .environment {
+                margin-top: 2.5rem;
+                display: flex;
+                .type {
+                    ul {
+                        list-style: none;
+                        li + li {
+                            margin-top: 1.88rem;
+                        }
+                        li {
+                            width: 14.06rem;
+                            height: 5rem;
+                            padding-left: 3.06rem;
+                            background: #fdfaf8;
+                            display: flex;
+                            align-items: center;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #173350;
+                            line-height: 1.76rem;
+                            letter-spacing: 1px;
+                        }
+                        .activeType {
+                            color: white;
+                            background: #012247;
+                        }
+                    }
+                }
+                .picture {
+                    width: 100%;
+                    overflow: hidden;
+                    margin-left: 3.75rem;
+                    .mobileChangeBtn {
+                        display: none;
+                    }
+                    :global {
+                        .swiper {
+                            width: 100%;
+                        }
+                        .swiper-slide {
+                            width: 32.25rem;
+                        }
+                    }
+                    .card_img {
+                        img {
+                            width: 100%;
+                            height: 19.13rem;
+                        }
+                    }
+                    .card_title {
+                        margin-top: -0.3rem;
+                        width: 100%;
+                        height: 3.19rem;
+                        padding: 0 0.1rem 0.1rem 0.1rem;
+                        .title_shadow {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 1.69rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #00162d;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            box-shadow: 0 0.2rem 0.2rem 0.2rem #f4f4f4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6rem;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title_left {
+                    display: flex;
+                    .icon {
+                        img {
+                            width: 3.25rem;
+                            height: 5.5rem;
+                        }
+                    }
+                    .titleBox {
+                        margin-left: 1.5rem;
+                        h2 {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.25rem;
+                            color: #051631;
+                            line-height: 2.64rem;
+                            letter-spacing: 2px;
+                            text-align: left;
+                        }
+                        p {
+                            margin-top: 0.63rem;
+                            font-family: Abhaya Libre, sans-serif;
+                            font-weight: 400;
+                            font-size: 2rem;
+                            color: #051631;
+                            line-height: 3.2rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .changeBtn {
+                    button + button {
+                        margin-left: 5rem;
+                    }
+                    button {
+                        font-size: 2rem;
+                        border: none;
+                        background: transparent;
+                    }
+                }
+            }
+            .environment {
+                margin-top: 2.5rem;
+                display: flex;
+                .type {
+                    ul {
+                        list-style: none;
+                        li + li {
+                            margin-top: 1.88rem;
+                        }
+                        li {
+                            width: 14.06rem;
+                            height: 5rem;
+                            padding-left: 3.06rem;
+                            background: #fdfaf8;
+                            display: flex;
+                            align-items: center;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #173350;
+                            line-height: 1.76rem;
+                            letter-spacing: 1px;
+                        }
+                        .activeType {
+                            color: white;
+                            background: #012247;
+                        }
+                    }
+                }
+                .picture {
+                    width: 100%;
+                    overflow: hidden;
+                    margin-left: 3.75rem;
+                    .mobileChangeBtn {
+                        display: none;
+                    }
+                    :global {
+                        .swiper {
+                            width: 100%;
+                        }
+                        .swiper-slide {
+                            width: 32.25rem;
+                        }
+                    }
+                    .card_img {
+                        img {
+                            width: 100%;
+                            height: 19.13rem;
+                        }
+                    }
+                    .card_title {
+                        margin-top: -0.3rem;
+                        width: 100%;
+                        height: 3.19rem;
+                        padding: 0 0.1rem 0.1rem 0.1rem;
+                        .title_shadow {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 1.69rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #00162d;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            box-shadow: 0 0.2rem 0.2rem 0.2rem #f4f4f4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6rem;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title_left {
+                    display: flex;
+                    .icon {
+                        img {
+                            width: 3.25rem;
+                            height: 5.5rem;
+                        }
+                    }
+                    .titleBox {
+                        margin-left: 1.5rem;
+                        h2 {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.1rem;
+                            color: #051631;
+                            line-height: 2.64rem;
+                            letter-spacing: 2px;
+                            text-align: left;
+                        }
+                        p {
+                            margin-top: 0.3rem;
+                            font-family: Abhaya Libre, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.8rem;
+                            color: #051631;
+                            line-height: 3.2rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .changeBtn {
+                    button + button {
+                        margin-left: 4rem;
+                    }
+                    button {
+                        font-size: 1.8rem;
+                        border: none;
+                        background: transparent;
+                    }
+                }
+            }
+            .environment {
+                margin-top: 2.5rem;
+                display: flex;
+                .type {
+                    ul {
+                        list-style: none;
+                        li + li {
+                            margin-top: 1.88rem;
+                        }
+                        li {
+                            width: 12rem;
+                            height: 4rem;
+                            padding-left: 3.06rem;
+                            background: #fdfaf8;
+                            display: flex;
+                            align-items: center;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                            color: #173350;
+                            line-height: 1.76rem;
+                            letter-spacing: 1px;
+                        }
+                        .activeType {
+                            color: white;
+                            background: #012247;
+                        }
+                    }
+                }
+                .picture {
+                    width: 100%;
+                    overflow: hidden;
+                    margin-left: 3.75rem;
+                    .mobileChangeBtn {
+                        display: none;
+                    }
+                    :global {
+                        .swiper {
+                            width: 100%;
+                        }
+                        .swiper-slide {
+                            width: 28rem;
+                        }
+                    }
+                    .card_img {
+                        img {
+                            width: 100%;
+                            height: 18rem;
+                        }
+                    }
+                    .card_title {
+                        margin-top: -0.3rem;
+                        width: 100%;
+                        height: 3.19rem;
+                        padding: 0 0.1rem 0.1rem 0.1rem;
+                        .title_shadow {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 1.69rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #00162d;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            box-shadow: 0 0.2rem 0.2rem 0.2rem #f4f4f4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6rem;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title_left {
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        img {
+                            width: 2.5rem;
+                            height: 4rem;
+                        }
+                    }
+                    .titleBox {
+                        margin-left: 1.5rem;
+                        h2 {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #051631;
+                            line-height: 2.64rem;
+                            letter-spacing: 2px;
+                            text-align: left;
+                        }
+                        p {
+                            font-family: Abhaya Libre, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #051631;
+                            line-height: 2.5rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .changeBtn {
+                    display: none;
+                }
+            }
+            .environment {
+                margin-top: 2.5rem;
+                .type {
+                    display: flex;
+                    justify-content: center;
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        list-style: none;
+                        li + li {
+                            margin-left: 1rem;
+                        }
+                        li {
+                            width: 8rem;
+                            height: 3rem;
+                            background: #fdfaf8;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #173350;
+                            line-height: 1.76rem;
+                            letter-spacing: 1px;
+                        }
+                        .activeType {
+                            color: white;
+                            background: #012247;
+                        }
+                    }
+                }
+
+                .picture {
+                    margin-top: 2rem;
+                    width: 100%;
+                    overflow: hidden;
+                    position: relative;
+                    .mobileChangeBtn {
+                        position: absolute;
+                        z-index: 100;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        button + button {
+                            margin-left: 4rem;
+                        }
+                        button {
+                            font-size: 1.8rem;
+                            border: none;
+                            border-radius: 50%;
+                            padding: 0.4rem 0.5rem;
+                            background-color: #f4f4f4;
+                        }
+                    }
+                    :global {
+                        .swiper {
+                            width: 100%;
+                        }
+                        .swiper-slide {
+                            width: 29rem;
+                        }
+                    }
+                    .card_img {
+                        img {
+                            width: 100%;
+                            height: 18rem;
+                        }
+                    }
+                    .card_title {
+                        margin-top: -0.3rem;
+                        width: 100%;
+                        height: 3.19rem;
+                        padding: 0 0.1rem 0.1rem 0.1rem;
+                        .title_shadow {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 1.69rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1rem;
+                            color: #00162d;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            box-shadow: 0 0.2rem 0.2rem 0.2rem #f4f4f4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
