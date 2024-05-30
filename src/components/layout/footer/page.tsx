@@ -72,7 +72,7 @@ function Footer() {
                 <PhoneFilled />
               </div>
               <div className={styles.right}>
-                <p>(0572)8668963</p>
+                <p>0572-8668963</p>
                 <p>18657221120</p>
                 <p>15700173603</p>
               </div>

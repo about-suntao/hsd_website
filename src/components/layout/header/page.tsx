@@ -107,7 +107,7 @@ function Header() {
             <div className={styles.icon}>
               <PhoneOutlined />
             </div>
-            <span>(0572) 866 8963</span>
+            <span>0572-8668963</span>
           </div>
           <div className={styles.position}>
             <div className={styles.icon}>
