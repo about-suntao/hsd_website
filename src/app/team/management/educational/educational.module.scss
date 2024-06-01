@@ -1,0 +1,103 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../../../public/img/team/educationalBack.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .container {
+        margin: 6.25rem 0;
+        width: 98rem;
+        .title {
+            h2 {
+                margin-left: 5.25rem;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: bold;
+                font-size: 2.25rem;
+                color: #051631;
+                line-height: 2.64rem;
+                letter-spacing: 2px;
+            }
+            p {
+                margin-left: 1.2rem;
+                font-family: Abhaya Libre, sans-serif;
+                font-weight: 400;
+                font-size: 2rem;
+                color: #012247;
+                line-height: 3.2rem;
+                letter-spacing: 2px;
+            }
+        }
+        ul {
+            margin-top: 3rem;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            li {
+                width: 18.13rem;
+                .picture {
+                    position: relative;
+                    z-index: -2;
+                    img {
+                        width: 100%;
+                        height: 17.13rem;
+                    }
+                }
+                .card {
+                    margin-top: -1rem;
+                    width: 100%;
+                    height: 15.13rem;
+                    position: relative;
+                    color: white;
+                    padding: 0.44rem 1.56rem;
+                    img {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        z-index: -1;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    h3 {
+                        margin-top: 1.4rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #ffffff;
+                        line-height: 2.4rem;
+                        letter-spacing: 1px;
+                    }
+                    .introduce {
+                        margin-top: 0.63rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 0.81rem;
+                        color: #ffffff;
+                        line-height: 1.3rem;
+                    }
+                    .honor {
+                        margin-top: 1.25rem;
+                        p + p {
+                            margin-top: 0.63rem;
+                        }
+                        p {
+                            span {
+                                display: inline-block;
+                                margin-right: 0.38rem;
+                                width: 0.38rem;
+                                height: 0.38rem;
+                                background: #ffffff;
+                                border-radius: 0.38rem;
+                            }
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.75rem;
+                            color: #ffffff;
+                            line-height: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

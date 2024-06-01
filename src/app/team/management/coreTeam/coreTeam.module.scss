@@ -1,0 +1,143 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        margin: 6.25rem 0;
+        width: 98rem;
+        .title {
+            display: flex;
+            align-items: center;
+            h2 {
+                margin-left: 5rem;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: bold;
+                font-size: 2.25rem;
+                color: #051631;
+                line-height: 2.64rem;
+                letter-spacing: 2px;
+            }
+            p {
+                margin-left: 1.25rem;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: bold;
+                font-size: 2.25rem;
+                color: #051631;
+                line-height: 2.64rem;
+                letter-spacing: 2px;
+            }
+        }
+        .card {
+            width: 100%;
+            margin-top: 2.5rem;
+            display: flex;
+            justify-content: center;
+            .left {
+                position: relative;
+                width: 55%;
+                height: 42.06rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .icon {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 100;
+                    width: 9.69rem;
+                    height: 9.13rem;
+                    background: #00162d;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        width: 3.88rem;
+                        height: 2.63rem;
+                    }
+                }
+            }
+            .right {
+                width: 45%;
+                height: 42.06rem;
+                background: #00162d;
+                color: #ffffff;
+                .right_title {
+                    margin-top: 8.19rem;
+                    padding-left: 8.31rem;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        line-height: 3.2rem;
+                        letter-spacing: 2px;
+                    }
+                    hr {
+                        margin-top: 1.25rem;
+                        width: 6.25rem;
+                        height: 0.38rem;
+                        background: #e6d7b8;
+                    }
+                }
+                .honor {
+                    height: 15rem;
+                    margin-top: 2.5rem;
+                    padding-left: 8.31rem;
+                    padding-right: 2rem;
+                    p + p {
+                        margin-top: 1.5rem;
+                    }
+                    p {
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #ffffff;
+                        line-height: 1.75rem;
+                        letter-spacing: 1px;
+                    }
+                }
+                .lists {
+                    width: 100%;
+                    display: flex;
+                    list-style: none;
+                    overflow: hidden;
+                    padding-left: 6.44rem;
+                    li + li {
+                        margin-left: 1.25rem;
+                    }
+                    li {
+                        position: relative;
+                        img {
+                            width: 9.38rem;
+                            height: 7rem;
+                        }
+                        .position {
+                            position: absolute;
+                            right: 0;
+                            bottom: 0;
+                            width: 5.63rem;
+                            height: 1.25rem;
+                            background: #ffffff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p {
+                                font-family: Arial, sans-serif;
+                                font-weight: bold;
+                                font-size: 0.63rem;
+                                color: #012247;
+                                line-height: 0.73rem;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    li:first-child {
+                        img {
+                            filter: blur(1px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

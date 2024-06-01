@@ -32,32 +32,32 @@ function Header() {
       label: '学校概况',
       key: 'school',
       children: [
-        { label: (<Link href="/school/profile">走近华盛达</Link>), key: 'profile' },
+        { label: (<Link href="/school/profile">走近华盛达</Link>), key: '/school/profile' },
         { label: '德育特色', key: 'moralEducation' },
         { label: '教学特色', key: 'teachFeature' },
       ],
     },
     {
       label: (<Link href="/course">班型介绍</Link>),
-      key: 'course',
+      key: '/course',
     }, {
       label: (<Link href="/international">国际合作</Link>),
-      key: 'international',
+      key: '/international',
     },
     {
       label: '师资团队',
       key: 'team',
       children: [
-        { label: '管理团队', key: 'management' },
+        { label: (<Link href="/team/management">管理团队</Link>), key: '/team/management' },
         { label: '教学团队', key: 'teachTeam' },
       ],
     }, {
       label: (<Link href="/campusClass">校园风采</Link>),
-      key: 'campusClass',
+      key: '/campusClass',
     },
     {
       label: (<Link href="/news">新闻资讯</Link>),
-      key: 'news',
+      key: '/news',
     }, {
       label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
       key: 'recruitStudent',
@@ -81,9 +81,9 @@ function Header() {
     if (path === '/') {
       setCurrent('home')
     } else {
-      const newPath = path.split('/')
-      const key = newPath[newPath.length - 1]
-      setCurrent(key)
+      // const newPath = path.split('/')
+      // const key = newPath[newPath.length - 1]
+      setCurrent(path)
     }
   }, [path])
 

@@ -81,10 +81,6 @@ function Environment() {
             </ul>
           </div>
           <div className={styles.picture}>
-            <div className={styles.mobileChangeBtn}>
-              <button ref={prevRef}><LeftOutlined /></button>
-              <button ref={nextRef}><RightOutlined /></button>
-            </div>
             <Swiper
               slidesPerView='auto'
               spaceBetween={22}

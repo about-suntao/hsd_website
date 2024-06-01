@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Team() {
+function page() {
   return (
     <div>
-      team
+
     </div>
   )
 }
 
-export default Team
+export default page
