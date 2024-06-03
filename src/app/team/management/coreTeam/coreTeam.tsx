@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react'
 import styles from './coreTeam.module.scss'
 import Image from 'next/image'
 import fetchRequest from '@/utils/fetchRequest'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 
 import arrow from '../../../../../public/img/team/arrow.png'
 
@@ -71,7 +73,10 @@ function CoreTeam() {
           </div>
           <div className={styles.right}>
             <div className={styles.right_title}>
-              <p>{active.position} {active.name}</p>
+              <div className={styles.name}>
+                <p>{active.position}</p>
+                <p>{active.name}</p>
+              </div>
               <hr />
             </div>
             <div className={styles.honor}>
@@ -101,6 +106,53 @@ function CoreTeam() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className={styles.mobile}>
+        <div className={styles.title}>
+          <h2>核心管理团队</h2>
+          <p>Core management team</p>
+        </div>
+        <Swiper
+          slidesPerView={1}
+          pagination={{
+            clickable: true,
+          }}
+          spaceBetween={10}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {
+            data.map((item: any) => {
+              return (
+                <SwiperSlide key={item.id}>
+                  <div className={styles.card}>
+                    <Image src={item.photograph} width={600} height={600} priority alt=''></Image>
+                    <div className={styles.card_c}>
+                      <div className={styles.right_title}>
+                        <div className={styles.name}>
+                          <p>{item.position}</p>
+                          <p>{item.name}</p>
+                        </div>
+                        <hr />
+                      </div>
+                      <div className={styles.honor}>
+                        {
+                          item.honors.map((i: any) => {
+                            return (
+                              <p key={i.id}>
+                                {i.name}
+                              </p>
+                            )
+                          })
+                        }
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              )
+            })
+          }
+        </Swiper>
       </div>
     </div>
   )
