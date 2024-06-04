@@ -1,6 +1,9 @@
-import React from 'react'
+'use client'
+import React, { useState, useRef } from 'react'
 import styles from './advantage.module.scss'
 import Image from 'next/image'
+import { Modal } from 'antd';
+
 
 import cardImg1 from '../../../../public/img/international/schoolVideo.png'
 import cardImg2 from '../../../../public/img/international/fa.png'
@@ -29,12 +32,27 @@ function Advantage() {
     },
   ]
 
+  // 视频弹窗
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const videoRefPc = useRef(null)
+
+  const openDialog = () => {
+    setIsModalOpen(true);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+    if (videoRefPc.current) {
+      let player: any = videoRefPc.current
+      player.pause()
+    }
+  };
+
   return (
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.cardOne}>
           <div className={styles.picture}>
-            <Image src={cardImg1} alt=''></Image>
+            <Image src={cardImg1} alt='' onClick={() => openDialog()}></Image>
           </div>
           <div className={styles.right}>
             <div className={styles.title}>
@@ -87,6 +105,24 @@ function Advantage() {
               <p>近五年来，Foxcroft Academy的毕业生收到了包括普林斯顿大学、麻省理工大学、加州理工大学、耶鲁大学、西北大学、史密斯学院、埃默里大学、加州大学伯克利、加州大学洛杉矶、南加州大学等在内的多所知名高校录取。</p>
             </div>
           </div>
+        </div>
+        <div id="1" className={styles.videoDialog}>
+          <Modal
+            open={isModalOpen}
+            getContainer={false}
+            onCancel={handleCancel}
+            title={null}
+            footer={null}
+            centered={true}
+            keyboard={true}
+            maskClosable={true}
+          >
+            <div className={styles.videoContent}>
+              <video autoPlay controls loop ref={videoRefPc} id="1">
+                <source src='https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/03/573_WeChat_20240601150452.mp4' />
+              </video>
+            </div>
+          </Modal>
         </div>
       </div>
     </div>

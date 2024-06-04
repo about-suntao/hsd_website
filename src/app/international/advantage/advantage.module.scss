@@ -132,6 +132,29 @@
                     }
                 }
             }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 80% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
         }
     }
 }
@@ -267,6 +290,29 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 85% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
@@ -408,6 +454,29 @@
                     }
                 }
             }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
         }
     }
 }
@@ -542,6 +611,29 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
@@ -681,6 +773,29 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
@@ -839,6 +954,29 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 91% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
