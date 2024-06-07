@@ -13,7 +13,7 @@ function Division() {
       label: 'Foxcroft Academy官方合作伙伴',
     }, {
       id: 2,
-      label: 'Edexcel官方授权考试中心',
+      label: 'Edexcel官方授权考试中心(授权代码95078)',
     }, {
       id: 3,
       label: '美高AP授权学校',

@@ -27,7 +27,7 @@ function Introduce() {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.title}>
-            <h2>华盛达外语学院</h2>
+            <h2>华盛达外语学校</h2>
             <p>HSD Foreign Language School</p>
           </div>
           <div className={styles.article}>

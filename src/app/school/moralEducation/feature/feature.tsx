@@ -44,7 +44,7 @@ function Feature() {
                 <h2>小班化教学</h2>
               </div>
               <div className={styles.desc}>
-                <p>每班30人，师生比1:5，有效保证对学生的精准培养，让学生找到最适合自己的未来之路。</p>
+                <p>每班25人，师生比1:5，有效保证对学生的精准培养，让学生找到最适合自己的未来之路。</p>
               </div>
             </div>
             <div className={styles.list}>

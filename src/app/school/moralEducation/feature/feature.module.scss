@@ -18,7 +18,7 @@
                     flex-wrap: wrap;
                     flex-direction: column;
                     .list + .list {
-                        margin-top: 4rem;
+                        margin-top: 2rem;
                     }
                     .list {
                         .title {
@@ -40,7 +40,7 @@
                             }
                         }
                         .desc {
-                            margin-top: 2rem;
+                            margin-top: 1.5rem;
                             padding-left: 4.8rem;
                             p {
                                 font-family: Microsoft YaHei, sans-serif;

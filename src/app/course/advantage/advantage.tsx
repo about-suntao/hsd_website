@@ -13,7 +13,6 @@ function Advantage() {
   const [active, setActive] = useState()
   const [activeTwo, setActiveTwo] = useState()
 
-
   const getData = async () => {
     const res = await fetchRequest.get('/icon/web/course/queryAll');
     setActive(res.data[0].id)
@@ -41,7 +40,7 @@ function Advantage() {
                   <li key={item.id}
                     className={`${styles.list} ${item.id === active ? styles.activeList : ''}`}
                   >
-                    <div className={styles.list_title} onMouseEnter={() => setActive(item.id)}>
+                    <div className={styles.list_title} onClick={() => setActive(item.id)}>
                       <p>{item.id}.{item.name}</p>
                       <button className={styles.icon}>
                         <DoubleRightOutlined />
@@ -79,7 +78,7 @@ function Advantage() {
                   <li key={item.id}
                     className={`${styles.list} ${item.id === activeTwo ? styles.activeList : ''}`}
                   >
-                    <div className={styles.list_title} onMouseEnter={() => setActiveTwo(item.id)}>
+                    <div className={styles.list_title} onClick={() => setActiveTwo(item.id)}>
                       <p>{item.id}.{item.name}</p>
                       <button className={styles.icon}>
                         <DoubleRightOutlined />
