@@ -54,17 +54,17 @@ function Header() {
       key: 'team',
       children: [
         { label: (<Link href="/team/management">管理团队</Link>), key: '/team/management' },
-        { label: '教学团队', key: 'teachTeam' },
+        { label: '教学团队', key: '' },
       ],
     }, {
       label: (<Link href="/campusClass">校园风采</Link>),
       key: '/campusClass',
     },
     {
-      label: (<Link href="/news">新闻资讯</Link>),
+      label: '新闻资讯',
       key: '/news',
     }, {
-      label: (<Link href="/news">升学案例</Link>),
+      label: '升学案例',
       key: '/case',
     }, {
       label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
