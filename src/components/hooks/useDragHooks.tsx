@@ -8,7 +8,7 @@ const useDragHooks = () => {
   const childRef = useRef<any>(null);
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e: any) => {
       if (!isDragging) return;
       const x = e.clientX;
       const delta = x - startX;
@@ -30,7 +30,7 @@ const useDragHooks = () => {
     };
   }, [isDragging, startX, scrollLeft]);
 
-  const handleMouseDown = (e) => {
+  const handleMouseDown = (e: any) => {
     e.preventDefault();
     setIsDragging(true);
     setStartX(e.clientX);
