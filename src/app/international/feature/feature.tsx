@@ -16,7 +16,7 @@ function Feature() {
   const getData = async () => {
     const res = await fetchRequest.get('/icon/web/teach/feature/queryAll');
     setData(res.data)
-    setActive(res.data[2])
+    setActive(res.data[0])
     setDataLoaded(true); // 设置数据已加载
   }
 

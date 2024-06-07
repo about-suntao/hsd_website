@@ -2,11 +2,16 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { usePathname, useSearchParams } from 'next/navigation'
-import { PhoneOutlined, EnvironmentFilled, MenuOutlined, SearchOutlined } from '@ant-design/icons';
-import { Input, Drawer, Menu } from 'antd';
+import { usePathname } from 'next/navigation'
+import { MenuOutlined, SearchOutlined } from '@ant-design/icons';
+import { Drawer, Menu } from 'antd';
 import type { MenuProps } from 'antd';
+
 import logoImg from '../../../../public/img/home/logo.png'
+
+import phoneIcon from '../../../../public/img/home/phone.png'
+import positionIcon from '../../../../public/img/home/position.png'
+
 
 import styles from './page.module.scss'
 
@@ -59,6 +64,9 @@ function Header() {
       label: (<Link href="/news">新闻资讯</Link>),
       key: '/news',
     }, {
+      label: (<Link href="/news">升学案例</Link>),
+      key: '/case',
+    }, {
       label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
       key: 'recruitStudent',
     }
@@ -105,13 +113,13 @@ function Header() {
         <div className={styles.topBox}>
           <div className={styles.phone}>
             <div className={styles.icon}>
-              <PhoneOutlined />
+              <Image src={phoneIcon} alt=''></Image>
             </div>
             <span>0572-8668963</span>
           </div>
           <div className={styles.position}>
             <div className={styles.icon}>
-              <EnvironmentFilled />
+              <Image src={positionIcon} alt=''></Image>
             </div>
             <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
           </div>

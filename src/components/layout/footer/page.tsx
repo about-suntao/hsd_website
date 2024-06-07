@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './page.module.scss'
 import Image from 'next/image'
+import Link from 'next/link';
+
+import fetchRequest from '@/utils/fetchRequest';
 
 import { EnvironmentFilled, PhoneFilled } from '@ant-design/icons';
 
@@ -10,27 +13,19 @@ import wxCode from '../../../../public/img/home/wxCode.jpg'
 
 import img1 from '../../../../public/img/home/test.webp'
 
-function Footer() {
-  const newsData = [
-    {
-      id: 1,
-      img: img1,
-      title: '用铁纪铸我风采 以军魂耀我青春',
-      time: '2023-09-01',
-    },
-    {
-      id: 2,
-      img: img1,
-      title: '青衿鸿鹄同风志 展翅寰宇万里云',
-      time: '2023-06-25',
-    },
-    {
-      id: 3,
-      img: img1,
-      title: '军风巍巍淬青春 英姿飒爽致芳华',
-      time: '2023-02-26',
-    },
-  ]
+import phoneIcon from '../../../../public/img/home/phone.png'
+import positionIcon from '../../../../public/img/home/position.png'
+
+async function getData() {
+  const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
+  return {
+    newsData: res.data.list,
+  }
+}
+
+async function Footer() {
+
+  const { newsData } = await getData()
 
   return (
     <div className={styles.footer}>
@@ -57,7 +52,7 @@ function Footer() {
             <p>学校地址</p>
             <div className={styles.cardBody}>
               <div className={styles.left}>
-                <EnvironmentFilled />
+                <Image src={positionIcon} alt=''></Image>
               </div>
               <div className={styles.right}>
                 <p>浙江省湖州市德清县</p>
@@ -69,7 +64,7 @@ function Footer() {
             <p>联系电话</p>
             <div className={styles.cardBody}>
               <div className={styles.left}>
-                <PhoneFilled />
+                <Image src={phoneIcon} alt=''></Image>
               </div>
               <div className={styles.right}>
                 <p>0572-8668963</p>
@@ -81,24 +76,24 @@ function Footer() {
         </div>
         <div className={styles.situation}>
           <h2>网站概况</h2>
-          <p>关于我们</p>
-          <p>教育教学</p>
-          <p>校园生活</p>
-          <p>新闻资讯</p>
-          <p>招生咨询</p>
+          <p><Link href="/school/profile">学校概况</Link></p>
+          <p><Link href="/course">班型介绍</Link></p>
+          <p><Link href="/international">国际合作</Link></p>
+          <p><Link href="/team/management">管理团队</Link></p>
+          <p><Link href="/campusClass">校园风采</Link></p>
         </div>
         <div className={styles.news}>
           <h2>新闻资讯</h2>
           {
-            newsData.map((item) => {
+            newsData.map((item: any) => {
               return (
                 <div className={styles.card} key={item.id}>
                   <div className={styles.card_left}>
-                    <Image src={item.img} alt=''></Image>
+                    <Image src={item.picture} alt='' width={400} height={400} priority></Image>
                   </div>
                   <div className={styles.card_right}>
                     <p>{item.title}</p>
-                    <span>{item.time}</span>
+                    <span>{item.createTime}</span>
                   </div>
                 </div>
               )

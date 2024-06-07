@@ -22,11 +22,11 @@ function Advantage() {
       icon: iconImg1,
       value: '成绩单、毕业证、推荐信等认可程度高，申请优势明显',
     }, {
-      id: 1,
+      id: 2,
       icon: iconImg2,
       value: '国际部学生凭借优质美高学籍与国际生背景，顺利申请美、英、澳、加、新及中国香港地区的世界一流大学',
     }, {
-      id: 1,
+      id: 3,
       icon: iconImg3,
       value: '可与美国本土高中毕业生同台竞争，且成绩优异者有更高概率申请到美国藤校',
     },

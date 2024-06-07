@@ -41,7 +41,8 @@
                             }
                         }
                         .desc {
-                            margin-top: 1.25rem;
+                            margin-top: 3rem;
+                            padding-left: 6.4rem;
                             p {
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
@@ -52,17 +53,18 @@
                         }
                         ul {
                             list-style: none;
-                            margin-top: 1.25rem;
+                            margin-top: 1.5rem;
+                            padding-left: 6.4rem;
                             li + li {
                                 margin-top: 0.63rem;
                             }
                             li {
                                 display: flex;
-                                align-items: center;
-                                height: 2.25rem;
+                                align-items: flex-start;
                                 .right {
                                     display: flex;
                                     align-items: center;
+                                    height: 2.25rem;
                                     img {
                                         width: 1.44rem;
                                         height: 1.31rem;
@@ -149,7 +151,8 @@
                             }
                         }
                         .desc {
-                            margin-top: 1.25rem;
+                            margin-top: 3rem;
+                            padding-left: 6.4rem;
                             p {
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
@@ -160,7 +163,8 @@
                         }
                         ul {
                             list-style: none;
-                            margin-top: 1.25rem;
+                            margin-top: 1.5rem;
+                            padding-left: 6.4rem;
                             li + li {
                                 margin-top: 0.63rem;
                             }
@@ -260,7 +264,8 @@
                             }
                         }
                         .desc {
-                            margin-top: 1rem;
+                            margin-top: 2rem;
+                            padding-left: 4.1rem;
                             p {
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
@@ -272,6 +277,7 @@
                         ul {
                             list-style: none;
                             margin-top: 1rem;
+                            padding-left: 4.1rem;
                             li + li {
                                 margin-top: 0.5rem;
                             }
@@ -369,7 +375,8 @@
                             }
                         }
                         .desc {
-                            margin-top: 1rem;
+                            margin-top: 2rem;
+                            padding-left: 4.1rem;
                             p {
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
@@ -381,6 +388,7 @@
                         ul {
                             list-style: none;
                             margin-top: 1rem;
+                            padding-left: 4.1rem;
                             li + li {
                                 margin-top: 0.5rem;
                             }

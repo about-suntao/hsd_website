@@ -4,8 +4,6 @@ import Image from 'next/image'
 import { ArrowRightOutlined } from '@ant-design/icons';
 import fetchRequest from '@/utils/fetchRequest';
 
-import newsImg1 from '../../../../public/img/home/news1.png'
-
 async function getData() {
   const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
   return {

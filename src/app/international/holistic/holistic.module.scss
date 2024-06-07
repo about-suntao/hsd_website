@@ -44,7 +44,7 @@
                         display: none;
                     }
                 }
-                li:hover {
+                .active {
                     .mask {
                         display: block;
                         position: absolute;
@@ -147,7 +147,7 @@
                         display: none;
                     }
                 }
-                li:hover {
+                .active {
                     .mask {
                         display: block;
                         position: absolute;
@@ -250,7 +250,7 @@
                         display: none;
                     }
                 }
-                li:hover {
+                .active {
                     .mask {
                         display: block;
                         position: absolute;

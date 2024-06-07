@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import '@/assets/styles/globals.css'
+import '../../public/fonts/fonts.scss'
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 // swiper 插件
 import 'swiper/css';

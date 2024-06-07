@@ -19,6 +19,7 @@ function Environment() {
   const nextRef = useRef(null);
 
   const [typeList, setTypeList] = useState([])
+  const [state, setState] = useState(true)
   const [pictureList, setPictureList] = useState([])
   const [activeType, setActiveType] = useState(0)
 
@@ -37,8 +38,12 @@ function Environment() {
   }
 
   const changeType = (id: number) => {
+    setState(false)
     getPicture(id)
     setActiveType(id)
+    setTimeout(() => {
+      setState(true)
+    }, 100)
   }
 
   useEffect(() => {
@@ -80,37 +85,39 @@ function Environment() {
               }
             </ul>
           </div>
-          <div className={styles.picture}>
-            <Swiper
-              slidesPerView='auto'
-              spaceBetween={22}
-              className={styles.swiperBox}
-              onInit={(swiper: any) => {
-                // 绑定自定义按钮
-                swiper.params.navigation.prevEl = prevRef.current;
-                swiper.params.navigation.nextEl = nextRef.current;
-                swiper.navigation.init();
-                swiper.navigation.update();
-              }}
-            >
-              {
-                pictureList.map((item: any) => {
-                  return (
-                    <SwiperSlide key={item.id}>
-                      <div className={styles.card_img}>
-                        <Image src={item.picture} alt='' width={1000} height={1000} priority={true}></Image>
-                      </div>
-                      <div className={styles.card_title}>
-                        <div className={styles.title_shadow}>
-                          {item.name}
+          {
+            state && <div className={styles.picture}>
+              <Swiper
+                slidesPerView='auto'
+                spaceBetween={22}
+                className={styles.swiperBox}
+                onInit={(swiper: any) => {
+                  // 绑定自定义按钮
+                  swiper.params.navigation.prevEl = prevRef.current;
+                  swiper.params.navigation.nextEl = nextRef.current;
+                  swiper.navigation.init();
+                  swiper.navigation.update();
+                }}
+              >
+                {
+                  pictureList.map((item: any) => {
+                    return (
+                      <SwiperSlide key={item.id}>
+                        <div className={styles.card_img}>
+                          <Image src={item.picture} alt='' width={1000} height={1000} priority={true}></Image>
                         </div>
-                      </div>
-                    </SwiperSlide>
-                  )
-                })
-              }
-            </Swiper>
-          </div>
+                        <div className={styles.card_title}>
+                          <div className={styles.title_shadow}>
+                            {item.name}
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    )
+                  })
+                }
+              </Swiper>
+            </div>
+          }
         </div>
       </div>
     </div>
