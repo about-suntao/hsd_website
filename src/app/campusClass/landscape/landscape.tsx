@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './landscape.module.scss'
 import Image from 'next/image'
 
-import IconImg from '../../../../public/img/campusClass/icon.png'
-import landspaceImg from '../../../../public/img/campusClass/landscape.png'
+import IconImg from '../../../../public/img/campusClass/icon.webp'
+import landspaceImg from '../../../../public/img/campusClass/landscape.webp'
 
 function Landscape() {
   return (

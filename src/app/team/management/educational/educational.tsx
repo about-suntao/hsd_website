@@ -3,7 +3,7 @@ import styles from './educational.module.scss'
 import Image from 'next/image';
 import fetchRequest from '@/utils/fetchRequest';
 
-import cardImg from '../../../../../public/img/team/card.png'
+import cardImg from '../../../../../public/img/team/card.webp'
 
 async function getData() {
   const res = await fetchRequest.get('/icon/web/people/queryAll', { teamId: 3 });

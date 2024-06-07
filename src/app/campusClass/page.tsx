@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '@/components/banner/banner'
-import bannerImg from '../../../public/img/campusClass/bannerBg.png'
+import bannerImg from '../../../public/img/campusClass/bannerBg.webp'
 import Landscape from './landscape/landscape'
 import Environment from './environment/environment'
 

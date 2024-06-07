@@ -5,14 +5,14 @@ import Image from 'next/image'
 import { Modal } from 'antd';
 
 
-import cardImg1 from '../../../../public/img/international/schoolVideo.png'
-import cardImg2 from '../../../../public/img/international/fa.png'
-import cardImg3 from '../../../../public/img/international/college.png'
+import cardImg1 from '../../../../public/img/international/schoolVideo.webp'
+import cardImg2 from '../../../../public/img/international/fa.webp'
+import cardImg3 from '../../../../public/img/international/college.webp'
 
-import iconImg1 from '../../../../public/img/international/a1.png'
-import iconImg2 from '../../../../public/img/international/a2.png'
-import iconImg3 from '../../../../public/img/international/a3.png'
-import medalImg from '../../../../public/img/international/medal.png'
+import iconImg1 from '../../../../public/img/international/a1.webp'
+import iconImg2 from '../../../../public/img/international/a2.webp'
+import iconImg3 from '../../../../public/img/international/a3.webp'
+import medalImg from '../../../../public/img/international/medal.webp'
 
 function Advantage() {
 

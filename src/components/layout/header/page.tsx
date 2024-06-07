@@ -7,10 +7,10 @@ import { MenuOutlined, SearchOutlined } from '@ant-design/icons';
 import { Drawer, Menu } from 'antd';
 import type { MenuProps } from 'antd';
 
-import logoImg from '../../../../public/img/home/logo.png'
+import logoImg from '../../../../public/img/home/logo.webp'
 
-import phoneIcon from '../../../../public/img/home/phone.png'
-import positionIcon from '../../../../public/img/home/position.png'
+import phoneIcon from '../../../../public/img/home/phone.webp'
+import positionIcon from '../../../../public/img/home/position.webp'
 
 
 import styles from './page.module.scss'

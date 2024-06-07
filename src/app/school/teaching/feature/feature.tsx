@@ -2,17 +2,17 @@ import React from 'react'
 import styles from './feature.module.scss'
 import Image from 'next/image'
 
-import tfImg1 from '../../../../../public/img/school/tf1.png'
-import tfImg2 from '../../../../../public/img/school/tf2.png'
-import tfImg3 from '../../../../../public/img/school/tf3.png'
-import tfImg4 from '../../../../../public/img/school/tf4.png'
+import tfImg1 from '../../../../../public/img/school/tf1.webp'
+import tfImg2 from '../../../../../public/img/school/tf2.webp'
+import tfImg3 from '../../../../../public/img/school/tf3.webp'
+import tfImg4 from '../../../../../public/img/school/tf4.webp'
 
-import serial1 from '../../../../../public/img/school/01.png'
-import serial2 from '../../../../../public/img/school/02.png'
-import serial3 from '../../../../../public/img/school/03.png'
-import serial4 from '../../../../../public/img/school/04.png'
+import serial1 from '../../../../../public/img/school/01.webp'
+import serial2 from '../../../../../public/img/school/02.webp'
+import serial3 from '../../../../../public/img/school/03.webp'
+import serial4 from '../../../../../public/img/school/04.webp'
 
-import rightImg from '../../../../../public/img/school/right.png'
+import rightImg from '../../../../../public/img/school/right.webp'
 
 function Feature() {
   const data = [
@@ -47,7 +47,7 @@ function Feature() {
       picture: tfImg3,
       tips: []
     }, {
-      id: 1,
+      id: 4,
       title: '体制内管理模式',
       serial: serial4,
       desc: '作息规律，管理严格，帮助学生提高自主管理能力，力求更好的升学结果',
@@ -77,7 +77,7 @@ function Feature() {
                         {
                           item.tips.map((i: any) => {
                             return (
-                              <li key={item.id}>
+                              <li key={i.id}>
                                 <div className={styles.right}>
                                   <Image src={rightImg} alt=''></Image>
                                 </div>
@@ -114,7 +114,7 @@ function Feature() {
                         {
                           item.tips.map((i: any) => {
                             return (
-                              <li key={item.id}>
+                              <li key={i.id}>
                                 <div className={styles.right}>
                                   <Image src={rightImg} alt=''></Image>
                                 </div>

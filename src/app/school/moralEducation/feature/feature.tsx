@@ -2,15 +2,15 @@ import React from 'react'
 import styles from './feature.module.scss'
 import Image from 'next/image'
 
-import mfImg1 from '../../../../../public/img/school/mf1.png'
-import mfImg2 from '../../../../../public/img/school/mf2.png'
-import mfImg3 from '../../../../../public/img/school/mf3.png'
+import mfImg1 from '../../../../../public/img/school/mf1.webp'
+import mfImg2 from '../../../../../public/img/school/mf2.webp'
+import mfImg3 from '../../../../../public/img/school/mf3.webp'
 
-import serial1 from '../../../../../public/img/school/01.png'
-import serial2 from '../../../../../public/img/school/02.png'
-import serial3 from '../../../../../public/img/school/03.png'
-import serial4 from '../../../../../public/img/school/04.png'
-import serial5 from '../../../../../public/img/school/05.png'
+import serial1 from '../../../../../public/img/school/01.webp'
+import serial2 from '../../../../../public/img/school/02.webp'
+import serial3 from '../../../../../public/img/school/03.webp'
+import serial4 from '../../../../../public/img/school/04.webp'
+import serial5 from '../../../../../public/img/school/05.webp'
 
 
 function Feature() {

@@ -2,8 +2,8 @@ import React from 'react'
 import styles from './division.module.scss'
 import Image from 'next/image'
 
-import divisionImg from '../../../../public/img/home/division.png'
-import rightImg from '../../../../public/img/home/right.png'
+import divisionImg from '../../../../public/img/home/division.webp'
+import rightImg from '../../../../public/img/home/right.webp'
 
 function Division() {
 

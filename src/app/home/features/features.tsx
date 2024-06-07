@@ -27,7 +27,7 @@ async function Features() {
               return (
                 <li key={item.id}>
                   <div className={styles.card_left}>
-                    <Image src={item.picture} alt={item.title} width={400} height={400} priority></Image>
+                    <Image src={item.picture} alt={item.name} width={400} height={400} priority></Image>
                   </div>
                   <div className={styles.card_right}>
                     <div className={styles.card_title}>

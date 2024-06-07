@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './schedule.module.scss'
 import Image from 'next/image'
 
-import scheduleImg from '../../../../public/img/course/schedule.png'
+import scheduleImg from '../../../../public/img/course/schedule.webp'
 
 function Schedule() {
   return (

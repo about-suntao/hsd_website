@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Modal } from 'antd';
 
 
-import videoImg from '../../../../public/img/international/video.png'
+import videoImg from '../../../../public/img/international/video.webp'
 
 function Video() {
 

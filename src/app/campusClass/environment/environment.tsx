@@ -9,7 +9,7 @@ import SwiperCore from 'swiper';
 import { Navigation } from 'swiper/modules'
 
 
-import IconImg from '../../../../public/img/campusClass/icon.png'
+import IconImg from '../../../../public/img/campusClass/icon.webp'
 
 SwiperCore.use([Navigation]);
 

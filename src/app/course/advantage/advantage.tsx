@@ -5,8 +5,8 @@ import Image from 'next/image'
 import fetchRequest from '@/utils/fetchRequest'
 import { DoubleRightOutlined } from '@ant-design/icons';
 
-import A1 from '../../../../public/img/course/A1.png'
-import A2 from '../../../../public/img/course/A2.png'
+import A1 from '../../../../public/img/course/A1.webp'
+import A2 from '../../../../public/img/course/A2.webp'
 
 function Advantage() {
   const [data, setData] = useState([])

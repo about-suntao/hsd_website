@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './banner.module.scss'
 import Image from 'next/image'
 
-import cardImg1 from '../../../../public/img/home/card1.png'
-import cardImg2 from '../../../../public/img/home/card2.png'
-import cardImg3 from '../../../../public/img/home/card3.png'
-import colon from '../../../../public/img/home/colon.png'
+import cardImg1 from '../../../../public/img/home/card1.webp'
+import cardImg2 from '../../../../public/img/home/card2.webp'
+import cardImg3 from '../../../../public/img/home/card3.webp'
+import colon from '../../../../public/img/home/colon.webp'
 
 function Banner() {
 

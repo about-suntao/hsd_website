@@ -7,14 +7,14 @@ import fetchRequest from '@/utils/fetchRequest';
 
 import { EnvironmentFilled, PhoneFilled } from '@ant-design/icons';
 
-import logo from '../../../../public/img/home/logowhite.png'
-import publicCode from '../../../../public/img/home/publicCode.jpg'
-import wxCode from '../../../../public/img/home/wxCode.jpg'
+import logo from '../../../../public/img/home/logowhite.webp'
+import publicCode from '../../../../public/img/home/publicCode.webp'
+import wxCode from '../../../../public/img/home/wxCode.webp'
 
 import img1 from '../../../../public/img/home/test.webp'
 
-import phoneIcon from '../../../../public/img/home/phone.png'
-import positionIcon from '../../../../public/img/home/position.png'
+import phoneIcon from '../../../../public/img/home/phone.webp'
+import positionIcon from '../../../../public/img/home/position.webp'
 
 async function getData() {
   const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');

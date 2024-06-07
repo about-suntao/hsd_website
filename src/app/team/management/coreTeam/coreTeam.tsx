@@ -6,7 +6,7 @@ import fetchRequest from '@/utils/fetchRequest'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
-import arrow from '../../../../../public/img/team/arrow.png'
+import arrow from '../../../../../public/img/team/arrow.webp'
 
 function CoreTeam() {
   const [data, setData] = useState<any>([])
