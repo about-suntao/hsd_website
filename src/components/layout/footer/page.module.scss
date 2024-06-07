@@ -1025,6 +1025,7 @@
                     line-height: 2.54rem;
                 }
                 .card {
+                    width: 80%;
                     margin-top: 2rem;
                     display: flex;
                     .card_left {
@@ -1036,6 +1037,7 @@
                         }
                     }
                     .card_right {
+                        width: 100%;
                         margin-left: 1rem;
                         p {
                             margin-top: 0.83rem;
