@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start -H 0.0.0.0 -p 3003",
         "lint": "next lint",
-        "pmStart": "pm2 start npm --name ydWebSite -- run start"
+        "pmStart": "pm2 start npm --name hsd -- run start"
     },
     "dependencies": {
         "@amap/amap-jsapi-loader": "^1.0.1",
