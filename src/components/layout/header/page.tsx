@@ -67,9 +67,18 @@ function Header() {
       label: '升学案例',
       key: '/case',
     }, {
-      label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
-      key: 'recruitStudent',
-    }
+      label: '入学报名',
+      key: 'entranceSchool',
+      children: [
+        {
+          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
+          key: 'recruitStudent',
+        },
+        { label: '升学目标', key: '1' },
+        { label: '奖学金', key: '2' },
+      ]
+    },
+
   ];
 
   const onClick: MenuProps['onClick'] = (e) => {

@@ -42,7 +42,7 @@ async function Footer() {
             </div>
             <div className={styles.qrCode}>
               <Image src={wxCode} alt=''></Image>
-              <p>招生咨询号</p>
+              <p>报名咨询</p>
             </div>
           </div>
         </div>

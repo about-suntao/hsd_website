@@ -6,11 +6,11 @@ function Data() {
   const data = [
     {
       id: 1,
-      num: '90%+',
+      num: '80%+',
       label: '研究生学历教师',
     }, {
       id: 2,
-      num: '1:5',
+      num: '1:3',
       label: '师生比',
     }, {
       id: 3,

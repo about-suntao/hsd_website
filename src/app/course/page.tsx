@@ -7,7 +7,7 @@ function Course() {
     <div>
       <Banner title={'班型介绍'} titleEn={'Class Introduction'}></Banner>
       <Advantage></Advantage>
-      <Schedule></Schedule>
+      {/* <Schedule></Schedule> */}
     </div>
   )
 }
