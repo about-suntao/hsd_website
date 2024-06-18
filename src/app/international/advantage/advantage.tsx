@@ -76,7 +76,7 @@ function Advantage() {
         <div className={styles.cardTwo}>
           <div className={styles.left}>
             <div className={styles.title}>
-              <p>Introduction to cooperative American high schools</p>
+              <p>Introduction To Cooperative American High Schools</p>
               <h2>合作办学美高介绍</h2>
             </div>
             <div className={styles.introduce}>
