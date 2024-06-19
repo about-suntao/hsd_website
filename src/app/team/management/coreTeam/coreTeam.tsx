@@ -62,7 +62,7 @@ function CoreTeam() {
       <div className={styles.container}>
         <div className={styles.title}>
           <h2>核心管理团队</h2>
-          <p>Core management team</p>
+          <p>Core Management Team</p>
         </div>
         <div className={styles.card}>
           <div className={styles.left}>
