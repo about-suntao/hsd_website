@@ -5,88 +5,145 @@ import Image from 'next/image'
 import mfImg1 from '../../../../../public/img/school/mf1.webp'
 import mfImg2 from '../../../../../public/img/school/mf2.webp'
 import mfImg3 from '../../../../../public/img/school/mf3.webp'
+import mfImg4 from '../../../../../public/img/school/mf4.webp'
 
-import serial1 from '../../../../../public/img/school/01.webp'
-import serial2 from '../../../../../public/img/school/02.webp'
-import serial3 from '../../../../../public/img/school/03.webp'
-import serial4 from '../../../../../public/img/school/04.webp'
-import serial5 from '../../../../../public/img/school/05.webp'
 
+import rightImg from '../../../../../public/img/school/right.webp'
 
 function Feature() {
+  const data = [
+    {
+      id: 1,
+      title: '特色社团活动',
+      serial: '01',
+      desc: '国际高中社团课程秉承原则：以学生意愿为主导，学校全力提供支持。',
+      descBottom: '',
+      picture: mfImg1,
+      tips: []
+    }, {
+      id: 2,
+      title: '多元公益活动',
+      serial: '02',
+      desc: '校园联合社会定期组织各类丰富多彩的公益活动，充实每个周末和假期的业余时间。',
+      descBottom: '',
+      picture: mfImg2,
+      tips: [
+        { id: 1, label: '组织各类志愿者活动，培养学生协作能力和社会责任感' },
+        { id: 2, label: '举办国际组织项目，拓宽国际视野，提升学生领导能力' },
+        { id: 3, label: '引导学生走入社会，促进公共参与，培养学生公益意识' },
+      ]
+    }, {
+      id: 3,
+      title: '全员导师制',
+      serial: '03',
+      desc: '',
+      descBottom: '',
+      picture: mfImg3,
+      tips: [
+        { id: 1, label: '帮助学生分析学科优势、学习能力' },
+        { id: 2, label: '明确升学要求和专业方向' },
+        { id: 3, label: '确定语言提升、背景提升方案匹配' },
+        { id: 4, label: '学生和导师双向选择' },
+        { id: 5, label: '高一完成导师结对，跟踪帮扶三年' },
+        { id: 6, label: '从心情情绪、学科成绩、背景提升、升学指导四方面展开帮扶' },
+
+      ]
+    }, {
+      id: 4,
+      title: '学校共育',
+      serial: '04',
+      desc: '学生月度情况反馈表在每月末发送给家长，包含：',
+      descBottom: '便于家长以及且真实的综合了解学生在校情况',
+      picture: mfImg4,
+      tips: [
+        { id: 1, label: '学科老师的反馈及建议' },
+        { id: 2, label: '班主任对学生在校学业情况和行为常规的综合评价' },
+        { id: 3, label: '生活老师的宿舍生活情况反馈' },
+      ]
+    },
+  ]
   return (
     <div className={styles.pages}>
       <div className={styles.container}>
-        <div className={styles.card}>
-          <div className={styles.content}>
-            <div className={styles.list}>
-              <div className={styles.title}>
-                <Image src={serial1} alt=''></Image>
-                <h2>全员导师制</h2>
+        {
+          data.map((item: any, index: number) => {
+            return index % 2 === 0 ? (
+              <div className={styles.card} key={item.id}>
+                <div className={styles.content}>
+                  <div className={styles.list}>
+                    <div className={styles.title}>
+                      <p>{item.serial}</p>
+                      <h2>{item.title}</h2>
+                    </div>
+                    <div className={styles.desc}>
+                      <p>{item.desc}</p>
+                    </div>
+                    {
+                      item.tips.length !== 0 &&
+                      <ul>
+                        {
+                          item.tips.map((i: any) => {
+                            return (
+                              <li key={i.id}>
+                                <div className={styles.right}>
+                                  <Image src={rightImg} alt=''></Image>
+                                </div>
+                                <p>{i.label}</p>
+                              </li>
+                            )
+                          })
+                        }
+                      </ul>
+                    }
+                  </div>
+                </div>
+                <div className={styles.picture}>
+                  <Image src={item.picture} alt=''></Image>
+                </div>
               </div>
-              <div className={styles.desc}>
-                <p>每一位学生都能在学术与升学方面获得导师个性化的帮助指导，全面增强家校共育的力度、广度与深度。</p>
+            ) : (
+              <div className={styles.card} key={item.id}>
+                <div className={styles.pcPicture}>
+                  <Image src={item.picture} alt=''></Image>
+                </div>
+                <div className={styles.content}>
+                  <div className={styles.list}>
+                    <div className={styles.title}>
+                      <p>{item.serial}</p>
+                      <h2>{item.title}</h2>
+                    </div>
+                    <div className={styles.desc}>
+                      <p>{item.desc}</p>
+                    </div>
+                    {
+                      item.tips.length !== 0 &&
+                      <ul>
+                        {
+                          item.tips.map((i: any) => {
+                            return (
+                              <li key={i.id}>
+                                <div className={styles.right}>
+                                  <Image src={rightImg} alt=''></Image>
+                                </div>
+                                <p>{i.label}</p>
+                              </li>
+                            )
+                          })
+                        }
+                      </ul>
+                    }
+                    <div className={styles.desc}>
+                      <p>{item.descBottom}</p>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.mobilePicture}>
+                  <Image src={item.picture} alt=''></Image>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className={styles.picture}>
-            <Image src={mfImg1} alt=''></Image>
-          </div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.pcPicture}>
-            <Image src={mfImg2} alt=''></Image>
-          </div>
-          <div className={styles.content}>
-            <div className={styles.list}>
-              <div className={styles.title}>
-                <Image src={serial2} alt=''></Image>
-                <h2>小班化教学</h2>
-              </div>
-              <div className={styles.desc}>
-                <p>每班25人，师生比1:5，有效保证对学生的精准培养，让学生找到最适合自己的未来之路。</p>
-              </div>
-            </div>
-            <div className={styles.list}>
-              <div className={styles.title}>
-                <Image src={serial3} alt=''></Image>
-                <h2>走班制教学</h2>
-              </div>
-              <div className={styles.desc}>
-                <p>充分赋予学生主体地位，一人一课表，因材施教，确保每位学生都能够得到切实提高。</p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.mobilePicture}>
-            <Image src={mfImg2} alt=''></Image>
-          </div>
-        </div>
-
-        <div className={styles.card}>
-          <div className={styles.content}>
-            <div className={styles.list}>
-              <div className={styles.title}>
-                <Image src={serial4} alt=''></Image>
-                <h2>爱心教育</h2>
-              </div>
-              <div className={styles.desc}>
-                <p>教师提供安全、可靠和关怀的环境来培养学生的自信和自尊。在每个关键阶段给予学生所需要的全方位身心关注。</p>
-              </div>
-            </div>
-            <div className={styles.list}>
-              <div className={styles.title}>
-                <Image src={serial5} alt=''></Image>
-                <h2>社团活动</h2>
-              </div>
-              <div className={styles.desc}>
-                <p>涵盖科技、艺术、音乐、舞蹈、运动和语言类，助力学生个性化发展，全面提高综合素质能力，提高自主管理能力。</p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.picture}>
-            <Image src={mfImg3} alt=''></Image>
-          </div>
-        </div>
+            )
+          })
+        }
       </div>
     </div>
   )

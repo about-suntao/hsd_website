@@ -6,11 +6,9 @@ import tfImg1 from '../../../../../public/img/school/tf1.webp'
 import tfImg2 from '../../../../../public/img/school/tf2.webp'
 import tfImg3 from '../../../../../public/img/school/tf3.webp'
 import tfImg4 from '../../../../../public/img/school/tf4.webp'
+import tfImg5 from '../../../../../public/img/school/tf5.webp'
+import tfImg6 from '../../../../../public/img/school/tf6.webp'
 
-import serial1 from '../../../../../public/img/school/01.webp'
-import serial2 from '../../../../../public/img/school/02.webp'
-import serial3 from '../../../../../public/img/school/03.webp'
-import serial4 from '../../../../../public/img/school/04.webp'
 
 import rightImg from '../../../../../public/img/school/right.webp'
 
@@ -19,7 +17,7 @@ function Feature() {
     {
       id: 1,
       title: '官方考点',
-      serial: serial1,
+      serial: '01',
       desc: '',
       picture: tfImg1,
       tips: [
@@ -27,11 +25,12 @@ function Feature() {
         { id: 2, label: 'Edexcel 官方授权考试中心' },
         { id: 3, label: '美高AP授权学校' },
         { id: 4, label: 'UCAS官方注册中心' },
+        { id: 5, label: 'ASDAN（阿思丹）国际理科竞赛官方考点' },
       ]
     }, {
       id: 2,
       title: '国际竞赛规划与课程',
-      serial: serial2,
+      serial: '02',
       desc: '国际竞赛考验学生的综合能力，已成为申请名校必备的材料之一',
       picture: tfImg2,
       tips: [
@@ -41,18 +40,44 @@ function Feature() {
       ]
     }, {
       id: 3,
-      title: '个性化升学服务',
-      serial: serial3,
-      desc: '为每位学生提供一对一科学个性的申请规划指导，覆盖高一至高三全学段',
+      title: '体制内管理模式',
+      serial: '03',
+      desc: '作息规律，管理严格，帮助学生提高自主管理能力，力求更好的升学结果',
       picture: tfImg3,
       tips: []
     }, {
       id: 4,
-      title: '体制内管理模式',
-      serial: serial4,
-      desc: '作息规律，管理严格，帮助学生提高自主管理能力，力求更好的升学结果',
+      title: '英语规划提升',
+      serial: '04',
+      desc: '',
       picture: tfImg4,
-      tips: []
+      tips: [
+        { id: 1, label: '安排每周不少于10节中方英语及外方英语课程' },
+        { id: 2, label: '每周日下午开设公益雅思/托福课程' },
+        { id: 3, label: '组织英语辩论社团' },
+      ]
+    }, {
+      id: 5,
+      title: '个性化升学服务',
+      serial: '05',
+      desc: '为每位学生提供科学个性化的一对一申请规划指导，覆盖高一至高三全学段',
+      picture: tfImg5,
+      tips: [
+        { id: 1, label: '全面评估学术成绩、兴趣特长' },
+        { id: 2, label: '定制专属申请策略及升学规划方案' },
+        { id: 3, label: '全程辅导选校、文书写作、面试准备' },
+      ]
+    }, {
+      id: 6,
+      title: '考评规则',
+      serial: '06',
+      desc: '科学评估学术表现，科学定制评估体系，全程辅导提升学生成绩。',
+      picture: tfImg6,
+      tips: [
+        { id: 1, label: '组织月考、期中、期末，全面评估学术表现' },
+        { id: 2, label: '成绩对比目标大学要求，提供科目强化建议' },
+        { id: 3, label: '重视每次作业严格评估，确保优质教学质量' },
+      ]
     },
   ]
   return (
@@ -65,7 +90,7 @@ function Feature() {
                 <div className={styles.content}>
                   <div className={styles.list}>
                     <div className={styles.title}>
-                      <Image src={item.serial} alt=''></Image>
+                      <p>{item.serial}</p>
                       <h2>{item.title}</h2>
                     </div>
                     <div className={styles.desc}>
@@ -102,7 +127,7 @@ function Feature() {
                 <div className={styles.content}>
                   <div className={styles.list}>
                     <div className={styles.title}>
-                      <Image src={item.serial} alt=''></Image>
+                      <p>{item.serial}</p>
                       <h2>{item.title}</h2>
                     </div>
                     <div className={styles.desc}>
