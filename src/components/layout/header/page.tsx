@@ -74,7 +74,7 @@ function Header() {
           label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
           key: 'recruitStudent',
         },
-        { label: '升学目标', key: '1' },
+        { label: (<Link href="/apply/admissionGoal">升学目标</Link>), key: '1' },
         { label: '奖学金', key: '2' },
       ]
     },

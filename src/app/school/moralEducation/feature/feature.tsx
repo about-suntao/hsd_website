@@ -53,7 +53,7 @@ function Feature() {
       title: '学校共育',
       serial: '04',
       desc: '学生月度情况反馈表在每月末发送给家长，包含：',
-      descBottom: '便于家长以及且真实的综合了解学生在校情况',
+      descBottom: '便于家长及时且真实的综合了解学生在校情况',
       picture: mfImg4,
       tips: [
         { id: 1, label: '学科老师的反馈及建议' },
