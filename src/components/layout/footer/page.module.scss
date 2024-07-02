@@ -10,10 +10,11 @@
             width: 87rem;
             padding-top: 2.69rem;
             display: flex;
+            justify-content: space-between;
             .school {
                 .logo {
-                    width: 22rem;
-                    height: 4.75rem;
+                    width: 23rem;
+                    height: auto;
                     img {
                         width: 100%;
                         height: 100%;
@@ -55,7 +56,6 @@
                 }
             }
             .contact {
-                margin-left: 8.44rem;
                 h2 {
                     margin-bottom: 0.88rem;
                     font-size: 1.63rem;
@@ -64,6 +64,7 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+
                 .card + .card {
                     margin-top: 1.5rem;
                 }
@@ -102,7 +103,6 @@
                 }
             }
             .situation {
-                margin-left: 6.56rem;
                 h2 {
                     margin-bottom: 1.19rem;
                     font-size: 1.63rem;
@@ -110,6 +110,9 @@
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 1.9rem;
+                }
+                .link {
+                    margin-top: 1.25rem;
                 }
                 p {
                     font-size: 1rem;
@@ -123,11 +126,10 @@
                     }
                 }
                 p + p {
-                    margin-top: 1.5rem;
+                    margin-top: 1rem;
                 }
             }
             .news {
-                margin-left: 8.13rem;
                 h2 {
                     margin-bottom: 0.13rem;
                     font-size: 1.63rem;
@@ -188,7 +190,7 @@
             .school {
                 .logo {
                     width: 22rem;
-                    height: 4.75rem;
+                    height: auto;
                     img {
                         width: 100%;
                         height: 100%;
@@ -284,6 +286,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                .link {
+                    margin-top: 1.25rem;
+                }
                 p {
                     font-size: 1rem;
                     font-family: Microsoft YaHei UI, sans-serif;
@@ -296,7 +301,7 @@
                     }
                 }
                 p + p {
-                    margin-top: 1.5rem;
+                    margin-top: 1rem;
                 }
             }
             .news {
@@ -360,7 +365,7 @@
             .school {
                 .logo {
                     width: 22rem;
-                    height: 4.75rem;
+                    height: auto;
                     img {
                         width: 100%;
                         height: 100%;
@@ -456,6 +461,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                .link {
+                    margin-top: 1.25rem;
+                }
                 p {
                     font-size: 1rem;
                     font-family: Microsoft YaHei UI, sans-serif;
@@ -468,7 +476,7 @@
                     }
                 }
                 p + p {
-                    margin-top: 1.5rem;
+                    margin-top: 1rem;
                 }
             }
             .news {
@@ -625,7 +633,6 @@
             }
             .situation {
                 width: 40%;
-
                 h2 {
                     margin-bottom: 1.19rem;
                     font-size: 1.63rem;
@@ -633,6 +640,9 @@
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 1.9rem;
+                }
+                .link {
+                    margin-top: 1.25rem;
                 }
                 p {
                     font-size: 1rem;
@@ -646,7 +656,7 @@
                     }
                 }
                 p + p {
-                    margin-top: 1.5rem;
+                    margin-top: 1rem;
                 }
             }
             .news {
@@ -804,7 +814,6 @@
             }
             .situation {
                 width: 40%;
-
                 h2 {
                     margin-bottom: 1.19rem;
                     font-size: 1.63rem;
@@ -812,6 +821,9 @@
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 1.9rem;
+                }
+                .link {
+                    margin-top: 1.25rem;
                 }
                 p {
                     font-size: 1rem;
@@ -825,7 +837,7 @@
                     }
                 }
                 p + p {
-                    margin-top: 1.5rem;
+                    margin-top: 1rem;
                 }
             }
             .news {
@@ -991,6 +1003,10 @@
                     color: #ffffff;
                     line-height: 2.54rem;
                 }
+                .link {
+                    margin-top: 1.25rem;
+                }
+
                 p {
                     font-size: 1.33rem;
                     font-family: Microsoft YaHei UI, sans-serif;
@@ -1003,7 +1019,7 @@
                     }
                 }
                 p + p {
-                    margin-top: 2rem;
+                    margin-top: 1rem;
                 }
             }
             .news {

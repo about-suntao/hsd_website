@@ -23,8 +23,8 @@ function Banner() {
     }, {
       id: 3,
       picture: cardImg3,
-      title: '国际合作',
-      titleEn: 'International Cooperation',
+      title: '合作办学',
+      titleEn: 'School in Cooperation',
     }
   ]
 

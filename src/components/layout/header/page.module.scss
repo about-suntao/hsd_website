@@ -56,14 +56,15 @@
             align-items: center;
             background-color: white;
             .container {
-                width: 87rem;
+                width: 87.5rem;
                 height: 6.88rem;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .logo {
                     img {
-                        width: 15.5rem;
-                        height: 3.06rem;
+                        width: 17rem;
+                        height: 4.88rem;
                     }
                 }
                 .menu {
@@ -252,7 +253,7 @@
                 .logo {
                     img {
                         width: 13rem;
-                        height: 2.8rem;
+                        height: auto;
                     }
                 }
                 .menu {
@@ -440,7 +441,7 @@
                 .logo {
                     img {
                         width: 10rem;
-                        height: 2.1rem;
+                        height: auto;
                     }
                 }
                 .menu {
@@ -629,7 +630,7 @@
                 .logo {
                     img {
                         width: 10rem;
-                        height: 2.2rem;
+                        height: auto;
                     }
                 }
                 .menu {
@@ -762,16 +763,17 @@
         z-index: 1000;
         .top {
             width: 100%;
-            height: 3.75rem;
+            min-height: 3.75rem;
             background: #012247;
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
             .topBox {
-                width: 96%;
+                width: 90%;
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.8rem;
@@ -791,7 +793,6 @@
                     }
                 }
                 .position {
-                    margin-left: 1.25rem;
                     display: flex;
                     align-items: center;
                     .icon {
@@ -820,7 +821,7 @@
                 .logo {
                     img {
                         width: 10rem;
-                        height: 2.2rem;
+                        height: auto;
                     }
                 }
                 .menu {

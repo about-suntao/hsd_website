@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: '华盛达外语学校国际部',
   description: '华盛达外语学校国际部',
   icons: {
-    icon: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/05/167_favicon(1).ico',
-    shortcut: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/05/167_favicon(1).ico',
-    apple: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/05/167_favicon(1).ico',
+    icon: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
+    shortcut: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
+    apple: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
     other: {
-      rel: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/05/167_favicon(1).ico',
-      url: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/05/167_favicon(1).ico',
+      rel: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
+      url: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
     },
   },
 }

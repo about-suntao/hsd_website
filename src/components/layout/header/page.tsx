@@ -10,8 +10,8 @@ import type { MenuProps } from 'antd';
 import logoImg from '../../../../public/img/home/logo.webp'
 
 import phoneIcon from '../../../../public/img/home/phone.webp'
+import Email from '../../../../public/img/home/mail.webp'
 import positionIcon from '../../../../public/img/home/position.webp'
-
 
 import styles from './page.module.scss'
 
@@ -43,19 +43,15 @@ function Header() {
       ],
     },
     {
-      label: (<Link href="/course">班型介绍</Link>),
+      label: (<Link href="/course">课程安排</Link>),
       key: '/course',
     }, {
-      label: (<Link href="/international">国际合作</Link>),
+      label: (<Link href="/international">合作办学</Link>),
       key: '/international',
     },
     {
-      label: '师资团队',
-      key: 'team',
-      children: [
-        { label: (<Link href="/team/management">管理团队</Link>), key: '/team/management' },
-        { label: '教学团队', key: '' },
-      ],
+      label: (<Link href="/team/management">教研团队</Link>),
+      key: '/team/management',
     }, {
       label: (<Link href="/campusClass">校园风采</Link>),
       key: '/campusClass',
@@ -63,9 +59,6 @@ function Header() {
     {
       label: '新闻资讯',
       key: '/news',
-    }, {
-      label: '升学案例',
-      key: '/case',
     }, {
       label: '入学报名',
       key: 'entranceSchool',
@@ -123,6 +116,12 @@ function Header() {
           <div className={styles.phone}>
             <div className={styles.icon}>
               <Image src={phoneIcon} alt=''></Image>
+            </div>
+            <span>0572-8668963</span>
+          </div>
+          <div className={styles.position}>
+            <div className={styles.icon}>
+              <Image src={Email} alt=''></Image>
             </div>
             <span>0572-8668963</span>
           </div>

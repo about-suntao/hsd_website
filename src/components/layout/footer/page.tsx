@@ -1,31 +1,36 @@
-import React from 'react'
+'use client'
+import React, { useState, useEffect } from 'react'
 import styles from './page.module.scss'
 import Image from 'next/image'
 import Link from 'next/link';
 
 import fetchRequest from '@/utils/fetchRequest';
 
-import { EnvironmentFilled, PhoneFilled } from '@ant-design/icons';
-
 import logo from '../../../../public/img/home/logowhite.webp'
 import publicCode from '../../../../public/img/home/publicCode.webp'
 import wxCode from '../../../../public/img/home/wxCode.webp'
 
-import img1 from '../../../../public/img/home/test.webp'
-
 import phoneIcon from '../../../../public/img/home/phone.webp'
 import positionIcon from '../../../../public/img/home/position.webp'
 
-async function getData() {
-  const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
-  return {
-    newsData: res.data.list,
+
+
+function Footer() {
+  const [newsData, setNewsData] = useState([])
+
+  const getData = async () => {
+    const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
+    setNewsData(res.data.list)
   }
-}
 
-async function Footer() {
+  function openNewWindow(url: string) {
+    window.open(url, '_blank');
+  }
 
-  const { newsData } = await getData()
+  useEffect(() => {
+    getData()
+  }, []);
+
 
   return (
     <div className={styles.footer}>
@@ -77,10 +82,13 @@ async function Footer() {
         <div className={styles.situation}>
           <h2>网站概况</h2>
           <p><Link href="/school/profile">学校概况</Link></p>
-          <p><Link href="/course">班型介绍</Link></p>
-          <p><Link href="/international">国际合作</Link></p>
-          <p><Link href="/team/management">管理团队</Link></p>
+          <p><Link href="/course">课程安排</Link></p>
+          <p><Link href="/international">合作办学</Link></p>
+          <p><Link href="/team/management">教研团队</Link></p>
           <p><Link href="/campusClass">校园风采</Link></p>
+          <h2 className={styles.link}>友情链接</h2>
+          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网-学部建设</p>
+          <p onClick={() => openNewWindow('https://www.aupphs-fa.edu.kh/foxcroft-academy-1/')}>福克斯克罗夫特学院官网</p>
         </div>
         <div className={styles.news}>
           <h2>新闻资讯</h2>

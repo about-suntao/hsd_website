@@ -18,8 +18,8 @@ function Data() {
       label: '课程开设',
     }, {
       id: 4,
-      num: '45000余',
-      label: '占地面积',
+      num: '100%',
+      label: '全球QS前80升学率',
     },
   ]
   return (
