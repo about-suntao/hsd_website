@@ -4,8 +4,7 @@ import styles from './advantage.module.scss'
 import Image from 'next/image'
 import { Modal } from 'antd';
 
-
-import cardImg1 from '../../../../public/img/international/schoolVideo.webp'
+import cardImg1 from '../../../../public/img/international/school.webp'
 import cardImg2 from '../../../../public/img/international/fa.webp'
 import cardImg3 from '../../../../public/img/international/college.webp'
 

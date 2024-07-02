@@ -4,7 +4,7 @@ import Advantage from './advantage/advantage'
 function Course() {
   return (
     <div>
-      <Banner title={'班型介绍'} titleEn={'Class Introduction'}></Banner>
+      <Banner title={'课程安排'} titleEn={'Course Arrangement'}></Banner>
       <Advantage></Advantage>
     </div>
   )

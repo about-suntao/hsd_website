@@ -4,9 +4,8 @@
         justify-content: center;
         align-items: center;
         .container {
-            max-width: 120rem;
+            width: 95rem;
             margin: 6.2rem 0;
-            width: 100%;
             .title {
                 p {
                     font-family: Abhaya Libre, sans-serif;
@@ -28,13 +27,14 @@
             }
             .picture {
                 img {
-                    width: 55rem;
-                    height: 33.88rem;
+                    width: 45rem;
+                    height: auto;
                 }
             }
             .cardOne {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .right {
                     margin-left: 2.5rem;
                     ul {
@@ -71,7 +71,7 @@
             .cardTwo {
                 margin-top: 6.2rem;
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-between;
                 align-items: center;
                 .left {
                     width: 49rem;
@@ -102,6 +102,7 @@
                 margin-top: 6.2rem;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .right {
                     width: 44rem;
                     margin-left: 3.5rem;
@@ -129,6 +130,7 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                        text-align: justify;
                     }
                 }
             }
@@ -166,7 +168,7 @@
         align-items: center;
         .container {
             margin: 6rem 0;
-            width: 100%;
+            width: 90%;
             .title {
                 p {
                     font-family: Abhaya Libre, sans-serif;
@@ -188,13 +190,14 @@
             }
             .picture {
                 img {
-                    width: 47rem;
-                    height: 29rem;
+                    width: 45rem;
+                    height: auto;
                 }
             }
             .cardOne {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .right {
                     margin-left: 2.5rem;
                     ul {
@@ -223,6 +226,7 @@
                                 color: #012247;
                                 line-height: 2rem;
                                 letter-spacing: 1px;
+                                text-align: justify;
                             }
                         }
                     }
@@ -231,7 +235,7 @@
             .cardTwo {
                 margin-top: 5rem;
                 display: flex;
-                justify-content: flex-end;
+                justify-content: space-between;
                 align-items: center;
                 .left {
                     width: 45rem;
@@ -251,6 +255,7 @@
                             color: #012247;
                             line-height: 2rem;
                             letter-spacing: 1px;
+                            text-align: justify;
                             span {
                                 font-weight: bold;
                                 font-size: 2rem;
@@ -263,6 +268,7 @@
                 margin-top: 5rem;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .right {
                     width: 40rem;
                     margin-left: 3.5rem;
@@ -290,6 +296,7 @@
                         color: #012247;
                         line-height: 2.25rem;
                         letter-spacing: 1px;
+                        text-align: justify;
                     }
                 }
             }
@@ -327,7 +334,7 @@
         align-items: center;
         .container {
             margin: 5.5rem 0;
-            width: 100%;
+            width: 90%;
             .title {
                 p {
                     font-family: Abhaya Libre, sans-serif;
@@ -348,41 +355,43 @@
                 }
             }
             .picture {
+                width: 49%;
                 img {
-                    width: 42rem;
-                    height: 28rem;
+                    width: 100%;
+                    height: auto;
                 }
             }
             .cardOne {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 .right {
-                    margin-left: 2.5rem;
+                    width: 48%;
                     ul {
-                        margin-top: 2.5rem;
+                        margin-top: 1.5rem;
                         list-style: none;
                         li + li {
-                            margin-top: 1.25rem;
+                            margin-top: 1rem;
                         }
                         li {
-                            width: 38rem;
-                            height: 5.25rem;
+                            width: 100%;
+                            height: 4rem;
                             padding: 1rem 0.69rem;
                             display: flex;
                             align-items: center;
                             box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
                             border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
                             img {
-                                width: 3.25rem;
-                                height: 3.25rem;
+                                width: 3rem;
+                                height: 3rem;
                             }
                             p {
                                 margin-left: 1.2rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
-                                font-size: 1.25rem;
+                                font-size: 1.1rem;
                                 color: #012247;
-                                line-height: 2rem;
+                                line-height: 1.5rem;
                                 letter-spacing: 1px;
                             }
                         }
@@ -395,7 +404,7 @@
                 justify-content: flex-end;
                 align-items: center;
                 .left {
-                    width: 40rem;
+                    width: 48%;
                     margin-right: 1rem;
                     .title {
                         p {
@@ -412,6 +421,7 @@
                             color: #012247;
                             line-height: 2rem;
                             letter-spacing: 1px;
+                            text-align: justify;
                             span {
                                 font-weight: bold;
                                 font-size: 1.9rem;

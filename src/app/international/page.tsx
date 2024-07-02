@@ -8,7 +8,7 @@ import Holistict from './holistic/holistict'
 function International() {
   return (
     <div>
-      <Banner title={'国际合作'} titleEn={'International Cooperation'} des={'国际部学生入学即注册美国高中学籍'}></Banner>
+      <Banner title={'合作办学'} titleEn={'School in Cooperation'} des={'国际部学生入学即注册美国高中学籍'}></Banner>
       <Advantage></Advantage>
       <Video></Video>
       <Feature></Feature>

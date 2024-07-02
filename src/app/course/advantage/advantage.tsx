@@ -26,8 +26,8 @@ function Advantage() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>课程优势</h2>
-          <p>Class Advantages</p>
+          <h2>课程类型</h2>
+          <p>Type of Course</p>
         </div>
         <div className={styles.content_top}>
           <div className={styles.picture}>
