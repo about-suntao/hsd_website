@@ -33,7 +33,7 @@
             margin-top: 1.25rem;
             font-family: Abhaya Libre, sans-serif;
             font-weight: bold;
-            font-size: 4.38rem;
+            font-size: 3rem;
             color: #00162d;
             line-height: 5.13rem;
             letter-spacing: 5px;
@@ -87,7 +87,7 @@
             margin-top: 1.25rem;
             font-family: Abhaya Libre, sans-serif;
             font-weight: bold;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             color: #00162d;
             line-height: 5.13rem;
             letter-spacing: 5px;
@@ -138,8 +138,9 @@
             text-align: center;
         }
         p {
-            word-break: break-all; /* 强制单词在任何地方换行 */
-            white-space: normal; /* 默认情况下文本会换行 */
+            width: 80%;
+            // word-break: break-all; /* 强制单词在任何地方换行 */
+            // white-space: normal; /* 默认情况下文本会换行 */
             margin-top: 1.25rem;
             font-family: Abhaya Libre, sans-serif;
             font-weight: bold;
