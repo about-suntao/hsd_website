@@ -72,7 +72,7 @@ function Footer() {
                 <Image src={phoneIcon} alt=''></Image>
               </div>
               <div className={styles.right}>
-                <p>0572-8668963</p>
+                <p>0572—8668963</p>
                 <p>18657221120 (余老师)</p>
                 <p>15700173603 (王老师)</p>
               </div>

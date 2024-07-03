@@ -117,14 +117,14 @@ function Header() {
             <div className={styles.icon}>
               <Image src={phoneIcon} alt=''></Image>
             </div>
-            <span>0572-8668963</span>
+            <span>0572—8668963</span>
           </div>
-          <div className={styles.position}>
+          {/* <div className={styles.position}>
             <div className={styles.icon}>
               <Image src={Email} alt=''></Image>
             </div>
             <span>0572-8668963</span>
-          </div>
+          </div> */}
           <div className={styles.position}>
             <div className={styles.icon}>
               <Image src={positionIcon} alt=''></Image>
