@@ -1,14 +1,11 @@
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1401px) {
     .pages {
         display: flex;
         justify-content: center;
         align-content: center;
-        background-image: url('../../../../../public/img/apply/sBg.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         .container {
-            margin-top: 2.81rem;
-            margin-bottom: 6.81rem;
+            width: 80rem;
+            margin-bottom: 6.25rem;
             .title {
                 display: flex;
                 align-items: center;
@@ -48,7 +45,7 @@
                 margin-top: 1.25rem;
                 display: flex;
                 img {
-                    width: 75.25rem;
+                    width: 100%;
                     height: auto;
                 }
             }
@@ -56,17 +53,13 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1400px) {
     .pages {
         display: flex;
         justify-content: center;
         align-content: center;
-        background-image: url('../../../../../public/img/apply/sBg.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         .container {
             width: 90%;
-            margin-top: 2.81rem;
             margin-bottom: 6rem;
             .title {
                 display: flex;
@@ -118,12 +111,8 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-image: url('../../../../../public/img/apply/sBg.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         .container {
             width: 96%;
-            margin-top: 2.81rem;
             margin-bottom: 6rem;
             .title {
                 h2 {

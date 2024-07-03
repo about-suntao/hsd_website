@@ -18,8 +18,8 @@ async function Educational() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>教务团队</h2>
-          <p>Academic Affairs Team</p>
+          <h2>教研团队</h2>
+          <p>Teaching & Research Team</p>
         </div>
         <ul>
           {

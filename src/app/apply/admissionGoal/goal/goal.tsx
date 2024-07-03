@@ -4,7 +4,6 @@ import Image from 'next/image'
 import goldImg from '../../../../../public/img/apply/gold.webp'
 import goalimg from '../../../../../public/img/apply/goalImg.webp'
 
-
 function Goal() {
   return (
     <div className={styles.pages}>
