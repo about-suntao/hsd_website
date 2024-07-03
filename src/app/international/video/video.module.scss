@@ -3,34 +3,69 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('../../../../public/img/international/video.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         .container {
-            max-width: 120rem;
-            width: 100%;
-            height: 40rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .btn {
-                width: 11.75rem;
-                height: 11.75rem;
-                border: none;
-                border-radius: 50%;
-                background-color: #00162d;
+            width: 95rem;
+            position: relative;
+            .backImg {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .triangular {
-                    width: 0;
-                    height: 0;
-                    border-top: 50px solid transparent;
-                    border-bottom: 50px solid transparent;
-                    border-right: 50px solid transparent;
-                    border-left: 80px solid white;
-                    position: relative;
-                    left: 40px;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .title {
+                    width: 60%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.5rem;
+                        color: #ffffff;
+                        letter-spacing: 3px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.25rem;
+                    width: 70%;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                    }
+                }
+                .btn {
+                    margin-top: 3.75rem;
+                    width: 8.75rem;
+                    height: 8.63rem;
+                    border-radius: 50%;
+                    border: 0.31rem solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .triangular {
+                        width: 0;
+                        height: 0;
+                        border-top: 30px solid transparent;
+                        border-bottom: 30px solid transparent;
+                        border-right: 30px solid transparent;
+                        border-left: 50px solid #e6d7b8;
+                        position: relative;
+                        left: 25px;
+                    }
                 }
             }
             .videoDialog {
@@ -62,253 +97,399 @@
     }
 }
 
-@media screen and (min-width: 1301px) and (max-width: 1600px) {
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
     .pages {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('../../../../public/img/international/video.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         .container {
-            max-width: 120rem;
-            width: 100%;
-            height: 36rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .btn {
-                width: 11rem;
-                height: 11rem;
-                border: none;
-                border-radius: 50%;
-                background-color: #00162d;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .triangular {
-                    width: 0;
-                    height: 0;
-                    border-top: 40px solid transparent;
-                    border-bottom: 40px solid transparent;
-                    border-right: 40px solid transparent;
-                    border-left: 60px solid white;
-                    position: relative;
-                    left: 30px;
-                }
-            }
-            .videoDialog {
-                :global {
-                    .ant-modal-root .ant-modal-centered .ant-modal {
-                        width: 90% !important;
-                        min-height: 28rem;
-                        background: #ffffff;
-                        overflow: hidden;
-                        border-radius: 0.5rem;
-                    }
-                    .ant-modal .ant-modal-content {
-                        padding: 0;
-                        margin: 0;
-                    }
-                }
-                .videoContent {
-                    min-height: 28rem;
-                    display: flex;
-                    flex-direction: column;
-                    video {
-                        display: inline-block;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1300px) {
-    .pages {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../../../../public/img/international/video.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        .container {
-            max-width: 120rem;
-            width: 100%;
-            height: 32rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .btn {
-                width: 11rem;
-                height: 11rem;
-                border: none;
-                border-radius: 50%;
-                background-color: #00162d;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .triangular {
-                    width: 0;
-                    height: 0;
-                    border-top: 40px solid transparent;
-                    border-bottom: 40px solid transparent;
-                    border-right: 40px solid transparent;
-                    border-left: 60px solid white;
-                    position: relative;
-                    left: 30px;
-                }
-            }
-            .videoDialog {
-                :global {
-                    .ant-modal-root .ant-modal-centered .ant-modal {
-                        width: 90% !important;
-                        min-height: 28rem;
-                        background: #ffffff;
-                        overflow: hidden;
-                        border-radius: 0.5rem;
-                    }
-                    .ant-modal .ant-modal-content {
-                        padding: 0;
-                        margin: 0;
-                    }
-                }
-                .videoContent {
-                    min-height: 28rem;
-                    display: flex;
-                    flex-direction: column;
-                    video {
-                        display: inline-block;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 701px) and (max-width: 900px) {
-    .pages {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../../../../public/img/international/video.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        .container {
-            max-width: 120rem;
-            width: 100%;
-            height: 28rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .btn {
-                width: 10rem;
-                height: 10rem;
-                border: none;
-                border-radius: 50%;
-                background-color: #00162d;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .triangular {
-                    width: 0;
-                    height: 0;
-                    border-top: 30px solid transparent;
-                    border-bottom: 30px solid transparent;
-                    border-right: 30px solid transparent;
-                    border-left: 50px solid white;
-                    position: relative;
-                    left: 25px;
-                }
-            }
-            .videoDialog {
-                :global {
-                    .ant-modal-root .ant-modal-centered .ant-modal {
-                        width: 90% !important;
-                        min-height: 28rem;
-                        background: #ffffff;
-                        overflow: hidden;
-                        border-radius: 0.5rem;
-                    }
-                    .ant-modal .ant-modal-content {
-                        padding: 0;
-                        margin: 0;
-                    }
-                }
-                .videoContent {
-                    min-height: 28rem;
-                    display: flex;
-                    flex-direction: column;
-                    video {
-                        display: inline-block;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .pages {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../../../../public/img/international/video.webp');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        .container {
-            max-width: 120rem;
-            width: 100%;
-            height: 18rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            .btn {
-                width: 7rem;
-                height: 7rem;
-                border: none;
-                border-radius: 50%;
-                background-color: #00162d;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                .triangular {
-                    width: 0;
-                    height: 0;
-                    border-top: 20px solid transparent;
-                    border-bottom: 20px solid transparent;
-                    border-right: 20px solid transparent;
-                    border-left: 30px solid white;
-                    position: relative;
-                    left: 15px;
-                }
-            }
-            .videoDialog {
-                :global {
-                    .ant-modal-root .ant-modal-centered .ant-modal {
-                        width: 91% !important;
-                        background: #ffffff;
-                        overflow: hidden;
-                        border-radius: 0.5rem;
-                    }
-                    .ant-modal .ant-modal-content {
-                        padding: 0;
-                        margin: 0;
-                    }
-                }
-                .videoContent {
+            width: 90%;
+            position: relative;
+            .backImg {
+                width: 100%;
+                img {
                     width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .title {
+                    width: 65%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        color: #ffffff;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.25rem;
+                    width: 75%;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+                .btn {
+                    margin-top: 3.75rem;
+                    width: 8rem;
+                    height: 8rem;
+                    border-radius: 50%;
+                    border: 0.31rem solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .triangular {
+                        width: 0;
+                        height: 0;
+                        border-top: 25px solid transparent;
+                        border-bottom: 25px solid transparent;
+                        border-right: 25px solid transparent;
+                        border-left: 42px solid #e6d7b8;
+                        position: relative;
+                        left: 21px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 100rem !important;
+                        min-height: 28rem;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    min-height: 28rem;
                     display: flex;
                     flex-direction: column;
                     video {
                         display: inline-block;
-                        width: 100%;
+                        width: 100rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            position: relative;
+            .backImg {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .title {
+                    width: 65%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.7rem;
+                        color: #ffffff;
+                        letter-spacing: 2px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.25rem;
+                    width: 75%;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.2rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+                .btn {
+                    margin-top: 2.5rem;
+                    width: 7rem;
+                    height: 7rem;
+                    border-radius: 50%;
+                    border: 0.31rem solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .triangular {
+                        width: 0;
+                        height: 0;
+                        border-top: 25px solid transparent;
+                        border-bottom: 25px solid transparent;
+                        border-right: 25px solid transparent;
+                        border-left: 42px solid #e6d7b8;
+                        position: relative;
+                        left: 21px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 100rem !important;
+                        min-height: 28rem;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    min-height: 28rem;
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 90%;
+            position: relative;
+            .backImg {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .title {
+                    width: 65%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.25rem;
+                    width: 75%;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.1rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+                .btn {
+                    margin-top: 2.5rem;
+                    width: 6rem;
+                    height: 6rem;
+                    border-radius: 50%;
+                    border: 0.31rem solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .triangular {
+                        width: 0;
+                        height: 0;
+                        border-top: 20px solid transparent;
+                        border-bottom: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-left: 32px solid #e6d7b8;
+                        position: relative;
+                        left: 16px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 100rem !important;
+                        min-height: 28rem;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    min-height: 28rem;
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 100%;
+            position: relative;
+            .backImg {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    min-height: 20rem;
+                    display: block;
+                }
+            }
+            .content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .title {
+                    width: 80%;
+                    h2 {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                }
+                .introduce {
+                    margin-top: 1.25rem;
+                    width: 90%;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        color: #ffffff;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+                .btn {
+                    margin-top: 2rem;
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                    border: 0.31rem solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .triangular {
+                        width: 0;
+                        height: 0;
+                        border-top: 15px solid transparent;
+                        border-bottom: 15px solid transparent;
+                        border-right: 15px solid transparent;
+                        border-left: 20px solid #e6d7b8;
+                        position: relative;
+                        left: 10px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 100rem !important;
+                        min-height: 28rem;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    min-height: 28rem;
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100rem;
                         height: auto;
                     }
                 }
