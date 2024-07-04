@@ -13,6 +13,9 @@ import iconImg2 from '../../../../public/img/international/a2.webp'
 import iconImg3 from '../../../../public/img/international/a3.webp'
 import medalImg from '../../../../public/img/international/medal.webp'
 
+import linkImg from '../../../../public/img/school/link.webp'
+
+
 function Advantage() {
 
   const data = [
@@ -45,6 +48,10 @@ function Advantage() {
       player.pause()
     }
   };
+
+  function openNewWindow(url: string) {
+    window.open(url, '_blank');
+  }
 
   return (
     <div className={styles.pages}>
@@ -82,6 +89,10 @@ function Advantage() {
               <p><span>Foxcroft Academy</span>（福克斯克罗夫特学院）成立于1823年，摘得美国缅因州TOP10寄宿学校的桂冠。是一所历史悠久、学术氛围浓郁的私立寄宿学校。</p>
               <p>学校提供多达150门多元化的课程：包括21门AP课程，21门视觉和表演艺术课程，24个科技教育项目，5门外语和10门计算机科学课程等。</p>
             </div>
+            <button className={styles.link} onClick={() => openNewWindow('https://www.aupphs-fa.edu.kh/foxcroft-academy-1/')}>
+              <span>友情链接</span>
+              <Image src={linkImg} alt=''></Image>
+            </button>
           </div>
           <div className={styles.picture}>
             <Image src={cardImg2} alt=''></Image>
