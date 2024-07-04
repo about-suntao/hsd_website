@@ -13,8 +13,6 @@ import wxCode from '../../../../public/img/home/wxCode.webp'
 import phoneIcon from '../../../../public/img/home/phone.webp'
 import positionIcon from '../../../../public/img/home/position.webp'
 
-
-
 function Footer() {
   const [newsData, setNewsData] = useState([])
 
@@ -39,7 +37,7 @@ function Footer() {
           <div className={styles.logo}>
             <Image src={logo} alt='logo'></Image>
           </div>
-          <p className={styles.mark}>华而实、盛之久、达天下</p>
+          {/* <p className={styles.mark}>华而实、盛之久、达天下</p> */}
           <div className={styles.qrBox}>
             <div className={styles.qrCode}>
               <Image src={publicCode} alt=''></Image>
