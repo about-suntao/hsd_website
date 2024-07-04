@@ -70,7 +70,7 @@ function Footer() {
                 <Image src={phoneIcon} alt=''></Image>
               </div>
               <div className={styles.right}>
-                <p>0572—8668963</p>
+                <p>0572-8668963</p>
                 <p>18657221120 (余老师)</p>
                 <p>15700173603 (王老师)</p>
               </div>
@@ -84,9 +84,9 @@ function Footer() {
           <p><Link href="/international">合作办学</Link></p>
           <p><Link href="/team/management">教研团队</Link></p>
           <p><Link href="/campusClass">校园风采</Link></p>
-          <h2 className={styles.link}>友情链接</h2>
-          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网-学部建设</p>
-          <p onClick={() => openNewWindow('https://www.aupphs-fa.edu.kh/foxcroft-academy-1/')}>福克斯克罗夫特学院官网</p>
+          <h2 className={styles.link}>合作办学</h2>
+          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网</p>
+          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>福克斯克罗夫特学院官网</p>
         </div>
         <div className={styles.news}>
           <h2>新闻资讯</h2>

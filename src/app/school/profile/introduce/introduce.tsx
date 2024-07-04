@@ -25,7 +25,7 @@ function Introduce() {
             <p>德清县华盛达外语学校创建于1996年，被国家基础教育实验中心列为外语实验学校，并融合中西文明而办学，是德清县民办教育发展史的缩影。学校全面贯彻党的教育方针，培养兼具国际视野和中国文化根基的未来精英。</p>
           </div>
           <button className={styles.link} onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>
-            <span>友情链接</span>
+            <span>Partnership School</span>
             <Image src={linkImg} alt=''></Image>
           </button>
         </div>
