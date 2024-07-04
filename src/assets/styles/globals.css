@@ -8,11 +8,11 @@ html,
 body {
     max-width: 100vw;
     overflow: visible;
-    -moz-user-select: none; /*火狐*/
-    -webkit-user-select: none; /*webkit浏览器*/
-    -ms-user-select: none; /*IE10*/
-    -khtml-user-select: none; /*早期浏览器*/
-    user-select: none;
+    /* -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none; */
 }
 
 /* menu 下拉菜单样式，挂载在全局，只能全局修改 */
