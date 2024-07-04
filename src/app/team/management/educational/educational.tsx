@@ -65,17 +65,18 @@ function Educational() {
                         <p>{item.position}</p>
                       </div>
                       <p className={styles.introduce}>{item.intro}</p>
-                      <div className={styles.honor}>
+                      <ul className={styles.honor}>
                         {
                           item.honors.map((i: any) => {
                             return (
-                              <p key={i.id}>
-                                <span></span>{i.name}
-                              </p>
+                              <li key={i.id}>
+                                {/* <span></span> */}
+                                <p>{i.name}</p>
+                              </li>
                             )
                           })
                         }
-                      </div>
+                      </ul>
                     </div>
                   </SwiperSlide>
                 )

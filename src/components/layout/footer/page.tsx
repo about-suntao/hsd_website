@@ -37,11 +37,10 @@ function Footer() {
           <div className={styles.logo}>
             <Image src={logo} alt='logo'></Image>
           </div>
-          {/* <p className={styles.mark}>华而实、盛之久、达天下</p> */}
           <div className={styles.qrBox}>
             <div className={styles.qrCode}>
               <Image src={publicCode} alt=''></Image>
-              <p>华盛达公众号</p>
+              <p>官方公众号</p>
             </div>
             <div className={styles.qrCode}>
               <Image src={wxCode} alt=''></Image>

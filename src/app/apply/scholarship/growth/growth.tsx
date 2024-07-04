@@ -19,9 +19,9 @@ function Growth() {
             <p>评比规则</p>
           </div>
           <div className={styles.list}>
-            <p>学期末GPA进入年级排名前10%，下学期初奖励成长奖一等奖学金<span>10000元/人</span></p>
-            <p>学期末GPA进入年级排名前20%，下学期初奖励成长奖二等奖学金<span>5000元/人</span></p>
-            <p>学期末GPA进入年级排名前30%，下学期初奖励成长奖三等奖学金<span>3000元/人</span></p>
+            <p>学期末GPA进入年级排名前10%，下学期初奖励成长奖一等奖学金<span>10,000元/人</span></p>
+            <p>学期末GPA进入年级排名前20%，下学期初奖励成长奖二等奖学金<span>5,000元/人</span></p>
+            <p>学期末GPA进入年级排名前30%，下学期初奖励成长奖三等奖学金<span>3,000元/人</span></p>
           </div>
         </div>
         <div className={styles.picture}>
