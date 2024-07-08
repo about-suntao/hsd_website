@@ -2,7 +2,7 @@ import { encryptData, decryptData } from '@/utils/crypto'
 import getToken from './getToken'
 
 const fetchRequest = {
-    baseUrl: 'http://back.hsd-elite.org',
+    baseUrl: 'https://back.hsd-elite.org',
     // baseUrl: 'http://192.168.111.87:8089',
 
     get: (url: string, params?: any) => {
