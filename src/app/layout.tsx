@@ -17,6 +17,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: '华盛达外语学校国际部',
   description: '华盛达外语学校国际部',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   icons: {
     icon: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
     shortcut: 'https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/07/02/238_logo(1).ico',
