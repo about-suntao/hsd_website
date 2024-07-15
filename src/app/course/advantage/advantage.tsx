@@ -35,13 +35,13 @@ function Advantage() {
           </div>
           <ul className={styles.lists}>
             {
-              data.slice(0, 3).map((item: any) => {
+              data.slice(0, 3).map((item: any, index: any) => {
                 return (
                   <li key={item.id}
                     className={`${styles.list} ${item.id === active ? styles.activeList : ''}`}
                   >
                     <div className={styles.list_title} onClick={() => setActive(item.id)}>
-                      <p>{item.id}.{item.name}</p>
+                      <p>{index + 1}.{item.name}</p>
                       <button className={styles.icon}>
                         <DoubleRightOutlined />
                       </button>
@@ -73,13 +73,13 @@ function Advantage() {
         <div className={styles.content_bottom}>
           <ul className={styles.lists}>
             {
-              data.slice(3, 8).map((item: any) => {
+              data.slice(3, 8).map((item: any, index: any) => {
                 return (
                   <li key={item.id}
                     className={`${styles.list} ${item.id === activeTwo ? styles.activeList : ''}`}
                   >
                     <div className={styles.list_title} onClick={() => setActiveTwo(item.id)}>
-                      <p>{item.id}.{item.name}</p>
+                      <p>{index + 4}.{item.name}</p>
                       <button className={styles.icon}>
                         <DoubleRightOutlined />
                       </button>

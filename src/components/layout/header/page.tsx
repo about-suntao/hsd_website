@@ -56,10 +56,11 @@ function Header() {
       label: (<Link href="/campusClass">校园风采</Link>),
       key: '/campusClass',
     },
+    // {
+    //   label: '新闻资讯',
+    //   key: '/news',
+    // },
     {
-      label: '新闻资讯',
-      key: '/news',
-    }, {
       label: '入学报名',
       key: 'entranceSchool',
       children: [
