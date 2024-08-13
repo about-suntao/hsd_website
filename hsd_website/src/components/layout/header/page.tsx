@@ -56,15 +56,15 @@ function Header() {
       label: (<Link href="/campusClass">校园风采</Link>),
       key: '/campusClass',
     },
-    // {
-    //   label: '新闻资讯',
-    //   key: '/news',
-    // },
+    {
+      label: '新闻资讯',
+      key: '/news',
+    },
     {
       label: '入学报名',
       key: 'entranceSchool',
       children: [
-        {
+        { 
           label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
           key: 'recruitStudent',
         },
