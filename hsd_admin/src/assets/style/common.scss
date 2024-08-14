@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    display: block;
+    min-height: 8px;
+    min-width: 10px;
+    border-radius: 6px;
+    background-color: rgb(217, 217, 217);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    display: block;
+    min-height: 8px;
+    min-width: 10px;
+    border-radius: 6px;
+    background-color: rgb(159, 159, 159);
+}
