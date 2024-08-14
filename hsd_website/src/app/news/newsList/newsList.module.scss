@@ -1,0 +1,471 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3f6f9;
+        .container {
+            width: 86rem;
+            margin: 6.25rem 0;
+            display: flex;
+            justify-content: space-between;
+            .list {
+                width: 67%;
+            }
+            .other {
+                width: 29%;
+                .title {
+                    .title_name {
+                        position: relative;
+                        z-index: 1;
+                        width: max-content;
+                        border-bottom: 0.19rem solid #253468;
+                        padding-bottom: 1.25rem;
+                        p {
+                            font-family: Source Han Serif CN, sans-serif;
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                            color: #000000;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    hr {
+                        position: relative;
+                        z-index: 0;
+                        margin-top: -0.13rem;
+                        width: 80%;
+                        height: 0rem;
+                        border: 0.03rem solid #78808a;
+                    }
+                }
+                .search {
+                    margin: 1.5rem 0 2.5rem 0;
+                    width: 80%;
+                    :global {
+                        .ant-btn-primary {
+                            background-color: #253468;
+                            font-size: 1.2rem;
+                        }
+                        .ant-input-search-button {
+                            height: 3.13rem;
+                        }
+                        .ant-input-affix-wrapper:hover {
+                            border-color: #253468;
+                        }
+                        .ant-input-affix-wrapper:focus-within {
+                            border-color: #253468;
+                        }
+                        .ant-input {
+                            border-color: #889099;
+                            font-size: 20px;
+                        }
+                        .ant-input-affix-wrapper {
+                            height: 3.13rem;
+                        }
+                    }
+                }
+                .hotList {
+                    margin-top: 2.5rem;
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        .point {
+                            min-width: 0.5rem;
+                            max-width: 0.5rem;
+                            height: 0.5rem;
+                            background: #949ca9;
+                            border-radius: 50%;
+                        }
+                        p {
+                            margin-left: 1.25rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #4e5a6a;
+                            line-height: 1.03rem;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                        }
+                    }
+                    li:first-child {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(2) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(3) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 6.25rem 0;
+            display: flex;
+            justify-content: space-between;
+            .list {
+                width: 67%;
+            }
+            .other {
+                width: 29%;
+                .title {
+                    .title_name {
+                        position: relative;
+                        z-index: 1;
+                        width: max-content;
+                        border-bottom: 0.19rem solid #253468;
+                        padding-bottom: 1.25rem;
+                        p {
+                            font-family: Source Han Serif CN, sans-serif;
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                            color: #000000;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    hr {
+                        position: relative;
+                        z-index: 0;
+                        margin-top: -0.13rem;
+                        width: 80%;
+                        height: 0rem;
+                        border: 0.03rem solid #78808a;
+                    }
+                }
+                .search {
+                    margin: 1.5rem 0 2.5rem 0;
+                    width: 80%;
+                    :global {
+                        .ant-btn-primary {
+                            background-color: #253468;
+                            font-size: 1.2rem;
+                        }
+                        .ant-input-search-button {
+                            height: 3.13rem;
+                        }
+                        .ant-input-affix-wrapper:hover {
+                            border-color: #253468;
+                        }
+                        .ant-input-affix-wrapper:focus-within {
+                            border-color: #253468;
+                        }
+                        .ant-input {
+                            border-color: #889099;
+                            font-size: 20px;
+                        }
+                        .ant-input-affix-wrapper {
+                            height: 3.13rem;
+                        }
+                    }
+                }
+                .hotList {
+                    margin-top: 2.5rem;
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        .point {
+                            min-width: 0.5rem;
+                            max-width: 0.5rem;
+                            height: 0.5rem;
+                            background: #949ca9;
+                            border-radius: 50%;
+                        }
+                        p {
+                            margin-left: 1.25rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #4e5a6a;
+                            line-height: 1.03rem;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                        }
+                    }
+                    li:first-child {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(2) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(3) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 6.25rem 0;
+            display: flex;
+            justify-content: space-between;
+            .list {
+                width: 67%;
+            }
+            .other {
+                width: 29%;
+                .title {
+                    .title_name {
+                        position: relative;
+                        z-index: 1;
+                        width: max-content;
+                        border-bottom: 0.19rem solid #253468;
+                        padding-bottom: 1.25rem;
+                        p {
+                            font-family: Source Han Serif CN, sans-serif;
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                            color: #000000;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    hr {
+                        position: relative;
+                        z-index: 0;
+                        margin-top: -0.13rem;
+                        width: 80%;
+                        height: 0rem;
+                        border: 0.03rem solid #78808a;
+                    }
+                }
+                .search {
+                    margin: 1.5rem 0 2.5rem 0;
+                    width: 80%;
+                    :global {
+                        .ant-btn-primary {
+                            background-color: #253468;
+                            font-size: 1.2rem;
+                        }
+                        .ant-input-search-button {
+                            height: 3.13rem;
+                        }
+                        .ant-input-affix-wrapper:hover {
+                            border-color: #253468;
+                        }
+                        .ant-input-affix-wrapper:focus-within {
+                            border-color: #253468;
+                        }
+                        .ant-input {
+                            border-color: #889099;
+                            font-size: 20px;
+                        }
+                        .ant-input-affix-wrapper {
+                            height: 3.13rem;
+                        }
+                    }
+                }
+                .hotList {
+                    margin-top: 2.5rem;
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        .point {
+                            min-width: 0.5rem;
+                            max-width: 0.5rem;
+                            height: 0.5rem;
+                            background: #949ca9;
+                            border-radius: 50%;
+                        }
+                        p {
+                            margin-left: 1.25rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #4e5a6a;
+                            line-height: 1.03rem;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                        }
+                    }
+                    li:first-child {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(2) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(3) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f3f6f9;
+        .container {
+            width: 90%;
+            margin: 5rem 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .list {
+                width: 100%;
+            }
+            .other {
+                margin-top: 3rem;
+                width: 100%;
+                .title {
+                    .title_name {
+                        position: relative;
+                        z-index: 1;
+                        width: max-content;
+                        border-bottom: 0.19rem solid #253468;
+                        padding-bottom: 1.25rem;
+                        p {
+                            font-family: Source Han Serif CN, sans-serif;
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                            color: #000000;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    hr {
+                        position: relative;
+                        z-index: 0;
+                        margin-top: -0.13rem;
+                        height: 0rem;
+                        border: 0.03rem solid #78808a;
+                    }
+                }
+                .search {
+                    margin: 1.5rem 0 2.5rem 0;
+                    :global {
+                        .ant-btn-primary {
+                            background-color: #253468;
+                            font-size: 1.2rem;
+                        }
+                        .ant-input-search-button {
+                            height: 3.13rem;
+                        }
+                        .ant-input-affix-wrapper:hover {
+                            border-color: #253468;
+                        }
+                        .ant-input-affix-wrapper:focus-within {
+                            border-color: #253468;
+                        }
+                        .ant-input {
+                            border-color: #889099;
+                            font-size: 20px;
+                        }
+                        .ant-input-affix-wrapper {
+                            height: 3.13rem;
+                        }
+                    }
+                }
+                .hotList {
+                    margin-top: 2.5rem;
+                    list-style: none;
+                    li + li {
+                        margin-top: 1.5rem;
+                    }
+                    li {
+                        display: flex;
+                        align-items: center;
+                        .point {
+                            min-width: 0.5rem;
+                            max-width: 0.5rem;
+                            height: 0.5rem;
+                            background: #949ca9;
+                            border-radius: 50%;
+                        }
+                        p {
+                            margin-left: 1.25rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #4e5a6a;
+                            line-height: 1.03rem;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                        }
+                    }
+                    li:first-child {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(2) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                    li:nth-child(3) {
+                        .point {
+                            background: #af0d21;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
