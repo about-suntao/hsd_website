@@ -1,6 +1,9 @@
+'use client'
 import React from 'react'
 import styles from './banner.module.scss'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
+
 
 import cardImg1 from '../../../../public/img/home/card1.webp'
 import cardImg2 from '../../../../public/img/home/card2.webp'
@@ -8,7 +11,11 @@ import cardImg3 from '../../../../public/img/home/card3.webp'
 import colon from '../../../../public/img/home/colon.webp'
 
 function Banner() {
+  const router = useRouter()
 
+  const handleRouter = () => {
+    localStorage.getItem('user') ? router.push('/dashboard') : router.push('/login')
+  }
   const data = [
     {
       id: 1,
@@ -41,7 +48,7 @@ function Banner() {
           <p>华而实、盛之久、达天下</p>
         </div>
         <div className={styles.btn}>
-          <button>报名预约</button>
+          <button onClick={() => handleRouter()}>报名预约</button>
         </div>
         <div className={styles.card}>
           <ul>

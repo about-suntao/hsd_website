@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { MenuOutlined, SearchOutlined } from '@ant-design/icons';
 import { Drawer, Menu } from 'antd';
 import type { MenuProps } from 'antd';
@@ -18,6 +18,7 @@ import styles from './page.module.scss'
 type MenuItem = Required<MenuProps>['items'][number];
 
 function Header() {
+  const router = useRouter()
 
   const [isMenuVisible, setIsMenuVisible] = useState(true);
 
@@ -28,6 +29,11 @@ function Header() {
   function openNewWindow(url: string) {
     window.open(url, '_blank');
   }
+
+  const handleRouter = () => {
+    localStorage.getItem('user') ? router.push('/dashboard') : router.push('/login')
+  }
+
   const items: MenuItem[] = [
     {
       label: <Link href="/">首页</Link>,
@@ -148,7 +154,7 @@ function Header() {
               <MenuOutlined onClick={openDrawer} />
             </div>
             <div className={styles.btn}>
-              <button>报名预约</button>
+              <button onClick={() => handleRouter()}>报名预约</button>
             </div>
           </div>
         </div>
