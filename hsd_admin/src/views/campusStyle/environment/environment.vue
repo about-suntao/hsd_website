@@ -1,17 +1,28 @@
 <template>
     <div class="product">
-        <pageTitle name="常见问题列表"></pageTitle>
+        <pageTitle name="校园环境"></pageTitle>
         <div class="searchForm">
             <div class="search">
                 <el-form :model="searchParams">
-                    <el-form-item label="问题：">
+                    <el-form-item label="名称：">
                         <el-input
-                            v-model="searchParams.problem"
+                            v-model="searchParams.name"
                             @change="getTableData"
                             clearable
-                            placeholder="请输入问题"
+                            placeholder="请输入名称"
                         />
                     </el-form-item>
+                    <el-form-item label="类型:" prop="typeId">
+                        <el-select
+                            v-model="searchParams.typeId"
+                            @change="getTableData"
+                            placeholder="请选择类型"
+                            clearable
+                        >
+                            <el-option v-for="item in typeData" :key="item.id" :label="item.name" :value="item.id" />
+                        </el-select>
+                    </el-form-item>
+
                     <el-form-item>
                         <el-button type="primary" @click="clearSearch">重置</el-button>
                     </el-form-item>
@@ -37,8 +48,20 @@
                 border
             >
                 <el-table-column type="selection" width="55" />
-                <el-table-column prop="problem" label="问题" show-overflow-tooltip />
-                <el-table-column prop="reply" label="答案" show-overflow-tooltip />
+                <el-table-column prop="name" label="名称" />
+                <el-table-column prop="typeId" label="类型">
+                    <template #default="scoped">
+                        <p>
+                            {{ handleType(scoped.row.typeId) }}
+                        </p>
+                    </template>
+                </el-table-column>
+
+                <el-table-column prop="picture" label="图片">
+                    <template #default="scoped">
+                        <el-image class="Img" :src="scoped.row.picture"></el-image>
+                    </template>
+                </el-table-column>
                 <el-table-column prop="createTime" label="创建时间" />
                 <el-table-column label="操作" width="200">
                     <template #default="scope">
@@ -60,11 +83,20 @@
         <el-dialog v-model="Popup" :title="PopupStatus === 'add' ? '新增' : '编辑'" width="550">
             <div class="e_body">
                 <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="70">
-                    <el-form-item label="问题:" prop="problem">
-                        <el-input v-model="userForm.problem" placeholder="请输入问题" />
+                    <el-form-item label="名称:" prop="name">
+                        <el-input v-model="userForm.name" placeholder="请输入名称" clearable />
                     </el-form-item>
-                    <el-form-item label="答案:" prop="reply">
-                        <el-input v-model="userForm.reply" rows="5" type="textarea" placeholder="请输入答案" />
+                    <el-form-item label="类型:" prop="typeId">
+                        <el-select v-model="userForm.typeId" placeholder="请选择类型" clearable>
+                            <el-option v-for="item in typeData" :key="item.id" :label="item.name" :value="item.id" />
+                        </el-select>
+                    </el-form-item>
+
+                    <el-form-item label="图片:" prop="picture">
+                        <el-upload class="avatar-uploader" :show-file-list="false" :http-request="uploadPicture">
+                            <img v-if="userForm.picture" :src="userForm.picture" class="avatar" alt="" />
+                            <el-icon v-else class="avatar-uploader-icon"><Plus /></el-icon>
+                        </el-upload>
                     </el-form-item>
                 </el-form>
             </div>
@@ -80,14 +112,17 @@
 
 <script setup lang="ts">
     import { reactive, ref, onMounted } from 'vue'
-    import { getInfo, addInfo, editInfo, delInfo } from './problem'
-    import type { FormRules } from 'element-plus'
+    import { getInfo, getTypeInfo, addInfo, editInfo, delInfo } from './environment'
+    import { uploadImg } from '@/axios/commonHttps'
+    import type { UploadRequestOptions, FormRules } from 'element-plus'
 
     const tableData = ref([])
+    const typeData = ref<any>([])
     const searchParams = reactive({
-        problem: null,
+        name: null,
+        typeId: null,
         pageNum: 1,
-        pageSize: 20,
+        pageSize: 10,
         total: 0,
     })
 
@@ -96,8 +131,9 @@
 
     const userForm = ref({
         id: null,
-        problem: '',
-        reply: '',
+        name: '',
+        typeId: null,
+        picture: null,
     })
 
     const ruleFormRef = ref<any>(null)
@@ -111,8 +147,9 @@
     }
 
     const rules = reactive<FormRules>({
-        problem: [{ required: true, message: '请输入问题', trigger: 'blur' }],
-        reply: [{ required: true, message: '请输入答案', trigger: 'blur' }],
+        // name: [{ required: true, message: '请输入名称', trigger: 'blur' }],
+        typeId: [{ required: true, message: '请选择类型', trigger: ['blur', 'change'] }],
+        picture: [{ required: true, validator: checkPicture, trigger: 'blur' }],
     })
 
     const getTableData = () => {
@@ -123,22 +160,40 @@
             }
         })
     }
+    const getTypeData = () => {
+        getTypeInfo({
+            pageNum: 1,
+            pageSize: 100,
+        }).then((res: any) => {
+            if (res.code) {
+                typeData.value = res.data.list
+            }
+        })
+    }
 
     onMounted(() => {
         getTableData()
+        getTypeData()
     })
 
+    const handleType = (id: number) => {
+        return typeData.value.filter((item: any) => item.id === id)[0].name
+    }
+
     const clearSearch = () => {
-        searchParams.problem = null
+        searchParams.name = null
+        searchParams.typeId = null
         getTableData()
     }
 
     const openAddPopup = () => {
         userForm.value = {
             id: null,
-            problem: '',
-            reply: '',
+            name: '',
+            typeId: null,
+            picture: null,
         }
+        ruleFormRef.value?.clearValidate()
         PopupStatus.value = 'add'
         Popup.value = true
     }
@@ -146,11 +201,25 @@
     const openEditPopup = (data: any) => {
         userForm.value = {
             id: data.id,
-            problem: data.problem,
-            reply: data.reply,
+            name: data.name,
+            typeId: data.typeId,
+            picture: data.picture,
         }
         PopupStatus.value = 'edit'
         Popup.value = true
+    }
+
+    const uploadPicture = (params: UploadRequestOptions) => {
+        const file = params.file
+        const formData = new FormData()
+        formData.append('file', file)
+        uploadImg(formData).then((res: any) => {
+            if (res.code === 200) {
+                userForm.value.picture = res.data.url
+                ElMessage.success('图片上传成功')
+                ruleFormRef.value?.clearValidate('picture')
+            }
+        })
     }
 
     const addUser = () => {
@@ -174,7 +243,7 @@
     const delUser = (data: any) => {
         ElMessageBox({
             title: '提示',
-            message: `确认删除数据吗？`,
+            message: `确定删除选中数据吗？`,
             showCancelButton: true,
             confirmButtonText: '确认',
             cancelButtonText: '取消',
@@ -271,12 +340,9 @@
                 width: 100%;
                 height: 100%;
                 .Img {
-                    width: 80px;
-                    height: 80px;
+                    max-width: 200px;
+                    height: auto;
                 }
-            }
-            :deep(.el-scrollbar__wrap) {
-                display: flex;
             }
         }
         .pagination {
@@ -297,14 +363,14 @@
             display: flex;
             justify-content: center;
             .el-form {
-                width: 90%;
+                width: 80%;
                 .avatar-uploader {
                     display: flex;
                     justify-content: center;
                     margin-top: 20px;
                     .avatar {
-                        width: 178px;
-                        height: 178px;
+                        max-width: 200px;
+                        height: auto;
                         display: block;
                     }
                 }

@@ -1,6 +1,6 @@
 <template>
     <div class="product">
-        <pageTitle name="校园风采"></pageTitle>
+        <pageTitle name="环境类型"></pageTitle>
         <div class="searchForm">
             <div class="search">
                 <el-form :model="searchParams">
@@ -12,18 +12,6 @@
                             placeholder="请输入名称"
                         />
                     </el-form-item>
-                    <el-form-item label="类型:" prop="type">
-                        <el-select
-                            v-model="searchParams.type"
-                            @change="getTableData"
-                            placeholder="请选择类型"
-                            clearable
-                        >
-                            <el-option label="课堂风采" :value="1" />
-                            <el-option label="校园掠影" :value="2" />
-                        </el-select>
-                    </el-form-item>
-
                     <el-form-item>
                         <el-button type="primary" @click="clearSearch">重置</el-button>
                     </el-form-item>
@@ -49,20 +37,7 @@
                 border
             >
                 <el-table-column type="selection" width="55" />
-                <el-table-column prop="name" label="名称" />
-                <el-table-column prop="type" label="类型">
-                    <template #default="scoped">
-                        <p>
-                            {{ scoped.row.type === 1 ? '课堂风采' : scoped.row.type === 2 ? '校园掠影' : '' }}
-                        </p>
-                    </template>
-                </el-table-column>
-
-                <el-table-column prop="picture" label="图片">
-                    <template #default="scoped">
-                        <el-image class="Img" :src="scoped.row.picture"></el-image>
-                    </template>
-                </el-table-column>
+                <el-table-column prop="name" label="类型" />
                 <el-table-column prop="createTime" label="创建时间" />
                 <el-table-column label="操作" width="200">
                     <template #default="scope">
@@ -84,21 +59,8 @@
         <el-dialog v-model="Popup" :title="PopupStatus === 'add' ? '新增' : '编辑'" width="550">
             <div class="e_body">
                 <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="70">
-                    <el-form-item label="名称:" prop="name">
+                    <el-form-item label="类型:" prop="name">
                         <el-input v-model="userForm.name" placeholder="请输入名称" clearable />
-                    </el-form-item>
-                    <el-form-item label="类型:" prop="type">
-                        <el-select v-model="userForm.type" placeholder="请选择类型" clearable>
-                            <el-option label="课堂风采" :value="1" />
-                            <el-option label="校园掠影" :value="2" />
-                        </el-select>
-                    </el-form-item>
-
-                    <el-form-item label="图片:" prop="picture">
-                        <el-upload class="avatar-uploader" :show-file-list="false" :http-request="uploadPicture">
-                            <img v-if="userForm.picture" :src="userForm.picture" class="avatar" alt="" />
-                            <el-icon v-else class="avatar-uploader-icon"><Plus /></el-icon>
-                        </el-upload>
                     </el-form-item>
                 </el-form>
             </div>
@@ -114,14 +76,13 @@
 
 <script setup lang="ts">
     import { reactive, ref, onMounted } from 'vue'
-    import { getInfo, addInfo, editInfo, delInfo } from './campusStyle'
+    import { getInfo, addInfo, editInfo, delInfo } from './schoolType'
     import { uploadImg } from '@/axios/commonHttps'
     import type { UploadRequestOptions, FormRules } from 'element-plus'
 
     const tableData = ref([])
     const searchParams = reactive({
         name: null,
-        type: null,
         pageNum: 1,
         pageSize: 10,
         total: 0,
@@ -133,8 +94,6 @@
     const userForm = ref({
         id: null,
         name: '',
-        type: null,
-        picture: null,
     })
 
     const ruleFormRef = ref<any>(null)
@@ -168,7 +127,6 @@
 
     const clearSearch = () => {
         searchParams.name = null
-        searchParams.type = null
         getTableData()
     }
 
@@ -176,8 +134,6 @@
         userForm.value = {
             id: null,
             name: '',
-            type: null,
-            picture: null,
         }
         ruleFormRef.value?.clearValidate()
         PopupStatus.value = 'add'
@@ -188,24 +144,9 @@
         userForm.value = {
             id: data.id,
             name: data.name,
-            type: data.type,
-            picture: data.picture,
         }
         PopupStatus.value = 'edit'
         Popup.value = true
-    }
-
-    const uploadPicture = (params: UploadRequestOptions) => {
-        const file = params.file
-        const formData = new FormData()
-        formData.append('file', file)
-        uploadImg(formData).then((res: any) => {
-            if (res.code === 200) {
-                userForm.value.picture = res.data.url
-                ElMessage.success('图片上传成功')
-                ruleFormRef.value?.clearValidate('picture')
-            }
-        })
     }
 
     const addUser = () => {

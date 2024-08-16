@@ -87,22 +87,33 @@ const MenuRouter: Array<RouteRecordRaw> = [
     {
         path: 'campusStyle',
         name: 'campusStyle',
-        component: () => import('@/views/campusStyle/campusStyle.vue'),
         meta: {
             title: '校园风采',
             icon: 'OfficeBuilding',
             hidden: false,
         },
-    },
-    {
-        path: 'problem',
-        name: 'problem',
-        component: () => import('@/views/problem/problem.vue'),
-        meta: {
-            title: '常见问题',
-            icon: 'QuestionFilled',
-            hidden: false,
-        },
+        children: [
+            {
+                path: 'environment',
+                name: 'environment',
+                component: () => import('@/views/campusStyle/environment/environment.vue'),
+                meta: {
+                    title: '校园环境',
+                    icon: 'Odometer',
+                    hidden: false,
+                },
+            },
+            {
+                path: 'schoolType',
+                name: 'schoolType',
+                component: () => import('@/views/campusStyle/schoolType/schoolType.vue'),
+                meta: {
+                    title: '环境类型',
+                    icon: 'Odometer',
+                    hidden: false,
+                },
+            },
+        ],
     },
     {
         path: 'news',
