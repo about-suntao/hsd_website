@@ -59,7 +59,7 @@ const MenuRouter: Array<RouteRecordRaw> = [
         name: 'banner',
         component: () => import('@/views/banner/banner.vue'),
         meta: {
-            title: '首页banner',
+            title: 'banner',
             icon: 'Picture',
             hidden: false,
         },
@@ -71,16 +71,6 @@ const MenuRouter: Array<RouteRecordRaw> = [
         meta: {
             title: '师资团队',
             icon: 'Histogram',
-            hidden: false,
-        },
-    },
-    {
-        path: 'offer',
-        name: 'offer',
-        component: () => import('@/views/offer/offer.vue'),
-        meta: {
-            title: '升学案例',
-            icon: 'Star',
             hidden: false,
         },
     },

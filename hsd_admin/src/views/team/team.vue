@@ -12,6 +12,16 @@
                             placeholder="请输入姓名"
                         />
                     </el-form-item>
+                    <el-form-item label="类型:" prop="teamId">
+                        <el-select
+                            v-model="searchParams.teamId"
+                            @change="getTableData"
+                            placeholder="请选择类型"
+                            clearable
+                        >
+                            <el-option v-for="item in typeData" :key="item.id" :label="item.name" :value="item.id" />
+                        </el-select>
+                    </el-form-item>
                     <el-form-item>
                         <el-button type="primary" @click="clearSearch">重置</el-button>
                     </el-form-item>
@@ -38,14 +48,19 @@
             >
                 <el-table-column type="selection" width="55" />
                 <el-table-column prop="name" label="姓名" />
-                <el-table-column prop="picture" label="照片">
+                <el-table-column prop="teamName" label="团队类型" />
+                <el-table-column prop="photograph" label="照片">
                     <template #default="scoped">
-                        <el-image class="Img" :src="scoped.row.picture"></el-image>
+                        <el-image class="Img" :src="scoped.row.photograph"></el-image>
+                    </template>
+                </el-table-column>
+                <el-table-column prop="signature" label="签名照">
+                    <template #default="scoped">
+                        <el-image v-if="scoped.row.signature" class="Img" :src="scoped.row.signature"></el-image>
                     </template>
                 </el-table-column>
                 <el-table-column prop="position" label="职位" />
-                <el-table-column prop="description" label="描述" show-overflow-tooltip />
-                <el-table-column prop="createTime" label="创建时间" />
+                <el-table-column prop="intro" label="描述" show-overflow-tooltip />
                 <el-table-column label="操作" width="200">
                     <template #default="scope">
                         <el-button type="primary" size="small" @click="openEditPopup(scope.row)">编辑</el-button>
@@ -63,26 +78,50 @@
                 @change="getTableData"
             />
         </div>
-        <el-dialog v-model="Popup" :title="PopupStatus === 'add' ? '新建' : '编辑'" width="550">
+        <el-dialog v-model="Popup" :title="PopupStatus === 'add' ? '新建' : '编辑'" width="850">
             <div class="e_body">
-                <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="70">
+                <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="100">
                     <el-form-item label="姓名:" prop="name">
                         <el-input v-model="userForm.name" placeholder="请输入姓名" />
                     </el-form-item>
                     <el-form-item label="职位:" prop="position">
                         <el-input v-model.number="userForm.position" placeholder="请输入职位" />
                     </el-form-item>
-                    <el-form-item label="描述:" prop="description">
+                    <el-form-item label="团队类型:" prop="teamId">
+                        <el-select v-model="userForm.teamId" placeholder="请选择类型" clearable>
+                            <el-option v-for="item in typeData" :key="item.id" :label="item.name" :value="item.id" />
+                        </el-select>
+                    </el-form-item>
+                    <el-form-item label="荣誉:">
+                        <el-row v-for="(item, index) in honorArr" :key="item.id">
+                            <el-col :span="20">
+                                <el-form-item>
+                                    <el-input v-model="item.name" placeholder="请输入" />
+                                </el-form-item>
+                            </el-col>
+                            <el-col :span="4">
+                                <el-icon v-if="index !== 0" @click="delHonor(index)"><Minus /></el-icon>
+                                <el-icon v-if="honorArr.length === index + 1" @click="addHonor"><Plus /></el-icon>
+                            </el-col>
+                        </el-row>
+                    </el-form-item>
+                    <el-form-item label="描述:" prop="intro">
                         <el-input
-                            v-model.number="userForm.description"
+                            v-model.number="userForm.intro"
                             :rows="4"
                             type="textarea"
                             placeholder="请输入个人描述"
                         />
                     </el-form-item>
-                    <el-form-item label="照片:" prop="picture">
+                    <el-form-item label="照片:" prop="photograph">
                         <el-upload class="avatar-uploader" :show-file-list="false" :http-request="uploadPicture">
-                            <img v-if="userForm.picture" :src="userForm.picture" class="avatar" alt="" />
+                            <img v-if="userForm.photograph" :src="userForm.photograph" class="avatar" alt="" />
+                            <el-icon v-else class="avatar-uploader-icon"><Plus /></el-icon>
+                        </el-upload>
+                    </el-form-item>
+                    <el-form-item label="签名照:" prop="signature">
+                        <el-upload class="avatar-uploader" :show-file-list="false" :http-request="uploadSignature">
+                            <img v-if="userForm.signature" :src="userForm.signature" class="avatar" alt="" />
                             <el-icon v-else class="avatar-uploader-icon"><Plus /></el-icon>
                         </el-upload>
                     </el-form-item>
@@ -100,27 +139,48 @@
 
 <script setup lang="ts">
     import { reactive, ref, onMounted } from 'vue'
-    import { getInfo, addInfo, editInfo, delInfo } from './team'
+    import { getInfo, getTypeInfo, addInfo, editInfo, delInfo } from './team'
     import { uploadImg } from '@/axios/commonHttps'
     import type { UploadRequestOptions, FormRules } from 'element-plus'
 
     const tableData = ref([])
     const searchParams = reactive({
         name: null,
+        teamId: null,
         pageNum: 1,
         pageSize: 20,
         total: 0,
     })
 
+    const typeData = ref<any>([])
+    const honorArr = ref([
+        {
+            id: 1,
+            name: '',
+        },
+    ])
+
     const Popup = ref(false)
     const PopupStatus = ref('')
 
-    const userForm = ref({
+    const userForm = ref<{
+        id: null
+        name: string
+        teamId: null
+        position: string
+        photograph: null
+        signature: null
+        intro: string
+        honors: any[]
+    }>({
         id: null,
         name: '',
+        teamId: null,
         position: '',
-        picture: null,
-        description: '',
+        photograph: null,
+        signature: null,
+        intro: '',
+        honors: [],
     })
 
     const ruleFormRef = ref<any>(null)
@@ -135,9 +195,7 @@
 
     const rules = reactive<FormRules>({
         name: [{ required: true, message: '请输入姓名', trigger: 'blur' }],
-        position: [{ required: true, message: '请输入职称', trigger: 'blur' }],
-        description: [{ required: true, message: '请输入描述', trigger: 'blur' }],
-        picture: [{ required: true, validator: checkPicture, trigger: 'blur' }],
+        photograph: [{ required: true, validator: checkPicture, trigger: 'blur' }],
     })
 
     const getTableData = () => {
@@ -149,12 +207,34 @@
         })
     }
 
+    const getTypeData = () => {
+        getTypeInfo({ pageNum: 1, pageSize: 20 }).then((res: any) => {
+            if (res.code) {
+                typeData.value = res.data
+            }
+        })
+    }
+
     onMounted(() => {
         getTableData()
+        getTypeData()
     })
+
+    const delHonor = (index: number) => {
+        honorArr.value.splice(index, 1)
+    }
+
+    const addHonor = () => {
+        honorArr.value.push({
+            id: honorArr.value[honorArr.value.length - 1].id + 1,
+            name: '',
+        })
+        console.log(honorArr.value)
+    }
 
     const clearSearch = () => {
         searchParams.name = null
+        searchParams.teamId = null
         getTableData()
     }
 
@@ -162,10 +242,19 @@
         userForm.value = {
             id: null,
             name: '',
+            teamId: null,
             position: '',
-            description: '',
-            picture: null,
+            intro: '',
+            photograph: null,
+            signature: null,
+            honors: [],
         }
+        honorArr.value = [
+            {
+                id: 1,
+                name: '',
+            },
+        ]
         ruleFormRef.value?.clearValidate()
         PopupStatus.value = 'add'
         Popup.value = true
@@ -175,10 +264,14 @@
         userForm.value = {
             id: data.id,
             name: data.name,
+            teamId: data.teamId,
             position: data.position,
-            picture: data.picture,
-            description: data.description,
+            photograph: data.photograph,
+            intro: data.intro,
+            signature: data.signature,
+            honors: data.honors,
         }
+        honorArr.value = [...data.honors]
         PopupStatus.value = 'edit'
         Popup.value = true
     }
@@ -189,9 +282,22 @@
         formData.append('file', file)
         uploadImg(formData).then((res: any) => {
             if (res.code === 200) {
-                userForm.value.picture = res.data.url
+                userForm.value.photograph = res.data.url
                 ElMessage.success('照片上传成功')
-                ruleFormRef.value?.clearValidate('picture')
+                ruleFormRef.value?.clearValidate('photograph')
+            }
+        })
+    }
+
+    const uploadSignature = (params: UploadRequestOptions) => {
+        const file = params.file
+        const formData = new FormData()
+        formData.append('file', file)
+        uploadImg(formData).then((res: any) => {
+            if (res.code === 200) {
+                userForm.value.signature = res.data.url
+                ElMessage.success('照片上传成功')
+                ruleFormRef.value?.clearValidate('signature')
             }
         })
     }
@@ -245,8 +351,14 @@
             // 表单验证成功
             if (valid) {
                 // 获取规格信息
-                PopupStatus.value === 'add' ? addUser() : editUser()
-                Popup.value = false
+                console.log(honorArr.value.filter((item) => item.name === '' || item.name === null).length)
+                if (honorArr.value.filter((item) => item.name === '' || item.name === null).length != 0) {
+                    ElMessage.warning('荣誉输入项不能为空')
+                } else {
+                    userForm.value.honors = honorArr.value
+                    PopupStatus.value === 'add' ? addUser() : editUser()
+                    Popup.value = false
+                }
             } else {
                 return false
             }
@@ -337,10 +449,27 @@
 
         .e_body {
             width: 100%;
+            max-height: 600px;
+            overflow: scroll;
             display: flex;
             justify-content: center;
             .el-form {
                 width: 90%;
+                .el-form-item {
+                    margin-bottom: 1rem;
+                    width: 100%;
+                }
+                .el-row {
+                    width: 100%;
+                }
+                .el-icon {
+                    margin-left: 1rem;
+                    font-size: 16px;
+                    :hover {
+                        border: solid 2px #9c9da0;
+                        border-radius: 50%;
+                    }
+                }
                 .avatar-uploader {
                     display: flex;
                     justify-content: center;
