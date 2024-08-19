@@ -1,0 +1,33 @@
+.notice {
+    margin-top: 1rem;
+    width: 100%;
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        color: #0000ff;
+        margin: 2rem 0;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .retract {
+        text-indent: 2rem;
+        text-align: justify;
+    }
+    .retractTop {
+        margin-top: 2rem;
+        text-indent: 2rem;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .read {
+            margin: 3rem 0 1rem 0;
+        }
+    }
+}

@@ -1,0 +1,264 @@
+@media screen and (min-width: 1201px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 75rem;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .project {
+                padding: 0 5rem;
+                h2 {
+                    text-align: center;
+                    padding: 3rem 0;
+                    font-size: 2rem;
+                    color: #002f79;
+                    border-bottom: #002f79 1px solid;
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
+                    gap: 2rem;
+                    min-height: 40rem;
+                    padding: 2rem;
+                    li:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 5px 5px 4px -4px #002f79;
+                    }
+                    li {
+                        width: 30%;
+                        height: 8rem;
+                        border: solid 1px #002f79;
+                        border-radius: 10px;
+                        padding: 0 1rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: center;
+                        .name {
+                            display: flex;
+                            justify-content: space-between;
+                            p {
+                                text-align: justify;
+                                color: #666666;
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                                overflow: hidden;
+                                -webkit-line-clamp: 2;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                span {
+                                    font-size: 1rem;
+                                    color: #333333;
+                                }
+                            }
+                        }
+                        .price {
+                            margin-top: 1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            h4 {
+                                font-size: 1rem;
+                                font-weight: bold;
+                                color: #333333;
+                            }
+                            p {
+                                color: red;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 90%;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .project {
+                padding: 0 2rem;
+                h2 {
+                    text-align: center;
+                    padding: 3rem 0;
+                    font-size: 2rem;
+                    color: #002f79;
+                    border-bottom: #002f79 1px solid;
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: flex-start;
+                    align-items: center;
+                    gap: 2rem;
+                    min-height: 40rem;
+                    padding: 2rem;
+                    li:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 5px 5px 4px -4px #002f79;
+                    }
+                    li {
+                        width: 30%;
+                        min-width: 18rem;
+                        height: 8rem;
+                        border: solid 1px #002f79;
+                        border-radius: 10px;
+                        padding: 0 1rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: center;
+                        .name {
+                            display: flex;
+                            justify-content: space-between;
+                            p {
+                                text-align: justify;
+                                color: #666666;
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                                overflow: hidden;
+                                -webkit-line-clamp: 2;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                span {
+                                    font-size: 1rem;
+                                    color: #333333;
+                                }
+                            }
+                        }
+                        .price {
+                            margin-top: 1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            h4 {
+                                font-size: 1rem;
+                                font-weight: bold;
+                                color: #333333;
+                            }
+                            p {
+                                color: red;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 98%;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .project {
+                padding: 0 2rem;
+                h2 {
+                    text-align: center;
+                    padding: 3rem 0;
+                    font-size: 2rem;
+                    color: #002f79;
+                    border-bottom: #002f79 1px solid;
+                }
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: flex-start;
+                    align-items: center;
+                    gap: 1rem;
+                    min-height: 36rem;
+                    padding-top: 2rem;
+                    li:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 5px 5px 4px -4px #002f79;
+                    }
+                    li {
+                        width: 48%;
+                        max-width: 20rem;
+                        min-width: 12rem;
+                        height: 8rem;
+                        border: solid 1px #002f79;
+                        border-radius: 10px;
+                        padding: 0 1rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        justify-content: center;
+                        .name {
+                            display: flex;
+                            justify-content: space-between;
+                            p {
+                                text-align: justify;
+                                color: #666666;
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                                overflow: hidden;
+                                -webkit-line-clamp: 2;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                span {
+                                    font-size: 1rem;
+                                    color: #333333;
+                                }
+                            }
+                        }
+                        .price {
+                            margin-top: 1rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            h4 {
+                                font-size: 1rem;
+                                font-weight: bold;
+                                color: #333333;
+                            }
+                            p {
+                                color: red;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

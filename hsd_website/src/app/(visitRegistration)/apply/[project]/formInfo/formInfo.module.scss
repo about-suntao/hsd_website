@@ -1,0 +1,28 @@
+.info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    .form {
+        width: 90%;
+        h2 {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        h3 {
+            margin: 2rem 0;
+        }
+        :global {
+            .ant-picker {
+                width: 100%;
+            }
+        }
+        .idBox {
+            display: flex;
+            :global {
+                .ant-form-item {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

@@ -6,6 +6,11 @@ import schoolImg from '../../../../public/img/visit/dashboard.webp'
 import setImg from '../../../../public/img/visit/set.webp'
 import { useRouter } from 'next/navigation'
 import { decryptData } from '@/utils/crypto'
+import { Dropdown, Space } from 'antd';
+import type { MenuProps } from 'antd';
+
+
+import { DownOutlined } from '@ant-design/icons';
 
 function Dashboard() {
   const router = useRouter()
@@ -16,15 +21,15 @@ function Dashboard() {
     {
       id: 1,
       name: '预约参观',
-      url: '',
+      url: '/visit',
     }, {
       id: 2,
       name: '入学报名',
-      url: '',
+      url: '/selectProject',
     }, {
       id: 3,
       name: '历史预约',
-      url: '',
+      url: '/search',
     },
   ]
 
@@ -36,14 +41,29 @@ function Dashboard() {
     router.push(url)
   }
 
+  const items: MenuProps['items'] = [
+    {
+      key: '1',
+      label: (
+        <p onClick={() => router.replace('/login')}>退出登录</p>
+      ),
+    },
+  ];
+
   return (
     <div className={styles.pages}>
       <div className={styles.content}>
         <div className={styles.school}>
           <Image src={schoolImg} alt=""></Image>
           <div className={styles.info}>
-            <p>撒旦法见客户</p>
-            <Image src={setImg} alt=''></Image>
+            <p>{userInfo?.name}</p>
+            <Dropdown menu={{ items }} placement="bottomRight" arrow>
+              <a onClick={(e) => e.preventDefault()}>
+                <Space>
+                  <Image src={setImg} alt=''></Image>
+                </Space>
+              </a>
+            </Dropdown>
           </div>
         </div>
         <div className={styles.title}>

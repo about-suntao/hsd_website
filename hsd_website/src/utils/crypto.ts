@@ -1,6 +1,6 @@
 import CryptoJS from 'crypto-js'
 //密钥
-const secretKey = 'bitALevel12D4C6G'
+const secretKey = 'hsdALevel12D4C6G'
 
 // 加密函数
 export const encryptData = (data: string): string | null => {
@@ -33,7 +33,7 @@ export const decryptData = (encryptedData: string): string | null => {
             padding: CryptoJS.pad.Pkcs7,
         })
         const decryptedData = bytes.toString(CryptoJS.enc.Utf8)
-        return decryptedData
+        return JSON.parse(decryptedData)
     } catch (error) {
         console.error('解密错误:', error)
         return null

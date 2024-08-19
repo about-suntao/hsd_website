@@ -1,0 +1,21 @@
+.info {
+    margin-top: 1rem;
+    width: 100%;
+    .form {
+        width: 100%;
+        h2 {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        :global {
+            .ant-picker {
+                width: 100%;
+            }
+            @media screen and (max-width: 575px) {
+                .ant-col-offset-6 {
+                    margin-inline-start: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 1201px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 75rem;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .progress {
+                margin: 3rem 0;
+                width: 100%;
+                padding: 0 10%;
+            }
+            .content {
+                width: 100%;
+                display: flex;
+                padding: 0 10%;
+                justify-content: center;
+                .contentBox {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 90%;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .progress {
+                margin: 3rem 0;
+                width: 100%;
+                padding: 0 5%;
+            }
+            .content {
+                width: 100%;
+                display: flex;
+                padding: 0 5%;
+                justify-content: center;
+                .contentBox {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 2rem 0;
+            width: 90%;
+            .back {
+                font-size: 1.6rem;
+            }
+            .back:hover {
+                color: #1677ff;
+            }
+            .progress {
+                margin: 3rem 0;
+                width: 100%;
+                :global {
+                    .ant-steps-vertical {
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                    .ant-steps-item-container {
+                        display: flex;
+                        align-items: center;
+                    }
+                    .ant-steps-item-content {
+                        min-height: 0px !important;
+                    }
+                    .ant-steps-item-icon {
+                        width: 28px;
+                        height: 28px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-inline-end: 5px !important;
+                    }
+                    .ant-steps-item-title {
+                        font-size: 14px;
+                        padding-inline-end: 5px !important;
+                    }
+                }
+            }
+            .content {
+                width: 100%;
+                display: flex;
+                padding: 0 5%;
+                justify-content: center;
+                .contentBox {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

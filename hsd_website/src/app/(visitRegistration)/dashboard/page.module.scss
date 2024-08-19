@@ -91,6 +91,12 @@
                     letter-spacing: 1px;
                 }
             }
+            li:hover {
+                background: #012247;
+                p {
+                    color: #ffffff;
+                }
+            }
         }
     }
 }
