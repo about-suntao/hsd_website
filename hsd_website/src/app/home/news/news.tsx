@@ -3,9 +3,10 @@ import styles from './news.module.scss'
 import Image from 'next/image'
 import { ArrowRightOutlined } from '@ant-design/icons';
 import fetchRequest from '@/utils/fetchRequest';
+import Link from 'next/link';
 
 async function getData() {
-  const res = await fetchRequest.get('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
+  const res = await fetchRequest.getNoStore('/icon/web/news/queryByPage?pageNum=1&pageSize=3');
   return {
     data: res.data.list,
   }
@@ -31,18 +32,20 @@ async function News() {
                       <p>{item.createTime}</p>
                     </div>
                   </div>
-                  <div className={styles.card}>
-                    <div className={styles.card_title}>
-                      <p>{item.title}</p>
+                  <Link href={`/news/${item.id}`}>
+                    <div className={styles.card}>
+                      <div className={styles.card_title}>
+                        <p>{item.title}</p>
+                      </div>
+                      <div className={styles.describe}>
+                        <p>{item.description}</p>
+                      </div>
+                      <div className={styles.btn}>
+                        <button>READ MORE</button>
+                        <ArrowRightOutlined />
+                      </div>
                     </div>
-                    <div className={styles.describe}>
-                      <p>{item.description}</p>
-                    </div>
-                    <div className={styles.btn}>
-                      <button>READ MORE</button>
-                      <ArrowRightOutlined />
-                    </div>
-                  </div>
+                  </Link>
                 </li>
               )
             })

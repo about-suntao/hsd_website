@@ -127,6 +127,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                a {
+                    text-decoration: none;
+                }
                 .card {
                     margin-top: 1.5rem;
                     display: flex;
@@ -303,6 +306,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                a {
+                    text-decoration: none;
+                }
                 .card {
                     margin-top: 1.5rem;
                     display: flex;
@@ -478,6 +484,9 @@
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 1.9rem;
+                }
+                a {
+                    text-decoration: none;
                 }
                 .card {
                     margin-top: 1.5rem;
@@ -661,6 +670,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                a {
+                    text-decoration: none;
+                }
                 .card {
                     margin-top: 1.5rem;
                     display: flex;
@@ -843,6 +855,9 @@
                     color: #ffffff;
                     line-height: 1.9rem;
                 }
+                a {
+                    text-decoration: none;
+                }
                 .card {
                     margin-top: 1.5rem;
                     display: flex;
@@ -1011,9 +1026,10 @@
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 flex-wrap: wrap;
                 flex-direction: column;
+                padding: 0 5%;
                 h2 {
                     width: 100%;
                     text-align: center;
@@ -1023,6 +1039,9 @@
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 2.54rem;
+                }
+                a {
+                    text-decoration: none;
                 }
                 .card {
                     width: 80%;

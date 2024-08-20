@@ -92,15 +92,17 @@ function Footer() {
           {
             newsData.map((item: any) => {
               return (
-                <div className={styles.card} key={item.id}>
-                  <div className={styles.card_left}>
-                    <Image src={item.picture} alt='' width={400} height={400} priority></Image>
+                <Link href={`/news/${item.id}`} key={item.id}>
+                  <div className={styles.card} >
+                    <div className={styles.card_left}>
+                      <Image src={item.picture} alt='' width={400} height={400} priority></Image>
+                    </div>
+                    <div className={styles.card_right}>
+                      <p>{item.title}</p>
+                      <span>{item.createTime}</span>
+                    </div>
                   </div>
-                  <div className={styles.card_right}>
-                    <p>{item.title}</p>
-                    <span>{item.createTime}</span>
-                  </div>
-                </div>
+                </Link>
               )
             })
           }
