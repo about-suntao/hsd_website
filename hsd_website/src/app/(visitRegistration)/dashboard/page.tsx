@@ -54,17 +54,17 @@ function Dashboard() {
     <div className={styles.pages}>
       <div className={styles.content}>
         <div className={styles.school}>
-          <Image src={schoolImg} alt=""></Image>
           <div className={styles.info}>
             <p>{userInfo?.name}</p>
             <Dropdown menu={{ items }} placement="bottomRight" arrow>
               <a onClick={(e) => e.preventDefault()}>
                 <Space>
-                  <Image src={setImg} alt=''></Image>
+                  <Image className={styles.setting} src={setImg} alt=''></Image>
                 </Space>
               </a>
             </Dropdown>
           </div>
+          <Image className={styles.showImg} src={schoolImg} alt=""></Image>
         </div>
         <div className={styles.title}>
           <h2>德清县华盛达外语学校国际部</h2>
