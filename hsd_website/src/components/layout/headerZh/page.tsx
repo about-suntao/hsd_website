@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { MenuOutlined, SearchOutlined } from '@ant-design/icons';
 import { Drawer, Menu } from 'antd';
 import type { MenuProps } from 'antd';
+import SwitchLanguage from '@/components/switchLanguage/page'
 
 import logoImg from '../../../../public/img/home/logo.webp'
 
@@ -120,24 +121,27 @@ function Header() {
     <div className={styles.header}>
       <div className={styles.top}>
         <div className={styles.topBox}>
-          <div className={styles.phone}>
-            <div className={styles.icon}>
-              <Image src={phoneIcon} alt=''></Image>
+          <div className={styles.topBox_left}>
+            <div className={styles.phone}>
+              <div className={styles.icon}>
+                <Image src={phoneIcon} alt=''></Image>
+              </div>
+              <span>0572-8668963</span>
             </div>
-            <span>0572-8668963</span>
-          </div>
-          {/* <div className={styles.position}>
+            {/* <div className={styles.position}>
             <div className={styles.icon}>
               <Image src={Email} alt=''></Image>
             </div>
             <span>0572-8668963</span>
           </div> */}
-          <div className={styles.position}>
-            <div className={styles.icon}>
-              <Image src={positionIcon} alt=''></Image>
+            <div className={styles.position}>
+              <div className={styles.icon}>
+                <Image src={positionIcon} alt=''></Image>
+              </div>
+              <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
             </div>
-            <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
           </div>
+          <SwitchLanguage></SwitchLanguage>
         </div>
       </div>
       <div className={styles.head}>

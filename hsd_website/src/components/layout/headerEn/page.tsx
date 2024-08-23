@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { MenuOutlined, SearchOutlined } from '@ant-design/icons';
 import { Drawer, Menu } from 'antd';
 import type { MenuProps } from 'antd';
+import SwitchLanguage from '@/components/switchLanguage/page'
 
 import logoImg from '../../../../public/img/home/logo.webp'
 
@@ -43,28 +44,28 @@ function Header() {
       label: '学校概况',
       key: 'school',
       children: [
-        { label: (<Link href="/school/profile">走近华盛达</Link>), key: '/school/profile' },
-        { label: (<Link href="/school/moralEducation">德育特色</Link>), key: '/school/moralEducation' },
-        { label: (<Link href="/school/teaching">教学特色</Link>), key: '/school/teaching' },
+        { label: (<Link href="/zh/school/profile">走近华盛达</Link>), key: '/zh/school/profile' },
+        { label: (<Link href="/zh/school/moralEducation">德育特色</Link>), key: '/zh/school/moralEducation' },
+        { label: (<Link href="/zh/school/teaching">教学特色</Link>), key: '/zh/school/teaching' },
       ],
     },
     {
-      label: (<Link href="/course">课程安排</Link>),
-      key: '/course',
+      label: (<Link href="/zh/course">课程安排</Link>),
+      key: '/zh/course',
     }, {
-      label: (<Link href="/international">合作办学</Link>),
-      key: '/international',
+      label: (<Link href="/zh/international">合作办学</Link>),
+      key: '/zh/international',
     },
     {
-      label: (<Link href="/team/management">教研团队</Link>),
-      key: '/team/management',
+      label: (<Link href="/zh/team/management">教研团队</Link>),
+      key: '/zh/team/management',
     }, {
-      label: (<Link href="/campusClass">校园风采</Link>),
-      key: '/campusClass',
+      label: (<Link href="/zh/campusClass">校园风采</Link>),
+      key: '/zh/campusClass',
     },
     {
-      label: (<Link href="/news">新闻资讯</Link>),
-      key: '/news',
+      label: (<Link href="/zh/news">新闻资讯</Link>),
+      key: '/zh/news',
     },
     {
       label: '入学报名',
@@ -74,8 +75,8 @@ function Header() {
           label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
           key: 'recruitStudent',
         },
-        { label: (<Link href="/entranceSchool/admissionGoal">升学目标</Link>), key: '/entranceSchool/admissionGoal' },
-        { label: (<Link href="/entranceSchool/scholarship">奖学金</Link>), key: '/entranceSchool/scholarship' },
+        { label: (<Link href="/zh/entranceSchool/admissionGoal">升学目标</Link>), key: '/zh/entranceSchool/admissionGoal' },
+        { label: (<Link href="/zh/entranceSchool/scholarship">奖学金</Link>), key: '/zh/entranceSchool/scholarship' },
       ]
     },
 
@@ -120,24 +121,27 @@ function Header() {
     <div className={styles.header}>
       <div className={styles.top}>
         <div className={styles.topBox}>
-          <div className={styles.phone}>
-            <div className={styles.icon}>
-              <Image src={phoneIcon} alt=''></Image>
+          <div className={styles.topBox_left}>
+            <div className={styles.phone}>
+              <div className={styles.icon}>
+                <Image src={phoneIcon} alt=''></Image>
+              </div>
+              <span>0572-8668963</span>
             </div>
-            <span>0572-8668963</span>
-          </div>
-          {/* <div className={styles.position}>
+            {/* <div className={styles.position}>
             <div className={styles.icon}>
               <Image src={Email} alt=''></Image>
             </div>
             <span>0572-8668963</span>
           </div> */}
-          <div className={styles.position}>
-            <div className={styles.icon}>
-              <Image src={positionIcon} alt=''></Image>
+            <div className={styles.position}>
+              <div className={styles.icon}>
+                <Image src={positionIcon} alt=''></Image>
+              </div>
+              <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
             </div>
-            <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
           </div>
+          <SwitchLanguage></SwitchLanguage>
         </div>
       </div>
       <div className={styles.head}>

@@ -16,35 +16,39 @@
             .topBox {
                 width: 87rem;
                 display: flex;
+                justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.88rem;
                 line-height: 1.4rem;
                 letter-spacing: 1px;
-                .phone {
+                .topBox_left {
                     display: flex;
-                    align-items: center;
-                    .icon {
+                    .phone {
                         display: flex;
                         align-items: center;
-                        margin-right: 1rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 1rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
-                }
-                .position {
-                    margin-left: 1.25rem;
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                    .position {
+                        margin-left: 1.25rem;
                         display: flex;
                         align-items: center;
-                        margin-right: 1rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 1rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
                 }
@@ -205,35 +209,39 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.88rem;
                 line-height: 1.4rem;
                 letter-spacing: 1px;
-                .phone {
+                .topBox_left {
                     display: flex;
-                    align-items: center;
-                    .icon {
+                    .phone {
                         display: flex;
                         align-items: center;
-                        margin-right: 1rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 1rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
-                }
-                .position {
-                    margin-left: 1.25rem;
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                    .position {
+                        margin-left: 1.25rem;
                         display: flex;
                         align-items: center;
-                        margin-right: 1rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 1rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
                 }
@@ -393,35 +401,39 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.88rem;
                 line-height: 1.4rem;
                 letter-spacing: 1px;
-                .phone {
+                .topBox_left {
                     display: flex;
-                    align-items: center;
-                    .icon {
+                    .phone {
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
-                }
-                .position {
-                    margin-left: 1.25rem;
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                    .position {
+                        margin-left: 1.25rem;
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
                 }
@@ -582,35 +594,39 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.88rem;
                 line-height: 1.4rem;
                 letter-spacing: 1px;
-                .phone {
+                .topBox_left {
                     display: flex;
-                    align-items: center;
-                    .icon {
+                    .phone {
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
-                }
-                .position {
-                    margin-left: 1.25rem;
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                    .position {
+                        margin-left: 1.25rem;
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
                 }
@@ -779,29 +795,32 @@
                 font-size: 0.8rem;
                 line-height: 1.4rem;
                 letter-spacing: 1px;
-                .phone {
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                .topBox_left {
+                    max-width: 80%;
+                    .phone {
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
-                }
-                .position {
-                    display: flex;
-                    align-items: center;
-                    .icon {
+                    .position {
                         display: flex;
                         align-items: center;
-                        margin-right: 0.5rem;
-                        img {
-                            width: 1.2rem;
-                            height: 1.2rem;
+                        .icon {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 0.5rem;
+                            img {
+                                width: 1.2rem;
+                                height: 1.2rem;
+                            }
                         }
                     }
                 }
