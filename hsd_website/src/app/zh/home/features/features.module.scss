@@ -1,0 +1,349 @@
+@media screen and (min-width: 1501px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin-top: 3rem;
+            margin-bottom: 6.25rem;
+            width: 87rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    width: 48%;
+                    margin-bottom: 1.88rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 0.06rem solid #d8d8d8;
+                    display: flex;
+                    .card_left {
+                        img {
+                            width: 4.38rem;
+                            height: 4.38rem;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 1.13rem;
+                        .card_title {
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #012247;
+                                line-height: 2.7rem;
+                                letter-spacing: 1px;
+                            }
+                            span {
+                                margin-left: 0.63rem;
+                                font-family: Abhaya Libre, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #173355;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .label {
+                            margin-top: 1rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #395a7c;
+                            line-height: 1.57rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin-top: 3rem;
+            margin-bottom: 6.25rem;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    width: 48%;
+                    margin-bottom: 1.88rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 0.06rem solid #d8d8d8;
+                    display: flex;
+                    .card_left {
+                        img {
+                            width: 4.38rem;
+                            height: 4.38rem;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 1.13rem;
+                        .card_title {
+                            display: flex;
+                            align-items: center;
+                            p {
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.4rem;
+                                color: #012247;
+                                line-height: 2.7rem;
+                                letter-spacing: 1px;
+                            }
+                            span {
+                                margin-left: 0.63rem;
+                                font-family: Abhaya Libre, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.95rem;
+                                color: #173355;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .label {
+                            margin-top: 1rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #395a7c;
+                            line-height: 1.57rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+                li:nth-child(4) {
+                    .card_right {
+                        .card_title {
+                            p {
+                                font-size: 1.2rem;
+                            }
+                            span {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin-top: 3rem;
+            margin-bottom: 5rem;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    width: 48%;
+                    margin-bottom: 1.88rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 0.06rem solid #d8d8d8;
+                    display: flex;
+                    .card_left {
+                        img {
+                            width: 4.38rem;
+                            height: 4.38rem;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 1.13rem;
+                        .card_title {
+                            p {
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.4rem;
+                                color: #012247;
+                                line-height: 2.5rem;
+                                letter-spacing: 1px;
+                            }
+                            span {
+                                font-family: Abhaya Libre, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.95rem;
+                                color: #173355;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .label {
+                            margin-top: 1rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #395a7c;
+                            line-height: 1.57rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+            width: 90%;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+            }
+            ul {
+                margin-top: 2.5rem;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                li {
+                    width: 100%;
+                    margin-bottom: 1.88rem;
+                    padding-bottom: 1rem;
+                    border-bottom: 0.06rem solid #d8d8d8;
+                    display: flex;
+                    .card_left {
+                        img {
+                            width: 4.38rem;
+                            height: 4.38rem;
+                        }
+                    }
+                    .card_right {
+                        margin-left: 1.13rem;
+                        .card_title {
+                            p {
+                                font-family: Microsoft YaHei UI, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.4rem;
+                                color: #012247;
+                                line-height: 2.5rem;
+                                letter-spacing: 1px;
+                            }
+                            span {
+                                font-family: Abhaya Libre, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.95rem;
+                                color: #173355;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .label {
+                            margin-top: 1rem;
+                            font-family: Microsoft YaHei UI, sans-serif;
+                            font-weight: 400;
+                            font-size: 0.88rem;
+                            color: #395a7c;
+                            line-height: 1.57rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -9,8 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/grid';
 
-import Header from '@/components/layout/header/page'
-import Footer from '@/components/layout/footer/page';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,9 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <AntdRegistry>
-          <Header></Header>
           {children}
-          <Footer></Footer>
         </AntdRegistry>
       </body>
     </html>
