@@ -7,11 +7,11 @@ import News from "./home/news/news"
 export default function Home() {
   return (
     <main>
-      <Banner></Banner>
+      {/* <Banner></Banner>
       <Division></Division>
       <Data></Data>
       <Features></Features>
-      <News></News>
+      <News></News> */}
     </main>
   )
 }

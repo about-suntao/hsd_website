@@ -17,6 +17,7 @@
                 width: 87rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
                 font-size: 0.88rem;
@@ -49,6 +50,10 @@
                                 width: 1.2rem;
                                 height: 1.2rem;
                             }
+                        }
+                        span {
+                            font-size: 0.8rem;
+                            letter-spacing: 0;
                         }
                     }
                 }
@@ -119,11 +124,14 @@
                     ul {
                         display: flex;
                         list-style: none;
+                        li + li {
+                            margin-left: 1.2rem;
+                        }
                         li {
-                            width: 6rem;
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            padding: 0;
                         }
                     }
                 }
@@ -209,6 +217,7 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                align-items: center;
                 justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
@@ -223,7 +232,7 @@
                         .icon {
                             display: flex;
                             align-items: center;
-                            margin-right: 1rem;
+                            margin-right: 0.5rem;
                             img {
                                 width: 1.2rem;
                                 height: 1.2rem;
@@ -237,11 +246,15 @@
                         .icon {
                             display: flex;
                             align-items: center;
-                            margin-right: 1rem;
+                            margin-right: 0.5rem;
                             img {
                                 width: 1.2rem;
                                 height: 1.2rem;
                             }
+                        }
+                        span {
+                            font-size: 0.8rem;
+                            letter-spacing: 0;
                         }
                     }
                 }
@@ -401,6 +414,7 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                align-items: center;
                 justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
@@ -434,6 +448,10 @@
                                 width: 1.2rem;
                                 height: 1.2rem;
                             }
+                        }
+                        span {
+                            font-size: 0.8rem;
+                            letter-spacing: 0;
                         }
                     }
                 }
@@ -594,6 +612,7 @@
             .topBox {
                 width: 90%;
                 display: flex;
+                align-items: center;
                 justify-content: space-between;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
@@ -627,6 +646,10 @@
                                 width: 1.2rem;
                                 height: 1.2rem;
                             }
+                        }
+                        span {
+                            font-size: 0.75rem;
+                            letter-spacing: 0;
                         }
                     }
                 }
@@ -789,6 +812,7 @@
                 width: 90%;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 flex-wrap: wrap;
                 font-family: Microsoft YaHei, sans-serif;
                 font-weight: 400;
@@ -796,6 +820,7 @@
                 line-height: 1.4rem;
                 letter-spacing: 1px;
                 .topBox_left {
+                    padding: 1rem 0;
                     max-width: 80%;
                     .phone {
                         display: flex;
@@ -821,6 +846,11 @@
                                 width: 1.2rem;
                                 height: 1.2rem;
                             }
+                        }
+                        span {
+                            line-height: 1rem;
+                            font-size: 0.8rem;
+                            letter-spacing: 0;
                         }
                     }
                 }

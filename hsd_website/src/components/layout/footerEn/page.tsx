@@ -40,30 +40,30 @@ function Footer() {
           <div className={styles.qrBox}>
             <div className={styles.qrCode}>
               <Image src={publicCode} alt=''></Image>
-              <p>官方公众号</p>
+              <p>Public Number</p>
             </div>
             <div className={styles.qrCode}>
               <Image src={wxCode} alt=''></Image>
-              <p>报名咨询</p>
+              <p>Enquiry</p>
             </div>
           </div>
         </div>
         <div className={styles.contact}>
-          <h2>联系方式</h2>
+          <h2>Contacts</h2>
           <div className={styles.card}>
-            <p>学校地址</p>
+            <p>School Address</p>
             <div className={styles.cardBody}>
               <div className={styles.left}>
                 <Image src={positionIcon} alt=''></Image>
               </div>
               <div className={styles.right}>
-                <p>浙江省湖州市德清县</p>
-                <p>武康街道舞阳街1199号</p>
+                <p>Deqing County, Huzhou City, Zhejiang Province</p>
+                <p>No.1199 Maoyang Street, Wukang Street</p>
               </div>
             </div>
           </div>
           <div className={styles.card}>
-            <p>联系电话</p>
+            <p>Phone Number</p>
             <div className={styles.cardBody}>
               <div className={styles.left}>
                 <Image src={phoneIcon} alt=''></Image>
@@ -77,18 +77,18 @@ function Footer() {
           </div>
         </div>
         <div className={styles.situation}>
-          <h2>网站概况</h2>
-          <p><Link href="/school/profile">学校概况</Link></p>
-          <p><Link href="/course">课程安排</Link></p>
-          <p><Link href="/international">合作办学</Link></p>
-          <p><Link href="/team/management">教研团队</Link></p>
-          <p><Link href="/campusClass">校园风采</Link></p>
-          <h2 className={styles.link}>合作办学</h2>
-          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网</p>
-          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>福克斯克罗夫特学院官网</p>
+          <h2>Website Overview</h2>
+          <p><Link href="/en/school/profile">School Profile</Link></p>
+          <p><Link href="/en/course">Curriculum</Link></p>
+          <p><Link href="/en/international">Cooperation</Link></p>
+          <p><Link href="/en/team/management">Team</Link></p>
+          <p><Link href="/en/campusClass">Campus</Link></p>
+          <h2 className={styles.link}>Cooperation</h2>
+          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>HuaShengDa Foreign Language School</p>
+          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft College</p>
         </div>
         <div className={styles.news}>
-          <h2>新闻资讯</h2>
+          <h2>Information</h2>
           {
             newsData.map((item: any) => {
               return (

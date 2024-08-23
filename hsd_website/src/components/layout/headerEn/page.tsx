@@ -37,46 +37,46 @@ function Header() {
 
   const items: MenuItem[] = [
     {
-      label: <Link href="/">首页</Link>,
+      label: <Link href="/en">Home</Link>,
       key: 'home',
     },
     {
-      label: '学校概况',
+      label: 'School Profile',
       key: 'school',
       children: [
-        { label: (<Link href="/zh/school/profile">走近华盛达</Link>), key: '/zh/school/profile' },
-        { label: (<Link href="/zh/school/moralEducation">德育特色</Link>), key: '/zh/school/moralEducation' },
-        { label: (<Link href="/zh/school/teaching">教学特色</Link>), key: '/zh/school/teaching' },
+        { label: (<Link href="/en/school/profile">Approaching</Link>), key: '/en/school/profile' },
+        { label: (<Link href="/en/school/moralEducation">Moral Education Features</Link>), key: '/en/school/moralEducation' },
+        { label: (<Link href="/en/school/teaching">Teaching Features</Link>), key: '/en/school/teaching' },
       ],
     },
     {
-      label: (<Link href="/zh/course">课程安排</Link>),
-      key: '/zh/course',
+      label: (<Link href="/en/course">Curriculum</Link>),
+      key: '/en/course',
     }, {
-      label: (<Link href="/zh/international">合作办学</Link>),
-      key: '/zh/international',
+      label: (<Link href="/en/international">Cooperation</Link>),
+      key: '/en/international',
     },
     {
-      label: (<Link href="/zh/team/management">教研团队</Link>),
-      key: '/zh/team/management',
+      label: (<Link href="/en/team/management">Team</Link>),
+      key: '/en/team/management',
     }, {
-      label: (<Link href="/zh/campusClass">校园风采</Link>),
-      key: '/zh/campusClass',
+      label: (<Link href="/en/campusClass">Campus</Link>),
+      key: '/en/campusClass',
     },
     {
-      label: (<Link href="/zh/news">新闻资讯</Link>),
-      key: '/zh/news',
+      label: (<Link href="/en/news">Information</Link>),
+      key: '/en/news',
     },
     {
-      label: '入学报名',
+      label: 'Enrollment',
       key: 'entranceSchool',
       children: [
         {
-          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
+          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>Admissions</a>),
           key: 'recruitStudent',
         },
-        { label: (<Link href="/zh/entranceSchool/admissionGoal">升学目标</Link>), key: '/zh/entranceSchool/admissionGoal' },
-        { label: (<Link href="/zh/entranceSchool/scholarship">奖学金</Link>), key: '/zh/entranceSchool/scholarship' },
+        { label: (<Link href="/en/entranceSchool/admissionGoal">Further Studies</Link>), key: '/en/entranceSchool/admissionGoal' },
+        { label: (<Link href="/en/entranceSchool/scholarship">Scholarships</Link>), key: '/en/entranceSchool/scholarship' },
       ]
     },
 
@@ -138,7 +138,7 @@ function Header() {
               <div className={styles.icon}>
                 <Image src={positionIcon} alt=''></Image>
               </div>
-              <span>浙江省湖州市德清县武康街道舞阳街1199号</span>
+              <span>No. 1199 Wuyang Street, Wukang Street, Deqing County, Huzhou City, Zhejiang Province</span>
             </div>
           </div>
           <SwitchLanguage></SwitchLanguage>
@@ -150,15 +150,14 @@ function Header() {
             <Image src={logoImg} alt=''></Image>
           </div>
           <div className={styles.menu}>
-            {isMenuVisible && (<Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />)}
+            {isMenuVisible && (<Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" inlineCollapsed={false} items={items} />)}
           </div>
           <div className={styles.right}>
             <div className={styles.icons}>
-              <SearchOutlined />
               <MenuOutlined onClick={openDrawer} />
             </div>
             <div className={styles.btn}>
-              <button onClick={() => handleRouter()}>报名预约</button>
+              <button onClick={() => handleRouter()}>Appointment</button>
             </div>
           </div>
         </div>

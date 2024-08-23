@@ -44,7 +44,7 @@ function Banner() {
         <div className={styles.tips}>
           <Image className={styles.firstColon} src={colon} alt=''></Image>
           <Image className={styles.secondColon} src={colon} alt=''></Image>
-          <p>华而实、盛之久、达天下</p>
+          <p>Real, Everlasting, Accessible</p>
         </div>
         <div className={styles.btn}>
           <button onClick={() => handleRouter()}>报名预约</button>
@@ -59,8 +59,7 @@ function Banner() {
                       <Image src={item.picture} alt={item.title}></Image>
                     </div>
                     <div className={styles.label}>
-                      <h3>{item.title}</h3>
-                      <p>{item.titleEn}</p>
+                      <h3>{item.titleEn}</h3>
                     </div>
                   </li>
                 )
