@@ -55,7 +55,7 @@
                 }
 
                 .card + .card {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                 }
                 .card {
                     width: 15rem;
@@ -141,7 +141,8 @@
                     margin-top: 1.5rem;
                     display: flex;
                     .card_left {
-                        width: 6.25rem;
+                        min-width: 6.25rem;
+                        max-width: 6.25rem;
                         height: 4.38rem;
                         img {
                             width: 100%;
@@ -248,9 +249,10 @@
                     line-height: 1.9rem;
                 }
                 .card + .card {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                 }
                 .card {
+                    width: 15rem;
                     p {
                         font-size: 1.25rem;
                         font-family: Microsoft YaHei, sans-serif;
@@ -271,7 +273,7 @@
                             margin-left: 1rem;
                             p {
                                 margin-top: 0;
-                                font-size: 1rem;
+                                font-size: 0.9rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
                                 color: #ffffff;
@@ -285,6 +287,7 @@
                 }
             }
             .situation {
+                width: 15rem;
                 h2 {
                     margin-bottom: 1.19rem;
                     font-size: 1.63rem;
@@ -297,7 +300,7 @@
                     margin-top: 1.25rem;
                 }
                 p {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     font-family: Microsoft YaHei UI, sans-serif;
                     font-weight: 400;
                     color: #ffffff;
@@ -318,6 +321,7 @@
                 }
             }
             .news {
+                width: 18rem;
                 h2 {
                     margin-bottom: 0.13rem;
                     font-size: 1.63rem;
@@ -333,7 +337,8 @@
                     margin-top: 1.5rem;
                     display: flex;
                     .card_left {
-                        width: 6.25rem;
+                        min-width: 6.25rem;
+                        max-width: 6.25rem;
                         height: 4.38rem;
                         img {
                             width: 100%;
@@ -431,6 +436,7 @@
                 }
             }
             .contact {
+                width: 15rem;
                 h2 {
                     margin-bottom: 2rem;
                     font-size: 1.63rem;
@@ -440,7 +446,7 @@
                     line-height: 1.9rem;
                 }
                 .card + .card {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                 }
                 .card {
                     p {
@@ -463,7 +469,7 @@
                             margin-left: 1rem;
                             p {
                                 margin-top: 0;
-                                font-size: 1rem;
+                                font-size: 0.9rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
                                 color: #ffffff;
@@ -477,6 +483,7 @@
                 }
             }
             .situation {
+                width: 15rem;
                 h2 {
                     margin-bottom: 1.19rem;
                     font-size: 1.63rem;
@@ -489,7 +496,7 @@
                     margin-top: 1.25rem;
                 }
                 p {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     font-family: Microsoft YaHei UI, sans-serif;
                     font-weight: 400;
                     color: #ffffff;
@@ -510,6 +517,7 @@
                 }
             }
             .news {
+                width: 18rem;
                 h2 {
                     margin-bottom: 0.13rem;
                     font-size: 1.63rem;
@@ -525,7 +533,8 @@
                     margin-top: 1.5rem;
                     display: flex;
                     .card_left {
-                        width: 6.25rem;
+                        min-width: 6.25rem;
+                        max-width: 6.25rem;
                         height: 4.38rem;
                         img {
                             width: 100%;
@@ -1016,25 +1025,25 @@
                 width: 50%;
                 h2 {
                     margin-bottom: 2rem;
-                    font-size: 2.17rem;
+                    font-size: 1.3rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
                     color: #ffffff;
                     line-height: 2.54rem;
                 }
                 .card + .card {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                 }
                 .card {
                     p {
-                        font-size: 1.67rem;
+                        font-size: 1.2rem;
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
                         color: #ffffff;
                         line-height: 1.95rem;
                     }
                     .cardBody {
-                        margin-top: 1.5rem;
+                        margin-top: 1rem;
                         display: flex;
                         .left {
                             img {
@@ -1045,7 +1054,7 @@
                         .right {
                             margin-left: 0.75rem;
                             p {
-                                font-size: 1.17rem;
+                                font-size: 1rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
                                 color: #ffffff;
@@ -1062,7 +1071,7 @@
                 width: 40%;
                 h2 {
                     margin-bottom: 1.58rem;
-                    font-size: 2.17rem;
+                    font-size: 1.3rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
                     color: #ffffff;
@@ -1073,7 +1082,7 @@
                 }
 
                 p {
-                    font-size: 1.33rem;
+                    font-size: 1rem;
                     font-family: Microsoft YaHei UI, sans-serif;
                     font-weight: 400;
                     color: #ffffff;
@@ -1106,7 +1115,7 @@
                     width: 100%;
                     text-align: center;
                     margin-bottom: 0.17rem;
-                    font-size: 2.17rem;
+                    font-size: 1.5rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
                     color: #ffffff;
@@ -1114,13 +1123,15 @@
                 }
                 a {
                     text-decoration: none;
+                    width: 100%;
                 }
                 .card {
                     width: 80%;
                     margin-top: 2rem;
                     display: flex;
                     .card_left {
-                        width: 8.33rem;
+                        min-width: 8.33rem;
+                        max-width: 8.33rem;
                         height: 5.83rem;
                         img {
                             width: 100%;
@@ -1128,19 +1139,17 @@
                         }
                     }
                     .card_right {
-                        width: 100%;
                         margin-left: 1rem;
                         p {
-                            margin-top: 0.83rem;
                             margin-bottom: 1rem;
-                            font-size: 1.3rem;
+                            font-size: 1.1rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
                             color: #ffffff;
                             line-height: 1.56rem;
                         }
                         span {
-                            font-size: 1.17rem;
+                            font-size: 1rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
                             color: #ffffff;

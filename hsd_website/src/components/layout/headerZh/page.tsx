@@ -96,7 +96,7 @@ function Header() {
   }
 
   useEffect(() => {
-    if (path === '/') {
+    if (path === '/' || path === '/zh') {
       setCurrent('home')
     } else {
       // const newPath = path.split('/')

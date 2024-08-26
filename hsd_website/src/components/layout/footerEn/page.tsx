@@ -58,7 +58,7 @@ function Footer() {
               </div>
               <div className={styles.right}>
                 <p>Deqing County, Huzhou City, Zhejiang Province</p>
-                <p>No.1199 Maoyang Street, Wukang Street</p>
+                <p>No. 1199 Wuyang Street, Wukang Street</p>
               </div>
             </div>
           </div>
