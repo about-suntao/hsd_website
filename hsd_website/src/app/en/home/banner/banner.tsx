@@ -47,7 +47,7 @@ function Banner() {
           <p>Real, Everlasting, Accessible</p>
         </div>
         <div className={styles.btn}>
-          <button onClick={() => handleRouter()}>报名预约</button>
+          <button onClick={() => handleRouter()}>Appointment</button>
         </div>
         <div className={styles.card}>
           <ul>
