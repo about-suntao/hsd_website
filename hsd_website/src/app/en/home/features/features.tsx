@@ -6,7 +6,7 @@ import fetchRequest from '@/utils/fetchRequest'
 
 
 async function getData() {
-  const res = await fetchRequest.get('/icon/web/feature/queryAll');
+  const res = await fetchRequest.get('/icon/web/feature/queryAll', { language: 'EN' });
   return {
     data: res.data,
   }
@@ -18,8 +18,7 @@ async function Features() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>办学特色</h2>
-          <p>Educational Features</p>
+          <h2>Educational Features</h2>
         </div>
         <ul>
           {
@@ -32,7 +31,6 @@ async function Features() {
                   <div className={styles.card_right}>
                     <div className={styles.card_title}>
                       <p>{item.name}</p>
-                      <span>{item.englishName}</span>
                     </div>
                     <div className={styles.label}>
                       <p>{item.description}</p>

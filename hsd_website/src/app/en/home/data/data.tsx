@@ -7,19 +7,19 @@ function Data() {
     {
       id: 1,
       num: '80%+',
-      label: '研究生学历教师',
+      label: 'Teachers with Postgraduate Qualifications',
     }, {
       id: 2,
       num: '1:3',
-      label: '师生比',
+      label: 'Teacher-student Ratio',
     }, {
       id: 3,
       num: '20+',
-      label: '课程开设',
+      label: 'Course Offerings',
     }, {
       id: 4,
       num: '100%',
-      label: '全球QS前80升学率',
+      label: 'QS top 80 students in the world',
     },
   ]
   return (

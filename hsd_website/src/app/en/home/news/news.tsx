@@ -18,8 +18,7 @@ async function News() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>新闻资讯</h2>
-          <p>Latest News</p>
+          <h2>Latest News</h2>
         </div>
         <ul>
           {

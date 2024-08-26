@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <main>
       <Banner></Banner>
-      {/* <Division></Division>
+      <Division></Division>
       <Data></Data>
       <Features></Features>
-      <News></News> */}
+      <News></News>
     </main>
   )
 }
