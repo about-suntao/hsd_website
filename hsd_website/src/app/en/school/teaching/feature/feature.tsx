@@ -16,67 +16,67 @@ function Feature() {
   const data = [
     {
       id: 1,
-      title: '官方考点',
+      title: 'Official Test Centre',
       serial: '01',
       desc: '',
       picture: tfImg1,
       tips: [
-        { id: 1, label: 'Foxcroft Academy 官方合作伙伴' },
-        { id: 2, label: 'Edexcel 官方授权考试中心' },
-        { id: 3, label: '美高AP授权学校' },
-        { id: 4, label: 'UCAS官方注册中心' },
-        { id: 5, label: 'ASDAN（阿思丹）国际理科竞赛官方考点' },
+        { id: 1, label: 'Foxcroft Academy Official Partner' },
+        { id: 2, label: 'Edexcel Official Test Centre' },
+        { id: 3, label: 'AP Authorised School' },
+        { id: 4, label: 'UCAS Official Registration Centre' },
+        { id: 5, label: 'ASDAN International Science Competition Official Test Centre' },
       ]
     }, {
       id: 2,
-      title: '国际竞赛规划与课程',
+      title: 'International Competition Planning and Programmes',
       serial: '02',
-      desc: '国际竞赛考验学生的综合能力，已成为申请名校必备的材料之一',
+      desc: 'International competitions test the overall ability of students and have become one of the essential documents for applying to prestigious universities.',
       picture: tfImg2,
       tips: [
-        { id: 1, label: '帮助学生做好竞赛规划' },
-        { id: 2, label: '提供高效的国际竞赛考前指导与培训课程' },
-        { id: 3, label: '全面满足各类高含金量竞赛需求' },
+        { id: 1, label: 'Helping students to plan for competitions' },
+        { id: 2, label: 'Provide efficient pre-test guidance and training programmes for international competitions' },
+        { id: 3, label: 'Comprehensively meet the needs of all kinds of high-quality competitions' },
       ]
     }, {
       id: 3,
-      title: '体制内管理模式',
+      title: 'Institutional Management Model',
       serial: '03',
-      desc: '作息规律，管理严格，帮助学生提高自主管理能力，力求更好的升学结果',
+      desc: 'Strict management with a regular routine, helping students to improve their self-management skills and achieve better results in higher education.',
       picture: tfImg3,
       tips: []
     }, {
       id: 4,
-      title: '英语规划提升',
+      title: 'English Planning Enhancement',
       serial: '04',
       desc: '',
       picture: tfImg4,
       tips: [
-        { id: 1, label: '安排每周不少于10节中方英语及外方英语课程' },
-        { id: 2, label: '每周日下午开设公益雅思/托福课程' },
-        { id: 3, label: '组织英语辩论社团' },
+        { id: 1, label: 'Arranging no less than 10 Chinese and foreign English lessons per week' },
+        { id: 2, label: 'Provide public interest IELTS / TOEFL classes every Sunday afternoon' },
+        { id: 3, label: 'Organise English Debate Club' },
       ]
     }, {
       id: 5,
-      title: '个性化升学服务',
+      title: 'Personalised Study Services',
       serial: '05',
-      desc: '为每位学生提供科学个性化的一对一申请规划指导，覆盖高一至高三全学段',
+      desc: 'Provide scientific and personalised one-on-one application planning guidance for each student, covering the whole academic year from the first to the third year of high school.',
       picture: tfImg5,
       tips: [
-        { id: 1, label: '全面评估学术成绩、兴趣特长' },
-        { id: 2, label: '定制专属申请策略及升学规划方案' },
-        { id: 3, label: '全程辅导选校、文书写作、面试准备' },
+        { id: 1, label: 'Comprehensive assessment of academic performance, interests and strengths' },
+        { id: 2, label: 'Customised application strategies and planning' },
+        { id: 3, label: 'Counselling on school selection, essay writing and interview preparation' },
       ]
     }, {
       id: 6,
-      title: '考评规则',
+      title: 'Assessment Rules',
       serial: '06',
-      desc: '科学评估学术表现，科学定制评估体系，全程辅导提升学生成绩。',
+      desc: "Scientific assessment of academic performance, scientifically customised assessment system, full-time counselling to improve students' performance.",
       picture: tfImg6,
       tips: [
-        { id: 1, label: '组织月考、期中、期末，全面评估学术表现' },
-        { id: 2, label: '成绩对比目标大学要求，提供科目强化建议' },
-        { id: 3, label: '重视每次作业严格评估，确保优质教学质量' },
+        { id: 1, label: 'Organise monthly, mid-term and final exams to comprehensively assess academic performance.' },
+        { id: 2, label: 'Compare the results with the requirements of target universities and provide suggestions for strengthening the subjects.' },
+        { id: 3, label: 'Strict assessment of each assignment to ensure quality teaching and learning' },
       ]
     },
   ]

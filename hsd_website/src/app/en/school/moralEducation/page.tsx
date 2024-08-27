@@ -1,11 +1,11 @@
 import React from 'react'
-import Banner from '@/components/banner/banner'
+import Banner from '@/components/bannerEn/bannerEn'
 import Feature from './feature/feature'
 
 function MoralEducation() {
   return (
     <div>
-      <Banner title="Moral and Physical" ></Banner>
+      <Banner titleEn="Moral and Physical" ></Banner>
       <Feature></Feature>
     </div>
   )
