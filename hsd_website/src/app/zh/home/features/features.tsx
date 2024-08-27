@@ -6,7 +6,7 @@ import fetchRequest from '@/utils/fetchRequest'
 
 
 async function getData() {
-  const res = await fetchRequest.get('/icon/web/feature/queryAll', { language: 'ZH' });
+  const res = await fetchRequest.get('/icon/web/feature/queryAll', { language: 'CN' });
   return {
     data: res.data,
   }

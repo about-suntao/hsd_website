@@ -1,0 +1,167 @@
+@media screen and (min-width: 1101px) {
+    .pages {
+        width: 100%;
+        height: 33.75rem;
+        background-image: url('../../../public/img/school/banner.webp');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        z-index: -2;
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        h1 {
+            width: 80%;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: bold;
+            font-size: 3.5rem;
+            color: #00162d;
+            line-height: 5rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        p {
+            margin-top: 1.25rem;
+            font-family: Abhaya Libre, sans-serif;
+            font-weight: bold;
+            font-size: 3rem;
+            color: #00162d;
+            line-height: 5.13rem;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        .des {
+            margin-top: 1.25rem;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #173350;
+            line-height: 2.4rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .pages {
+        width: 100%;
+        height: 26rem;
+        background-image: url('../../../public/img/school/banner.webp');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        z-index: -2;
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        h1 {
+            width: 80%;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: bold;
+            font-size: 3rem;
+            color: #00162d;
+            line-height: 4rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        p {
+            margin-top: 1.25rem;
+            font-family: Abhaya Libre, sans-serif;
+            font-weight: bold;
+            font-size: 2.5rem;
+            color: #00162d;
+            line-height: 5.13rem;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        .des {
+            margin-top: 1.25rem;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: 400;
+            font-size: 1.4rem;
+            color: #173350;
+            line-height: 2.4rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        width: 100%;
+        height: 18rem;
+        background-image: url('../../../public/img/school/banner.webp');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        z-index: -2;
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        h1 {
+            width: 90%;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            color: #00162d;
+            line-height: 3rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        p {
+            width: 80%;
+            // word-break: break-all; /* 强制单词在任何地方换行 */
+            // white-space: normal; /* 默认情况下文本会换行 */
+            margin-top: 1.25rem;
+            font-family: Abhaya Libre, sans-serif;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #00162d;
+            line-height: 3rem;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        .des {
+            margin-top: 1rem;
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: #173350;
+            line-height: 2.4rem;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+}

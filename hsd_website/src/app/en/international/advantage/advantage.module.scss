@@ -1,0 +1,1129 @@
+@media screen and (min-width: 1701px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            width: 95rem;
+            margin: 6.2rem 0;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.88rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                }
+                h2 {
+                    margin-top: 0.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+            }
+            .picture {
+                img {
+                    width: 45rem;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    margin-left: 2.5rem;
+                    ul {
+                        margin-top: 2.5rem;
+                        list-style: none;
+                        li + li {
+                            margin-top: 1.25rem;
+                        }
+                        li {
+                            width: 46.19rem;
+                            height: 5.25rem;
+                            padding: 1rem 0.69rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 3.25rem;
+                                height: 3.25rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1.25rem;
+                                color: #012247;
+                                line-height: 2rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 6.2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .left {
+                    width: 49rem;
+                    margin-right: 2.5rem;
+                    .title {
+                        p {
+                            letter-spacing: 2px;
+                        }
+                    }
+                    .introduce {
+                        width: 90%;
+                        margin-top: 2.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            span {
+                                font-weight: bold;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 2.5rem;
+                        border: none;
+                        width: 18rem;
+                        height: 3.25rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #ffffff;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 1rem;
+                            width: 1.75rem;
+                            height: 1.75rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 6.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 44rem;
+                    margin-left: 3.5rem;
+                    .rate {
+                        margin: 1.4rem 0;
+                        display: flex;
+                        img {
+                            width: 2.63rem;
+                            height: 2.88rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 80% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 6rem 0;
+            width: 90%;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.88rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                }
+                h2 {
+                    margin-top: 0.63rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+            }
+            .picture {
+                img {
+                    width: 45rem;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    margin-left: 2.5rem;
+                    ul {
+                        margin-top: 2.5rem;
+                        list-style: none;
+                        li + li {
+                            margin-top: 1.25rem;
+                        }
+                        li {
+                            width: 43rem;
+                            height: 5.25rem;
+                            padding: 1rem 0.69rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 3.25rem;
+                                height: 3.25rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1.25rem;
+                                color: #012247;
+                                line-height: 2rem;
+                                letter-spacing: 1px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .left {
+                    width: 45rem;
+                    margin-right: 2.5rem;
+                    .title {
+                        p {
+                            letter-spacing: 1px;
+                            font-size: 1.7rem;
+                        }
+                    }
+                    .introduce {
+                        width: 90%;
+                        margin-top: 2.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 2.5rem;
+                        border: none;
+                        width: 18rem;
+                        height: 3.25rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #ffffff;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 1rem;
+                            width: 1.75rem;
+                            height: 1.75rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 40rem;
+                    margin-left: 3.5rem;
+                    .rate {
+                        margin: 1.4rem 0;
+                        display: flex;
+                        img {
+                            width: 2.63rem;
+                            height: 2.88rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 85% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 5.5rem 0;
+            width: 90%;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.7rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                }
+                h2 {
+                    margin-top: 0.5rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+            }
+            .picture {
+                width: 49%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 48%;
+                    ul {
+                        margin-top: 1.5rem;
+                        list-style: none;
+                        li + li {
+                            margin-top: 1rem;
+                        }
+                        li {
+                            width: 100%;
+                            height: 4rem;
+                            padding: 1rem 0.69rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 3rem;
+                                height: 3rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1.1rem;
+                                color: #012247;
+                                line-height: 1.5rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .left {
+                    width: 48%;
+                    margin-right: 1rem;
+                    .title {
+                        p {
+                            letter-spacing: 1px;
+                            font-size: 1.5rem;
+                        }
+                    }
+                    .introduce {
+                        width: 90%;
+                        margin-top: 2rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 1.9rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 2rem;
+                        border: none;
+                        width: 15rem;
+                        height: 3rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.1rem;
+                        color: #ffffff;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 0.63rem;
+                            width: 1.4rem;
+                            height: 1.4rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 5rem;
+                display: flex;
+                align-items: center;
+                .right {
+                    width: 38rem;
+                    margin-left: 2.5rem;
+                    .rate {
+                        margin: 1.4rem 0;
+                        display: flex;
+                        img {
+                            width: 2.63rem;
+                            height: 2.88rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.25rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 5rem 0;
+            width: 90%;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                }
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+            }
+            .picture {
+                width: 48%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 48%;
+                    ul {
+                        margin-top: 1.5rem;
+                        list-style: none;
+                        li + li {
+                            margin-top: 1rem;
+                        }
+                        li {
+                            width: 100%;
+                            height: 4rem;
+                            padding: 1rem 0.69rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 3.25rem;
+                                height: 3.25rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #012247;
+                                line-height: 1.5rem;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .left {
+                    width: 48%;
+                    .title {
+                        p {
+                            letter-spacing: 1px;
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .introduce {
+                        width: 90%;
+                        margin-top: 1.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 1.9rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 1.5rem;
+                        border: none;
+                        width: 15rem;
+                        height: 3rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.1rem;
+                        color: #ffffff;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 0.63rem;
+                            width: 1.4rem;
+                            height: 1.4rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 48%;
+                    .rate {
+                        margin: 1.4rem 0;
+                        display: flex;
+                        img {
+                            width: 2.63rem;
+                            height: 2.88rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.1rem;
+                        color: #012247;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 5rem 0;
+            width: 90%;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.3rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                }
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 1.6rem;
+                    color: #00162d;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                }
+            }
+            .picture {
+                width: 46%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 50%;
+                    ul {
+                        margin-top: 1rem;
+                        list-style: none;
+                        li + li {
+                            margin-top: 0.63rem;
+                        }
+                        li {
+                            width: 95%;
+                            padding: 0.5rem 0.6rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 2.1rem;
+                                height: 2.1rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.9rem;
+                                color: #012247;
+                                line-height: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 4rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .left {
+                    width: 50%;
+                    .title {
+                        p {
+                            letter-spacing: 1px;
+                            font-size: 1rem;
+                        }
+                    }
+                    .introduce {
+                        width: 95%;
+                        margin-top: 1.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 0.9rem;
+                            color: #012247;
+                            line-height: 1.5rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                            span {
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 1rem;
+                        border: none;
+                        width: 13rem;
+                        height: 2.5rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 0.9rem;
+                        color: #ffffff;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 0.5rem;
+                            width: 1.3rem;
+                            height: 1.3rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .right {
+                    width: 50%;
+                    .rate {
+                        margin: 1rem 0;
+                        display: flex;
+                        img {
+                            width: 2.4rem;
+                            height: 2.6rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        width: 92%;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 0.9rem;
+                        color: #012247;
+                        line-height: 1.5rem;
+                        letter-spacing: 1px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 90% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            margin: 4rem 0;
+            width: 100%;
+            .title {
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.3rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                h2 {
+                    margin-top: 0.5rem;
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #00162d;
+                    line-height: 2.4rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+            .picture {
+                width: 90%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .cardOne {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .right {
+                    margin-top: 2rem;
+                    width: 100%;
+                    ul {
+                        margin-top: 2rem;
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        li + li {
+                            margin-top: 1rem;
+                        }
+                        li {
+                            width: 90%;
+                            padding: 0.5rem 0.6rem;
+                            display: flex;
+                            align-items: center;
+                            box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
+                            border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+                            img {
+                                width: 2.5rem;
+                                height: 2.5rem;
+                            }
+                            p {
+                                margin-left: 1.2rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 1rem;
+                                color: #012247;
+                                line-height: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .cardTwo {
+                margin-top: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .left {
+                    width: 92%;
+                    margin-bottom: 2rem;
+                    .title {
+                        p {
+                            letter-spacing: 1px;
+                            font-size: 1rem;
+                        }
+                    }
+                    .introduce {
+                        width: 95%;
+                        margin-top: 2rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            span {
+                                font-weight: bold;
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                    .link {
+                        margin-top: 1rem;
+                        border: none;
+                        width: 13rem;
+                        height: 2.5rem;
+                        background: #07284d;
+                        border-radius: 0.31rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Microsoft YaHei UI, sans-serif;
+                        font-weight: 400;
+                        font-size: 0.9rem;
+                        color: #ffffff;
+                        line-height: 1.5rem;
+                        letter-spacing: 1px;
+                        img {
+                            margin-left: 0.5rem;
+                            width: 1.3rem;
+                            height: 1.3rem;
+                        }
+                    }
+                }
+            }
+            .cardThree {
+                margin-top: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+                .right {
+                    width: 90%;
+                    margin-top: 2rem;
+                    .rate {
+                        margin: 1.5rem 0;
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        flex-direction: column;
+                        img {
+                            width: 2.4rem;
+                            height: 2.6rem;
+                        }
+                        h3 {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            color: #012247;
+                            line-height: 2.4rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .introduce {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        color: #012247;
+                        line-height: 2.25rem;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+            .videoDialog {
+                :global {
+                    .ant-modal-root .ant-modal-centered .ant-modal {
+                        width: 91% !important;
+                        background: #ffffff;
+                        overflow: hidden;
+                        border-radius: 0.5rem;
+                    }
+                    .ant-modal .ant-modal-content {
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .videoContent {
+                    display: flex;
+                    flex-direction: column;
+                    video {
+                        display: inline-block;
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
