@@ -8,11 +8,11 @@ import Holistict from './holistic/holistict'
 function International() {
   return (
     <div>
-      <Banner titleEn={'School in Cooperation'} des={'International students are enrolled in a U.S. high school'}></Banner>
+      {/* <Banner titleEn={'School in Cooperation'} des={'International students are enrolled in a U.S. high school'}></Banner> */}
       <Advantage></Advantage>
-      <Video></Video>
+      {/* <Video></Video>
       <Feature></Feature>
-      <Holistict></Holistict>
+      <Holistict></Holistict> */}
     </div>
   )
 }

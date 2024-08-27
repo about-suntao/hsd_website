@@ -7,22 +7,14 @@
             width: 95rem;
             margin: 6.2rem 0;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.88rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
                     margin-top: 0.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.25rem;
+                    font-size: 1.6rem;
                     color: #00162d;
                     line-height: 2.64rem;
-                    letter-spacing: 2px;
+                    letter-spacing: 1px;
                 }
             }
             .picture {
@@ -38,14 +30,13 @@
                 .right {
                     margin-left: 2.5rem;
                     ul {
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         list-style: none;
                         li + li {
-                            margin-top: 1.25rem;
+                            margin-top: 1rem;
                         }
                         li {
                             width: 46.19rem;
-                            height: 5.25rem;
                             padding: 1rem 0.69rem;
                             display: flex;
                             align-items: center;
@@ -59,10 +50,9 @@
                                 margin-left: 1.2rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
-                                font-size: 1.25rem;
+                                font-size: 1.1rem;
                                 color: #012247;
-                                line-height: 2rem;
-                                letter-spacing: 1px;
+                                line-height: 1.5rem;
                             }
                         }
                     }
@@ -83,16 +73,16 @@
                     }
                     .introduce {
                         width: 90%;
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         p {
                             font-family: Microsoft YaHei, sans-serif;
                             font-size: 1rem;
                             color: #012247;
-                            line-height: 2rem;
+                            line-height: 1.6rem;
                             letter-spacing: 1px;
                             span {
                                 font-weight: bold;
-                                font-size: 2rem;
+                                font-size: 1.6rem;
                             }
                         }
                     }
@@ -131,9 +121,10 @@
                     .rate {
                         margin: 1.4rem 0;
                         display: flex;
+                        align-items: center;
                         img {
                             width: 2.63rem;
-                            height: 2.88rem;
+                            height: 2.5rem;
                         }
                         h3 {
                             margin-left: 1rem;
@@ -141,18 +132,17 @@
                             font-weight: bold;
                             font-size: 1.5rem;
                             color: #012247;
-                            line-height: 2.4rem;
+                            line-height: 2rem;
                             letter-spacing: 1px;
                         }
                     }
                     .introduce {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1.1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.6rem;
                         letter-spacing: 1px;
-                        text-align: justify;
                     }
                 }
             }
@@ -192,22 +182,14 @@
             margin: 6rem 0;
             width: 90%;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.88rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
                     margin-top: 0.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.25rem;
+                    font-size: 1.6rem;
                     color: #00162d;
-                    line-height: 2.64rem;
-                    letter-spacing: 2px;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
             }
             .picture {
@@ -223,14 +205,13 @@
                 .right {
                     margin-left: 2.5rem;
                     ul {
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         list-style: none;
                         li + li {
-                            margin-top: 1.25rem;
+                            margin-top: 1rem;
                         }
                         li {
                             width: 43rem;
-                            height: 5.25rem;
                             padding: 1rem 0.69rem;
                             display: flex;
                             align-items: center;
@@ -244,11 +225,10 @@
                                 margin-left: 1.2rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
-                                font-size: 1.25rem;
+                                font-size: 1rem;
                                 color: #012247;
-                                line-height: 2rem;
-                                letter-spacing: 1px;
-                                text-align: justify;
+                                line-height: 1.6rem;
+                                letter-spacing: 0.5px;
                             }
                         }
                     }
@@ -270,22 +250,22 @@
                     }
                     .introduce {
                         width: 90%;
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         p {
                             font-family: Microsoft YaHei, sans-serif;
                             font-size: 1rem;
                             color: #012247;
-                            line-height: 2rem;
+                            line-height: 1.6rem;
                             letter-spacing: 1px;
                             text-align: justify;
                             span {
                                 font-weight: bold;
-                                font-size: 2rem;
+                                font-size: 1.5rem;
                             }
                         }
                     }
                     .link {
-                        margin-top: 2.5rem;
+                        margin-top: 2rem;
                         border: none;
                         width: 18rem;
                         height: 3.25rem;
@@ -317,7 +297,7 @@
                     width: 40rem;
                     margin-left: 3.5rem;
                     .rate {
-                        margin: 1.4rem 0;
+                        margin: 1.2rem 0;
                         display: flex;
                         img {
                             width: 2.63rem;
@@ -329,16 +309,16 @@
                             font-weight: bold;
                             font-size: 1.5rem;
                             color: #012247;
-                            line-height: 2.4rem;
+                            line-height: 2rem;
                             letter-spacing: 1px;
                         }
                     }
                     .introduce {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.6rem;
                         letter-spacing: 1px;
                         text-align: justify;
                     }
@@ -380,22 +360,14 @@
             margin: 5.5rem 0;
             width: 90%;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.7rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
                     margin-top: 0.5rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.2rem;
+                    font-size: 1.6rem;
                     color: #00162d;
-                    line-height: 2.64rem;
-                    letter-spacing: 2px;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
             }
             .picture {
@@ -419,8 +391,7 @@
                         }
                         li {
                             width: 100%;
-                            height: 4rem;
-                            padding: 1rem 0.69rem;
+                            padding: 0.6rem;
                             display: flex;
                             align-items: center;
                             box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
@@ -433,10 +404,10 @@
                                 margin-left: 1.2rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
-                                font-size: 1.1rem;
+                                font-size: 0.9rem;
                                 color: #012247;
-                                line-height: 1.5rem;
-                                letter-spacing: 1px;
+                                line-height: 1.3rem;
+                                letter-spacing: 0.5px;
                             }
                         }
                     }
@@ -463,12 +434,12 @@
                             font-family: Microsoft YaHei, sans-serif;
                             font-size: 1rem;
                             color: #012247;
-                            line-height: 2rem;
+                            line-height: 1.4rem;
                             letter-spacing: 1px;
                             text-align: justify;
                             span {
                                 font-weight: bold;
-                                font-size: 1.9rem;
+                                font-size: 1.5rem;
                             }
                         }
                     }
@@ -484,7 +455,7 @@
                         justify-content: center;
                         font-family: Microsoft YaHei UI, sans-serif;
                         font-weight: 400;
-                        font-size: 1.1rem;
+                        font-size: 1rem;
                         color: #ffffff;
                         line-height: 2rem;
                         letter-spacing: 1px;
@@ -504,8 +475,9 @@
                     width: 38rem;
                     margin-left: 2.5rem;
                     .rate {
-                        margin: 1.4rem 0;
+                        margin: 1rem 0;
                         display: flex;
+                        align-items: center;
                         img {
                             width: 2.63rem;
                             height: 2.88rem;
@@ -516,16 +488,16 @@
                             font-weight: bold;
                             font-size: 1.5rem;
                             color: #012247;
-                            line-height: 2.4rem;
+                            line-height: 2rem;
                             letter-spacing: 1px;
                         }
                     }
                     .introduce {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.6rem;
                         letter-spacing: 1px;
                     }
                 }
@@ -566,21 +538,13 @@
             margin: 5rem 0;
             width: 90%;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.6rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     color: #00162d;
-                    line-height: 2.64rem;
-                    letter-spacing: 2px;
+                    line-height: 2rem;
+                    letter-spacing: 1px;
                 }
             }
             .picture {
@@ -604,24 +568,22 @@
                         }
                         li {
                             width: 100%;
-                            height: 4rem;
-                            padding: 1rem 0.69rem;
+                            padding: 0.5rem;
                             display: flex;
                             align-items: center;
                             box-shadow: 0rem 0rem 0.25rem 0rem rgba(55, 40, 12, 0.2);
                             border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
                             img {
-                                width: 3.25rem;
-                                height: 3.25rem;
+                                width: 3rem;
+                                height: 3rem;
                             }
                             p {
                                 margin-left: 1.2rem;
                                 font-family: Microsoft YaHei, sans-serif;
                                 font-weight: 400;
-                                font-size: 1rem;
+                                font-size: 0.85rem;
                                 color: #012247;
-                                line-height: 1.5rem;
-                                letter-spacing: 1px;
+                                line-height: 1.4rem;
                             }
                         }
                     }
@@ -642,22 +604,22 @@
                     }
                     .introduce {
                         width: 90%;
-                        margin-top: 1.5rem;
+                        margin-top: 1rem;
                         p {
                             font-family: Microsoft YaHei, sans-serif;
-                            font-size: 1rem;
+                            font-size: 0.9rem;
                             color: #012247;
-                            line-height: 2rem;
+                            line-height: 1.3rem;
                             letter-spacing: 1px;
                             text-align: justify;
                             span {
                                 font-weight: bold;
-                                font-size: 1.9rem;
+                                font-size: 1.4rem;
                             }
                         }
                     }
                     .link {
-                        margin-top: 1.5rem;
+                        margin-top: 1rem;
                         border: none;
                         width: 15rem;
                         height: 3rem;
@@ -688,7 +650,7 @@
                 .right {
                     width: 48%;
                     .rate {
-                        margin: 1.4rem 0;
+                        margin: 1rem 0;
                         display: flex;
                         img {
                             width: 2.63rem;
@@ -700,17 +662,17 @@
                             font-weight: bold;
                             font-size: 1.3rem;
                             color: #012247;
-                            line-height: 2.4rem;
+                            line-height: 2rem;
                             letter-spacing: 1px;
                         }
                     }
                     .introduce {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.1rem;
+                        font-size: 1rem;
                         color: #012247;
-                        line-height: 2rem;
-                        letter-spacing: 1px;
+                        line-height: 1.5rem;
+                        letter-spacing: 0.5px;
                         text-align: justify;
                     }
                 }
@@ -751,21 +713,12 @@
             margin: 5rem 0;
             width: 90%;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.3rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 1px;
-                }
                 h2 {
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                     color: #00162d;
-                    line-height: 2rem;
-                    letter-spacing: 1px;
+                    line-height: 1.6rem;
                 }
             }
             .picture {
@@ -830,12 +783,12 @@
                             font-family: Microsoft YaHei, sans-serif;
                             font-size: 0.9rem;
                             color: #012247;
-                            line-height: 1.5rem;
-                            letter-spacing: 1px;
+                            line-height: 1.3rem;
+                            letter-spacing: 0.5px;
                             text-align: justify;
                             span {
                                 font-weight: bold;
-                                font-size: 1.5rem;
+                                font-size: 1.3rem;
                             }
                         }
                     }
@@ -873,6 +826,7 @@
                     .rate {
                         margin: 1rem 0;
                         display: flex;
+                        align-items: center;
                         img {
                             width: 2.4rem;
                             height: 2.6rem;
@@ -893,8 +847,8 @@
                         font-weight: 400;
                         font-size: 0.9rem;
                         color: #012247;
-                        line-height: 1.5rem;
-                        letter-spacing: 1px;
+                        line-height: 1.3rem;
+                        letter-spacing: 0.5px;
                         text-align: justify;
                     }
                 }
@@ -935,24 +889,20 @@
             margin: 4rem 0;
             width: 100%;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.3rem;
-                    color: #012247;
-                    line-height: 2rem;
-                    letter-spacing: 1px;
-                    text-align: center;
-                }
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 h2 {
+                    width: 90%;
                     margin-top: 0.5rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     color: #00162d;
-                    line-height: 2.4rem;
+                    line-height: 2rem;
                     letter-spacing: 1px;
                     text-align: center;
+                    word-break: break-word;
                 }
             }
             .picture {
@@ -967,9 +917,9 @@
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 .right {
-                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     width: 100%;
                     ul {
                         margin-top: 2rem;
@@ -999,7 +949,7 @@
                                 font-weight: 400;
                                 font-size: 1rem;
                                 color: #012247;
-                                line-height: 2rem;
+                                line-height: 1.6rem;
                             }
                         }
                     }
@@ -1028,11 +978,11 @@
                             font-family: Microsoft YaHei, sans-serif;
                             font-size: 1rem;
                             color: #012247;
-                            line-height: 2rem;
+                            line-height: 1.6rem;
                             letter-spacing: 1px;
                             span {
                                 font-weight: bold;
-                                font-size: 1.2rem;
+                                font-size: 1.4rem;
                             }
                         }
                     }
@@ -1066,12 +1016,12 @@
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 .right {
                     width: 90%;
-                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     .rate {
-                        margin: 1.5rem 0;
+                        margin: 1.2rem 0;
                         display: flex;
                         justify-content: center;
                         flex-wrap: wrap;
@@ -1096,7 +1046,7 @@
                         font-weight: 400;
                         font-size: 1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.6rem;
                         letter-spacing: 1px;
                     }
                 }

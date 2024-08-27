@@ -967,9 +967,9 @@
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 .right {
-                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     width: 100%;
                     ul {
                         margin-top: 2rem;
@@ -1066,10 +1066,10 @@
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 .right {
                     width: 90%;
-                    margin-top: 2rem;
+                    margin-bottom: 2rem;
                     .rate {
                         margin: 1.5rem 0;
                         display: flex;

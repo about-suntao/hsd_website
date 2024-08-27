@@ -21,15 +21,15 @@ function Advantage() {
     {
       id: 1,
       icon: iconImg1,
-      value: '成绩单、毕业证、推荐信等认可程度高，申请优势明显',
+      value: 'Highly recognised transcripts, graduation certificates, recommendation letters, etc, with obvious application advantages。',
     }, {
       id: 2,
       icon: iconImg2,
-      value: '国际部学生凭借优质美高学籍与国际生背景，可以顺利申请美、英、澳、加、新及中国香港地区的世界一流大学',
+      value: "International students can apply to the world's leading universities in the US, UK, Australia, Canada, New Zealand and Hong Kong by virtue of their high quality US High School and international student background.",
     }, {
       id: 3,
       icon: iconImg3,
-      value: '可与美国本土高中毕业生同台竞争，且成绩优异者有更高概率申请到美国藤校',
+      value: "Compete with U.S. high school graduates and have a higher probability of applying to U.S. top schools.",
     },
   ]
 
@@ -61,8 +61,7 @@ function Advantage() {
           </div>
           <div className={styles.right}>
             <div className={styles.title}>
-              <p>Advantages of College Admission</p>
-              <h2>美高学籍优势</h2>
+              <h2>Advantages of College Admission</h2>
             </div>
             <ul>
               {
@@ -81,12 +80,11 @@ function Advantage() {
         <div className={styles.cardTwo}>
           <div className={styles.left}>
             <div className={styles.title}>
-              <p>Introduction to Cooperative American High Schools</p>
-              <h2>合作办学美高介绍</h2>
+              <h2>Introduction of Cooperative American High School</h2>
             </div>
             <div className={styles.introduce}>
-              <p><span>Foxcroft Academy</span>（福克斯克罗夫特学院）成立于1823年，摘得美国缅因州TOP10寄宿学校的桂冠。是一所历史悠久、学术氛围浓郁的私立寄宿学校。</p>
-              <p>学校提供多达150门多元化的课程：包括21门AP课程，21门视觉和表演艺术课程，24个科技教育项目，5门外语和10门计算机科学课程等。</p>
+              <p><span>Foxcroft Academy</span>, founded in 1823, is one of the TOP 10 boarding schools in Maine. FOXCroft Academy is a private boarding school with a rich history and a strong academic atmosphere.</p>
+              <p>The school offers a diverse curriculum of up to 150 courses: 21 AP courses, 21 visual and performing arts courses, 24 technology education programmes, 5 foreign languages and 10 computer science courses.</p>
             </div>
             <button className={styles.link} onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>
               <span>Partnership School</span>
@@ -103,15 +101,14 @@ function Advantage() {
           </div>
           <div className={styles.right}>
             <div className={styles.title}>
-              <p>College Admission Outcomes</p>
-              <h2>升学情况</h2>
+              <h2>Progression to Higher Education</h2>
             </div>
             <div className={styles.rate}>
               <Image src={medalImg} alt=''></Image>
-              <h3>大学升学率100%</h3>
+              <h3>100% College-going Rate</h3>
             </div>
             <div className={styles.introduce}>
-              <p>近五年来，Foxcroft Academy的毕业生收到了包括普林斯顿大学、麻省理工大学、加州理工大学、耶鲁大学、西北大学、史密斯学院、埃默里大学、加州大学伯克利、加州大学洛杉矶、南加州大学等在内的多所知名高校录取。</p>
+              <p>In the last five years, Foxcroft Academy graduates have received acceptance to many prestigious colleges and universities, including Princeton, MIT, Caltech, Yale, Northwestern, Smith College, Emory, UC Berkeley, UC Los Angeles, and USC.</p>
             </div>
           </div>
         </div>
