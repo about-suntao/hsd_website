@@ -14,51 +14,51 @@ function Feature() {
   const data = [
     {
       id: 1,
-      title: '特色社团活动',
+      title: 'Speciality Clubs',
       serial: '01',
-      desc: '国际高中社团课程秉承原则：以学生意愿为主导，学校全力提供支持。',
+      desc: "The International Baccalaureate Clubs Programme is based on the principle that students' wishes should be the guiding principle and the school should provide full support.",
       descBottom: '',
       picture: mfImg1,
       tips: []
     }, {
       id: 2,
-      title: '多元公益活动',
+      title: 'Diversified Public Welfare Activities',
       serial: '02',
-      desc: '校园联合社会定期组织各类丰富多彩的公益活动，充实每个周末和假期的业余时间。',
+      desc: 'The campus organises a variety of public service activities on a regular basis to enrich the leisure time of students during weekends and holidays.',
       descBottom: '',
       picture: mfImg2,
       tips: [
-        { id: 1, label: '组织各类志愿者活动，培养学生协作能力和社会责任感' },
-        { id: 2, label: '举办国际组织项目，拓宽国际视野，提升学生领导能力' },
-        { id: 3, label: '引导学生走入社会，促进公共参与，培养学生公益意识' },
+        { id: 1, label: "Organise volunteer activities to cultivate students' collaborative skills and sense of social responsibility " },
+        { id: 2, label: "Organise international organisation projects to broaden students' international horizons and enhance their leadership skills" },
+        { id: 3, label: "Guide students to go out into the community to promote public participation and cultivate students' sense of public welfare。" },
       ]
     }, {
       id: 3,
-      title: '全员导师制',
+      title: 'Whole-staff Mentorship',
       serial: '03',
       desc: '',
       descBottom: '',
       picture: mfImg3,
       tips: [
-        { id: 1, label: '帮助学生分析学科优势、学习能力' },
-        { id: 2, label: '明确升学要求和专业方向' },
-        { id: 3, label: '确定语言提升、背景提升方案匹配' },
-        { id: 4, label: '学生和导师双向选择' },
-        { id: 5, label: '高一完成导师结对，跟踪帮扶三年' },
-        { id: 6, label: '从心情情绪、学科成绩、背景提升、升学指导四方面展开帮扶' },
+        { id: 1, label: 'Help students to analyse their academic strengths and learning abilities' },
+        { id: 2, label: 'Define the requirements for further studies and the direction of study' },
+        { id: 3, label: 'Determine the matching of language enhancement and background enhancement programmes' },
+        { id: 4, label: 'Students and tutors make two-way choices' },
+        { id: 5, label: 'Mentor pairing is completed in the first year of high school, with three years of follow-up ' },
+        { id: 6, label: 'Support in four areas: mood, subject performance, background enhancement, and guidance for further studies.' },
 
       ]
     }, {
       id: 4,
-      title: '学校共育',
+      title: 'Home-School Co-Education',
       serial: '04',
-      desc: '学生月度情况反馈表在每月末发送给家长，包含：',
-      descBottom: '便于家长及时且真实的综合了解学生在校情况',
+      desc: 'Student Monthly Feedback Forms are sent to parents at the end of each month, contains：',
+      descBottom: "Parents' feedback on the student's behaviour and behavioural routines.",
       picture: mfImg4,
       tips: [
-        { id: 1, label: '学科老师的反馈及建议' },
-        { id: 2, label: '班主任对学生在校学业情况和行为常规的综合评价' },
-        { id: 3, label: '生活老师的宿舍生活情况反馈' },
+        { id: 1, label: 'Feedback and suggestions from subject teachers' },
+        { id: 2, label: "Feedback from the class teacher on the student's academic performance and behaviour in school " },
+        { id: 3, label: "Feedback from the living teacher on the student's life in the dormitory" },
       ]
     },
   ]
