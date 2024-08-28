@@ -12,7 +12,7 @@ function Holistict() {
 
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/education/queryAll');
+    const res = await fetchRequest.get('/icon/web/education/queryAll', { language: 'CN' });
     setActive(res.data[0].id)
     setData(res.data)
   }

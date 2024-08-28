@@ -26,13 +26,13 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 .title {
-                    width: 60%;
+                    width: 70%;
                     h2 {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 2.5rem;
+                        font-size: 2.1rem;
                         color: #ffffff;
-                        letter-spacing: 3px;
+                        letter-spacing: 1px;
                         text-align: center;
                     }
                 }
@@ -42,9 +42,10 @@
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1.1rem;
                         color: #ffffff;
                         letter-spacing: 1px;
+                        text-align: justify;
                     }
                 }
                 .btn {
@@ -131,7 +132,7 @@
                         font-weight: bold;
                         font-size: 2rem;
                         color: #ffffff;
-                        letter-spacing: 2px;
+                        letter-spacing: 1px;
                         text-align: center;
                     }
                 }
@@ -141,7 +142,7 @@
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1.1rem;
                         color: #ffffff;
                         letter-spacing: 1px;
                         text-align: justify;
@@ -149,8 +150,8 @@
                 }
                 .btn {
                     margin-top: 3.75rem;
-                    width: 8rem;
-                    height: 8rem;
+                    width: 7rem;
+                    height: 7rem;
                     border-radius: 50%;
                     border: 0.31rem solid #ffffff;
                     display: flex;
@@ -231,7 +232,7 @@
                         font-weight: bold;
                         font-size: 1.7rem;
                         color: #ffffff;
-                        letter-spacing: 2px;
+                        letter-spacing: 1px;
                         text-align: center;
                     }
                 }
@@ -241,7 +242,7 @@
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
                         color: #ffffff;
                         letter-spacing: 1px;
                         text-align: justify;
@@ -249,8 +250,8 @@
                 }
                 .btn {
                     margin-top: 2.5rem;
-                    width: 7rem;
-                    height: 7rem;
+                    width: 6.5rem;
+                    height: 6.5rem;
                     border-radius: 50%;
                     border: 0.31rem solid #ffffff;
                     display: flex;
@@ -259,12 +260,12 @@
                     .triangular {
                         width: 0;
                         height: 0;
-                        border-top: 25px solid transparent;
-                        border-bottom: 25px solid transparent;
-                        border-right: 25px solid transparent;
-                        border-left: 42px solid #e6d7b8;
+                        border-top: 20px solid transparent;
+                        border-bottom: 20px solid transparent;
+                        border-right: 20px solid transparent;
+                        border-left: 34px solid #e6d7b8;
                         position: relative;
-                        left: 21px;
+                        left: 17px;
                     }
                 }
             }
@@ -336,35 +337,34 @@
                     }
                 }
                 .introduce {
-                    margin-top: 1.25rem;
+                    margin-top: 1rem;
                     width: 75%;
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.1rem;
+                        font-size: 1rem;
                         color: #ffffff;
-                        letter-spacing: 1px;
                         text-align: justify;
                     }
                 }
                 .btn {
-                    margin-top: 2.5rem;
+                    margin-top: 2rem;
                     width: 6rem;
                     height: 6rem;
                     border-radius: 50%;
-                    border: 0.31rem solid #ffffff;
+                    border: 0.3rem solid #ffffff;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     .triangular {
                         width: 0;
                         height: 0;
-                        border-top: 20px solid transparent;
-                        border-bottom: 20px solid transparent;
-                        border-right: 20px solid transparent;
-                        border-left: 32px solid #e6d7b8;
+                        border-top: 18px solid transparent;
+                        border-bottom: 18px solid transparent;
+                        border-right: 18px solid transparent;
+                        border-left: 30px solid #e6d7b8;
                         position: relative;
-                        left: 16px;
+                        left: 15px;
                     }
                 }
             }
@@ -410,7 +410,7 @@
                 img {
                     width: 100%;
                     height: auto;
-                    min-height: 20rem;
+                    min-height: 22rem;
                     display: block;
                 }
             }
@@ -430,26 +430,26 @@
                     h2 {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
                         color: #ffffff;
                         letter-spacing: 1px;
                         text-align: center;
                     }
                 }
                 .introduce {
-                    margin-top: 1.25rem;
+                    margin-top: 1rem;
                     width: 90%;
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
                         font-size: 1rem;
                         color: #ffffff;
-                        letter-spacing: 1px;
                         text-align: justify;
+                        line-height: 1.3rem;
                     }
                 }
                 .btn {
-                    margin-top: 2rem;
+                    margin-top: 1.5rem;
                     width: 5rem;
                     height: 5rem;
                     border-radius: 50%;
@@ -463,9 +463,9 @@
                         border-top: 15px solid transparent;
                         border-bottom: 15px solid transparent;
                         border-right: 15px solid transparent;
-                        border-left: 20px solid #e6d7b8;
+                        border-left: 22px solid #e6d7b8;
                         position: relative;
-                        left: 10px;
+                        left: 11px;
                     }
                 }
             }

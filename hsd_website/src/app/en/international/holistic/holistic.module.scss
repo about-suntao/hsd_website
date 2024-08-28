@@ -107,21 +107,12 @@
             width: 90%;
             margin-bottom: 6rem;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.88rem;
-                    color: #012247;
-                    line-height: 3rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
-                    margin-top: 0.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.25rem;
+                    font-size: 2.1rem;
                     color: #00162d;
-                    line-height: 2.64rem;
+                    line-height: 2.6rem;
                     letter-spacing: 2px;
                 }
             }
@@ -159,7 +150,10 @@
                         opacity: 0.5;
                     }
                     .introduce {
-                        display: block;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
                         position: absolute;
                         left: 0;
                         top: 0;
@@ -168,7 +162,6 @@
                         color: white;
                         padding: 0 2rem;
                         .serial {
-                            margin-top: 3rem;
                             font-family: Arial, sans-serif;
                             font-weight: bold;
                             font-size: 4rem;
@@ -177,22 +170,21 @@
                             text-align: center;
                         }
                         .title {
-                            margin-top: 1rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.5rem;
+                            font-size: 1.4rem;
                             color: #ffffff;
-                            line-height: 2.7rem;
+                            line-height: 1.6rem;
                             letter-spacing: 1px;
                             text-align: center;
                         }
                         .desc {
-                            margin-top: 1.5rem;
+                            margin-top: 0.5rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
                             font-size: 1rem;
                             color: #ffffff;
-                            line-height: 1.6rem;
+                            line-height: 1.5rem;
                         }
                     }
                 }
@@ -210,21 +202,12 @@
             width: 90%;
             margin-bottom: 6rem;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.88rem;
-                    color: #012247;
-                    line-height: 3rem;
-                    letter-spacing: 2px;
-                }
                 h2 {
-                    margin-top: 0.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.25rem;
+                    font-size: 2rem;
                     color: #00162d;
-                    line-height: 2.64rem;
+                    line-height: 2.3rem;
                     letter-spacing: 2px;
                 }
             }
@@ -262,7 +245,10 @@
                         opacity: 0.5;
                     }
                     .introduce {
-                        display: block;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
                         position: absolute;
                         left: 0;
                         top: 0;
@@ -271,20 +257,19 @@
                         color: white;
                         padding: 0 0.5rem;
                         .serial {
-                            margin-top: 2rem;
                             font-family: Arial, sans-serif;
                             font-weight: bold;
-                            font-size: 3rem;
+                            font-size: 2rem;
                             color: #ffffff;
-                            line-height: 4rem;
+                            line-height: 2.5rem;
                             text-align: center;
                         }
                         .title {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.5rem;
+                            font-size: 1.2rem;
                             color: #ffffff;
-                            line-height: 2rem;
+                            line-height: 1.5rem;
                             letter-spacing: 1px;
                             text-align: center;
                         }
@@ -292,9 +277,9 @@
                             margin-top: 1rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 1rem;
+                            font-size: 0.9rem;
                             color: #ffffff;
-                            line-height: 1.6rem;
+                            line-height: 1.2rem;
                         }
                     }
                 }
@@ -312,29 +297,19 @@
             width: 85%;
             margin-bottom: 5rem;
             .title {
-                p {
-                    font-family: Abhaya Libre, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.88rem;
-                    color: #012247;
-                    line-height: 3rem;
-                    letter-spacing: 2px;
-                    text-align: center;
-                }
                 h2 {
-                    margin-top: 0.63rem;
                     font-family: Microsoft YaHei, sans-serif;
                     font-weight: bold;
-                    font-size: 2.25rem;
+                    font-size: 1.8rem;
                     color: #00162d;
-                    line-height: 2.64rem;
+                    line-height: 2.5rem;
                     letter-spacing: 2px;
                     text-align: center;
                 }
             }
             ul {
                 width: 100%;
-                margin-top: 2.5rem;
+                margin-top: 2rem;
                 list-style: none;
                 display: flex;
                 justify-content: space-between;
@@ -364,7 +339,10 @@
                         opacity: 0.5;
                     }
                     .introduce {
-                        display: block;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
                         position: absolute;
                         left: 0;
                         top: 0;
@@ -373,21 +351,20 @@
                         color: white;
                         padding: 0 2.81rem;
                         .serial {
-                            margin-top: 5rem;
                             font-family: Arial, sans-serif;
                             font-weight: bold;
                             font-size: 4rem;
                             color: #ffffff;
-                            line-height: 6.4rem;
+                            line-height: 4rem;
                             text-align: center;
                         }
                         .title {
                             margin-top: 1.25rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.5rem;
+                            font-size: 1.4rem;
                             color: #ffffff;
-                            line-height: 2.7rem;
+                            line-height: 1.8rem;
                             letter-spacing: 1px;
                             text-align: center;
                         }
@@ -395,9 +372,9 @@
                             margin-top: 2.5rem;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 1.2rem;
+                            font-size: 1.1rem;
                             color: #ffffff;
-                            line-height: 1.6rem;
+                            line-height: 1.5rem;
                             letter-spacing: 1px;
                         }
                     }

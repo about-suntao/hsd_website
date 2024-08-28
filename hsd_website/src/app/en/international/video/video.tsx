@@ -32,10 +32,10 @@ function Video() {
         </div>
         <div className={styles.content}>
           <div className={styles.title}>
-            <h2>Foxcroft Academy G-11在读中国学生访谈</h2>
+            <h2>Foxcroft Academy G-11 Interviews with Chinese students</h2>
           </div>
           <div className={styles.introduce}>
-            <p>华盛达外语学校国际部运营校长陈昊宇，来到了合作办学的美高Foxcroft Acadamy，采访了在读中国学生，倾听同学在Foxcroft Acadamy的真实经历和遇到的困难...</p>
+            <p>Chen Haoyu, the Operation Principal of International Department of Huashengda Foreign Language School, came to Foxcroft Acadamy, a co-operative school, and interviewed the Chinese students studying in the school to listen to their real experiences and difficulties they encountered in Foxcroft Acadamy...</p>
           </div>
           <div className={styles.btn} onClick={() => openDialog()}>
             <div className={styles.triangular}></div>

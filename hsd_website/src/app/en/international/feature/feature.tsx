@@ -14,7 +14,7 @@ function Feature() {
   const [dataLoaded, setDataLoaded] = useState<boolean>(false); // 新增状态
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/teach/feature/queryAll');
+    const res = await fetchRequest.get('/icon/web/teach/feature/queryAll', { language: 'EN' });
     setData(res.data)
     setActive(res.data[0])
     setDataLoaded(true); // 设置数据已加载
@@ -36,8 +36,7 @@ function Feature() {
       <div className={styles.container}>
         <div className={styles.card}>
           <div className={styles.title}>
-            <p>School Teaching Characteristics</p>
-            <h2>学校教学特色</h2>
+            <h2>School Teaching Characteristics</h2>
           </div>
           <div className={styles.left_content}>
             <div className={styles.type}>
@@ -84,8 +83,7 @@ function Feature() {
         </div>
         <div className={styles.mobile}>
           <div className={styles.title}>
-            <p>School Teaching Characteristics</p>
-            <h2>学校教学特色</h2>
+            <h2>School Teaching Characteristics</h2>
           </div>
           <Swiper
             slidesPerView={1}

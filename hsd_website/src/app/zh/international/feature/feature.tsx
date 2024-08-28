@@ -14,7 +14,7 @@ function Feature() {
   const [dataLoaded, setDataLoaded] = useState<boolean>(false); // 新增状态
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/teach/feature/queryAll');
+    const res = await fetchRequest.get('/icon/web/teach/feature/queryAll', { language: 'CN' });
     setData(res.data)
     setActive(res.data[0])
     setDataLoaded(true); // 设置数据已加载

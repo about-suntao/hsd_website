@@ -12,7 +12,7 @@ function Holistict() {
 
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/education/queryAll');
+    const res = await fetchRequest.get('/icon/web/education/queryAll', { language: 'EN' });
     setActive(res.data[0].id)
     setData(res.data)
   }
@@ -23,8 +23,7 @@ function Holistict() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <p>Holistic Education</p>
-          <h2>全人教育</h2>
+          <h2>Holistic Education</h2>
         </div>
         <ul>
           {
