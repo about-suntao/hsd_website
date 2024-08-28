@@ -17,7 +17,7 @@ function Educational() {
   const nextBtn = useRef(null);
   const [data, setData] = useState([])
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/people/queryAll', { teamId: 3, language: 'CN' });
+    const res = await fetchRequest.get('/icon/web/people/queryAll', { teamId: 3, language: 'EN' });
     setData(res.data)
   }
   useEffect(() => {

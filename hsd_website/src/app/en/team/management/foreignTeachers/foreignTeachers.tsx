@@ -15,7 +15,7 @@ function CarouselBox(props: any) {
   const [dataLoaded, setDataLoaded] = useState<boolean>(false); // 新增状态
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/people/queryAll', { teamId: 2, language: 'CN' });
+    const res = await fetchRequest.get('/icon/web/people/queryAll', { teamId: 2, language: 'EN' });
     setDataLoaded(true); // 设置数据已加载
     setData(res.data)
   }

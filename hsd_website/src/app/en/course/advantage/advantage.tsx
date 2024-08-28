@@ -14,7 +14,7 @@ function Advantage() {
   const [activeTwo, setActiveTwo] = useState()
 
   const getData = async () => {
-    const res = await fetchRequest.get('/icon/web/course/queryAll', { language: 'CN' });
+    const res = await fetchRequest.get('/icon/web/course/queryAll', { language: 'EN' });
     setActive(res.data[0].id)
     setActiveTwo(res.data[3].id)
     setData(res.data)
@@ -26,8 +26,7 @@ function Advantage() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>课程类型</h2>
-          <p>Type of Course</p>
+          <h2>Type of Course</h2>
         </div>
         <div className={styles.content_top}>
           <div className={styles.picture}>
