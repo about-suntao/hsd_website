@@ -148,8 +148,7 @@ function ForeignTeachers() {
     <div className={styles.teacher}>
       <div className={styles.content}>
         <div className={styles.title}>
-          <h2>外方导师</h2>
-          <h3>Foreign Tutor</h3>
+          <h2>Foreign Tutor</h2>
         </div>
         <CarouselBox cardRenderNum={cardNum}></CarouselBox>
       </div>

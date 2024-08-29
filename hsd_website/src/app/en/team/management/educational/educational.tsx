@@ -29,8 +29,7 @@ function Educational() {
       <div className={styles.container}>
         <div className={styles.titleBox}>
           <div className={styles.title}>
-            <h2>教研团队</h2>
-            <p>Teaching & Research Team</p>
+            <h2>Teaching & Research Team</h2>
           </div>
           <div className={styles.btnGroup}>
             <button ref={prevBtn}><LeftOutlined /></button>
@@ -64,7 +63,6 @@ function Educational() {
                         <h3>{item.name}</h3>
                         <p>{item.position}</p>
                       </div>
-                      <p className={styles.introduce}>{item.intro}</p>
                       <ul className={styles.honor}>
                         {
                           item.honors.map((i: any) => {
