@@ -1,0 +1,160 @@
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            width: 80rem;
+            margin-bottom: 6.25rem;
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-left: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 2.5rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .tips {
+                margin-top: 1.25rem;
+                p {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #012247;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: justified;
+                }
+            }
+            .picture {
+                margin-top: 1.25rem;
+                display: flex;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            width: 90%;
+            margin-bottom: 6rem;
+            .title {
+                display: flex;
+                align-items: center;
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                }
+                p {
+                    margin-left: 1.56rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.88rem;
+                    color: #012247;
+                    line-height: 2.5rem;
+                    letter-spacing: 2px;
+                }
+            }
+            .tips {
+                margin-top: 1.25rem;
+                p {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #012247;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: justified;
+                }
+            }
+            .picture {
+                margin-top: 1.25rem;
+                display: flex;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .container {
+            width: 96%;
+            margin-bottom: 6rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #00162d;
+                    line-height: 2.4rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 0.63rem;
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #012247;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .tips {
+                margin-top: 2rem;
+                p {
+                    font-family: Microsoft YaHei, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    color: #012247;
+                    line-height: 2.25rem;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+            .picture {
+                margin-top: 2rem;
+                display: flex;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

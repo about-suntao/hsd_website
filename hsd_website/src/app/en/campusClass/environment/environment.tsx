@@ -26,7 +26,7 @@ function Environment() {
 
 
   const getType = async () => {
-    const res = await fetchRequest.get('/icon/web/environment/type/queryByPage', { language: 'EN' });
+    const res = await fetchRequest.get('/icon/web/environment/type/queryByPage');
     getPicture(res.data[0].id)
     setActiveType(res.data[0].id)
     setTypeList(res.data)
@@ -77,7 +77,7 @@ function Environment() {
                       className={`${activeType === item.id ? styles.activeType : ''}`}
                       onClick={() => changeType(item.id)}
                     >
-                      {item.name}
+                      {item.englishName}
                     </li>
                   )
                 })
@@ -107,7 +107,7 @@ function Environment() {
                         </div>
                         <div className={styles.card_title}>
                           <div className={styles.title_shadow}>
-                            {item.name}
+                            {item.englishName}
                           </div>
                         </div>
                       </SwiperSlide>

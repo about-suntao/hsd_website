@@ -12,6 +12,7 @@
                 align-items: center;
                 .title_left {
                     display: flex;
+                    align-items: center;
                     .icon {
                         img {
                             width: 3.25rem;
@@ -69,10 +70,10 @@
                             justify-content: center;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.5rem;
+                            font-size: 1rem;
                             color: #173350;
-                            line-height: 1.76rem;
-                            letter-spacing: 1px;
+                            line-height: 1.2rem;
+                            letter-spacing: 0.5px;
                         }
                         .activeType {
                             color: white;
@@ -138,6 +139,7 @@
                 align-items: center;
                 .title_left {
                     display: flex;
+                    align-items: center;
                     .icon {
                         img {
                             width: 3.25rem;
@@ -149,20 +151,11 @@
                         h2 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 2.25rem;
+                            font-size: 2rem;
                             color: #051631;
                             line-height: 2.64rem;
                             letter-spacing: 2px;
                             text-align: left;
-                        }
-                        p {
-                            margin-top: 0.63rem;
-                            font-family: Abhaya Libre, sans-serif;
-                            font-weight: 400;
-                            font-size: 2rem;
-                            color: #051631;
-                            line-height: 3.2rem;
-                            letter-spacing: 2px;
                         }
                     }
                 }
@@ -195,10 +188,10 @@
                             justify-content: center;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.5rem;
+                            font-size: 1rem;
                             color: #173350;
-                            line-height: 1.76rem;
-                            letter-spacing: 1px;
+                            line-height: 1.2rem;
+                            letter-spacing: 0.5px;
                         }
                         .activeType {
                             color: white;
@@ -264,6 +257,7 @@
                 align-items: center;
                 .title_left {
                     display: flex;
+                    align-items: center;
                     .icon {
                         img {
                             width: 3.25rem;
@@ -275,20 +269,11 @@
                         h2 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 2.1rem;
+                            font-size: 2rem;
                             color: #051631;
                             line-height: 2.64rem;
                             letter-spacing: 2px;
                             text-align: left;
-                        }
-                        p {
-                            margin-top: 0.3rem;
-                            font-family: Abhaya Libre, sans-serif;
-                            font-weight: 400;
-                            font-size: 1.8rem;
-                            color: #051631;
-                            line-height: 3.2rem;
-                            letter-spacing: 2px;
                         }
                     }
                 }
@@ -321,10 +306,10 @@
                             justify-content: center;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.3rem;
+                            font-size: 0.9rem;
                             color: #173350;
-                            line-height: 1.76rem;
-                            letter-spacing: 1px;
+                            line-height: 1.5rem;
+                            letter-spacing: 0.5px;
                         }
                         .activeType {
                             color: white;
@@ -402,19 +387,11 @@
                         h2 {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 2rem;
+                            font-size: 1.5rem;
                             color: #051631;
-                            line-height: 2.64rem;
-                            letter-spacing: 2px;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
                             text-align: left;
-                        }
-                        p {
-                            font-family: Abhaya Libre, sans-serif;
-                            font-weight: 400;
-                            font-size: 1.2rem;
-                            color: #051631;
-                            line-height: 2.5rem;
-                            letter-spacing: 2px;
                         }
                     }
                 }
@@ -443,10 +420,11 @@
                             justify-content: center;
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1rem;
+                            font-size: 0.9rem;
                             color: #173350;
-                            line-height: 1.76rem;
+                            line-height: 1.2rem;
                             letter-spacing: 1px;
+                            text-align: center;
                         }
                         .activeType {
                             color: white;
