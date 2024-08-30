@@ -19,7 +19,7 @@ function Data() {
     }, {
       id: 4,
       num: '100%',
-      label: 'QS top 80 students in the world',
+      label: 'Enrolment Rate to QS80',
     },
   ]
   return (
