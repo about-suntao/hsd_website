@@ -26,6 +26,8 @@ function Division() {
     },
   ]
 
+  const str = `The International Department is a part of Huashengda Foreign Language School. It implements advanced international quality education concepts, advocates the education model of "foreign language characteristics, compatibility of arts and sciences, and international co-operation", and encourages students to achieve all-round development by restoring the concepts of British and American local education and realising localised teaching. The International Department offers IGCSE, A-Level, AP, IELTS, TOEFL, International Competitions, EPQ and PBL courses for students who want to enter the top 80 QS ranked colleges and universities, aiming to provide students with a good foundation in language, comprehensively improve their academic level, enrich their backgrounds and help them enter their dream schools!`
+
   return (
     <div className={styles.pages}>
       <div className={styles.container}>
@@ -35,7 +37,7 @@ function Division() {
         <div className={styles.right}>
           <h2>HSD Foreign Language School International Division</h2>
           <p className={styles.article}>
-            The International Department is a part of Huashengda Foreign Language School. It implements advanced international quality education concepts, advocates the education model of "foreign language characteristics, compatibility of arts and sciences, and international co-operation", and encourages students to achieve all-round development by restoring the concepts of British and American local education and realising localised teaching. The International Department offers IGCSE, A-Level, AP, IELTS, TOEFL, International Competitions, EPQ and PBL courses for students who want to enter the top 80 QS ranked colleges and universities, aiming to provide students with a good foundation in language, comprehensively improve their academic level, enrich their backgrounds and help them enter their dream schools!
+            {str}
           </p>
           <ul>
             {
