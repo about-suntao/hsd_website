@@ -31,7 +31,7 @@ async function News() {
                       <p>{item.createTime}</p>
                     </div>
                   </div>
-                  <Link href={`/news/${item.id}`}>
+                  <Link href={`/en/news/${item.id}`}>
                     <div className={styles.card}>
                       <div className={styles.card_title}>
                         <p>{item.title}</p>

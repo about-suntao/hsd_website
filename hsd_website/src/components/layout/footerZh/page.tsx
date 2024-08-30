@@ -78,11 +78,11 @@ function Footer() {
         </div>
         <div className={styles.situation}>
           <h2>网站概况</h2>
-          <p><Link href="/school/profile">学校概况</Link></p>
-          <p><Link href="/course">课程安排</Link></p>
-          <p><Link href="/international">合作办学</Link></p>
-          <p><Link href="/team/management">教研团队</Link></p>
-          <p><Link href="/campusClass">校园风采</Link></p>
+          <p><Link href="/zh/school/profile">学校概况</Link></p>
+          <p><Link href="/zh/course">课程安排</Link></p>
+          <p><Link href="/zh/international">合作办学</Link></p>
+          <p><Link href="/zh/team/management">教研团队</Link></p>
+          <p><Link href="/zh/campusClass">校园风采</Link></p>
           <h2 className={styles.link}>合作办学</h2>
           <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网</p>
           <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>福克斯克罗夫特学院官网</p>
@@ -92,7 +92,7 @@ function Footer() {
           {
             newsData.map((item: any) => {
               return (
-                <Link href={`/news/${item.id}`} key={item.id}>
+                <Link href={`/zh/news/${item.id}`} key={item.id}>
                   <div className={styles.card} >
                     <div className={styles.card_left}>
                       <Image src={item.picture} alt='' width={400} height={400} priority></Image>

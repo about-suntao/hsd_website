@@ -92,7 +92,7 @@ function Footer() {
           {
             newsData.map((item: any) => {
               return (
-                <Link href={`/news/${item.id}`} key={item.id}>
+                <Link href={`/en/news/${item.id}`} key={item.id}>
                   <div className={styles.card} >
                     <div className={styles.card_left}>
                       <Image src={item.picture} alt='' width={400} height={400} priority></Image>
