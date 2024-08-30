@@ -22,19 +22,9 @@
                         letter-spacing: 2px;
                         text-align: justified;
                     }
-                    p {
-                        margin-left: 1.56rem;
-                        font-family: Abhaya Libre, sans-serif;
-                        font-weight: 400;
-                        font-size: 1.88rem;
-                        color: #bcad75;
-                        line-height: 3rem;
-                        letter-spacing: 2px;
-                        text-align: justified;
-                    }
                 }
                 .rules {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                     display: flex;
                     align-items: center;
                     img {
@@ -53,13 +43,16 @@
                     }
                 }
                 .list {
-                    margin-top: 2rem;
+                    margin-top: 1rem;
+                    p + p {
+                        margin-top: 0.5rem;
+                    }
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.25rem;
+                        font-size: 1.1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.5rem;
                         letter-spacing: 1px;
                         text-align: justified;
                         span {
@@ -70,7 +63,8 @@
                 }
             }
             .picture {
-                width: 36%;
+                margin-left: 4rem;
+                min-width: 36%;
                 img {
                     width: 100%;
                     height: auto;
@@ -86,37 +80,28 @@
         justify-content: center;
         align-items: center;
         .container {
-            margin: 6.25rem 0;
+            margin: 6rem 0;
             width: 90%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .grow {
+                width: 55%;
                 .title {
-                    margin-top: 3rem;
                     display: flex;
                     align-items: center;
                     h2 {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 2.25rem;
+                        font-size: 2rem;
                         color: #00162d;
-                        line-height: 2.64rem;
-                        letter-spacing: 2px;
-                        text-align: justified;
-                    }
-                    p {
-                        margin-left: 1.56rem;
-                        font-family: Abhaya Libre, sans-serif;
-                        font-weight: 400;
-                        font-size: 1.88rem;
-                        color: #bcad75;
-                        line-height: 3rem;
-                        letter-spacing: 2px;
+                        line-height: 2.5rem;
+                        letter-spacing: 1px;
                         text-align: justified;
                     }
                 }
                 .rules {
-                    margin-top: 3rem;
+                    margin-top: 2rem;
                     display: flex;
                     align-items: center;
                     img {
@@ -135,13 +120,16 @@
                     }
                 }
                 .list {
-                    margin-top: 2rem;
+                    margin-top: 1rem;
+                    p + p {
+                        margin-top: 0.5rem;
+                    }
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.2rem;
+                        font-size: 1rem;
                         color: #012247;
-                        line-height: 2.25rem;
+                        line-height: 1.5rem;
                         letter-spacing: 1px;
                         text-align: justified;
                         span {
@@ -168,11 +156,13 @@
         justify-content: center;
         align-items: center;
         .container {
-            margin: 6.25rem 0;
+            margin: 5.5rem 0;
             width: 90%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .grow {
+                width: 58%;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -183,20 +173,10 @@
                     h2 {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 2.25rem;
+                        font-size: 2rem;
                         color: #00162d;
-                        line-height: 2.64rem;
-                        letter-spacing: 2px;
-                        text-align: justified;
-                    }
-                    p {
-                        margin-left: 1.56rem;
-                        font-family: Abhaya Libre, sans-serif;
-                        font-weight: 400;
-                        font-size: 1.88rem;
-                        color: #bcad75;
-                        line-height: 3rem;
-                        letter-spacing: 2px;
+                        line-height: 2.5rem;
+                        letter-spacing: 1px;
                         text-align: justified;
                     }
                 }
@@ -220,13 +200,16 @@
                     }
                 }
                 .list {
-                    margin-top: 2rem;
+                    margin-top: 1em;
+                    p + p {
+                        margin-top: 0.5rem;
+                    }
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
-                        font-size: 1.05rem;
+                        font-size: 1rem;
                         color: #012247;
-                        line-height: 2rem;
+                        line-height: 1.5rem;
                         letter-spacing: 1px;
                         text-align: justified;
                         span {
@@ -253,11 +236,13 @@
         justify-content: center;
         align-items: center;
         .container {
-            margin: 6.25rem 0;
+            margin: 5rem 0;
             width: 90%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .grow {
+                width: 55%;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -271,17 +256,7 @@
                         font-size: 2.1rem;
                         color: #00162d;
                         line-height: 2.64rem;
-                        letter-spacing: 2px;
-                        text-align: justified;
-                    }
-                    p {
-                        margin-left: 1rem;
-                        font-family: Abhaya Libre, sans-serif;
-                        font-weight: 400;
-                        font-size: 1.5rem;
-                        color: #bcad75;
-                        line-height: 3rem;
-                        letter-spacing: 2px;
+                        letter-spacing: 1px;
                         text-align: justified;
                     }
                 }
@@ -306,14 +281,16 @@
                 }
                 .list {
                     margin-top: 1rem;
+                    p + p {
+                        margin-top: 0.5rem;
+                    }
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
                         font-size: 1rem;
                         color: #012247;
-                        line-height: 2rem;
+                        line-height: 1.4rem;
                         letter-spacing: 1px;
-                        text-align: justified;
                         span {
                             color: #9d363b;
                             font-weight: bold;
@@ -322,7 +299,7 @@
                 }
             }
             .picture {
-                width: 45%;
+                width: 40%;
                 img {
                     width: 100%;
                     height: auto;
@@ -346,19 +323,10 @@
                     h2 {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: bold;
-                        font-size: 2.25rem;
-                        color: #00162d;
-                        line-height: 2.64rem;
-                        letter-spacing: 2px;
-                        text-align: center;
-                    }
-                    p {
-                        font-family: Abhaya Libre, sans-serif;
-                        font-weight: 400;
                         font-size: 1.5rem;
-                        color: #bcad75;
-                        line-height: 3rem;
-                        letter-spacing: 2px;
+                        color: #00162d;
+                        line-height: 2rem;
+                        letter-spacing: 1px;
                         text-align: center;
                     }
                 }
@@ -377,19 +345,22 @@
                         font-weight: bold;
                         font-size: 1.4rem;
                         color: #012247;
-                        line-height: 2.4rem;
+                        line-height: 2rem;
                         letter-spacing: 1px;
                         text-align: justified;
                     }
                 }
                 .list {
                     margin-top: 1rem;
+                    p + p {
+                        margin-top: 0.5rem;
+                    }
                     p {
                         font-family: Microsoft YaHei, sans-serif;
                         font-weight: 400;
                         font-size: 1rem;
                         color: #012247;
-                        line-height: 2rem;
+                        line-height: 1.5rem;
                         letter-spacing: 1px;
                         text-align: justified;
                         span {

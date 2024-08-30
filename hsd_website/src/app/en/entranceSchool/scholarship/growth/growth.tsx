@@ -11,21 +11,20 @@ function Growth() {
       <div className={styles.container}>
         <div className={styles.grow}>
           <div className={styles.title}>
-            <h2>成长奖学金</h2>
-            <p>Growth Scholarship</p>
+            <h2>Growth Scholarship</h2>
           </div>
           <div className={styles.rules}>
-            <Image src={glodImg} alt='评比规则'></Image>
-            <p>评比规则</p>
+            <Image src={glodImg} alt='Rating rule'></Image>
+            <p>Rating rule</p>
           </div>
           <div className={styles.list}>
-            <p>学期末GPA进入年级排名前10%，下学期初奖励成长奖一等奖学金<span>10,000元/人</span></p>
-            <p>学期末GPA进入年级排名前20%，下学期初奖励成长奖二等奖学金<span>5,000元/人</span></p>
-            <p>学期末GPA进入年级排名前30%，下学期初奖励成长奖三等奖学金<span>3,000元/人</span></p>
+            <p>GPA at the end of the semester into the top 10% of the grade ranking, the student will be awarded a First prize scholarship of <span>RMB 10,000</span> at the beginning of the next semester.</p>
+            <p>GPA at the end of the semester is in the top 20% of the class, the student will be awarded a Second prize scholarship of <span>RMB 5,000</span> at the beginning of the next semester.</p>
+            <p>GPA at the end of the semester is ranked in the top 30% of the class, the student will be awarded a Third prize scholarship of <span>RMB 3,000</span> at the beginning of the next semester.</p>
           </div>
         </div>
         <div className={styles.picture}>
-          <Image src={GrowImg} alt='成长奖学金'></Image>
+          <Image src={GrowImg} alt='Growth scholarship'></Image>
         </div>
       </div>
     </div>

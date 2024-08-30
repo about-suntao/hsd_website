@@ -2,18 +2,17 @@ import React from 'react'
 import styles from './table.module.scss'
 import Image from 'next/image'
 
-import tableImg from '../../../../../../public/img/apply/scholarship.webp'
+import tableImg from '../../../../../../public/img/apply/scholarshipEn.webp'
 
 function Table() {
   return (
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>升学奖学金</h2>
-          <p>Scholarship for Further Education</p>
+          <h2>Scholarship for Further Education</h2>
         </div>
         <div className={styles.tips}>
-          <p>以下奖学金用于奖励毕业升学成果突出的申请人：</p>
+          <p>The following scholarships are awarded to applicants with outstanding graduation progression results：</p>
         </div>
         <div className={styles.picture}>
           <Image src={tableImg} alt=''></Image>

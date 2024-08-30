@@ -37,12 +37,12 @@ function NewsList({ articleId }: { articleId?: number }) {
 
   const handleView = (id: number) => {
     if (id) {
-      router.push(`/news/${id}`)
+      router.push(`/en/news/${id}`)
     }
   }
 
   const backList = () => {
-    router.push(`/news`)
+    router.push(`/en/news`)
   }
 
   useEffect(() => {
@@ -77,7 +77,7 @@ function NewsList({ articleId }: { articleId?: number }) {
               <div>
                 <div className={styles.title}>
                   <div className={styles.title_name}>
-                    <p>搜索</p>
+                    <p>Search</p>
                   </div>
                   <hr />
                 </div>
@@ -89,7 +89,7 @@ function NewsList({ articleId }: { articleId?: number }) {
           }
           <div className={styles.title}>
             <div className={styles.title_name}>
-              <p>其他热门文章</p>
+              <p>Popular Articles</p>
             </div>
             <hr />
           </div>

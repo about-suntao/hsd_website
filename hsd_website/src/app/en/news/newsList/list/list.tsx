@@ -4,7 +4,7 @@ import Image from 'next/image';
 import fetchRequest from '@/utils/fetchRequest';
 import { Pagination, ConfigProvider } from "antd";
 import type { PaginationProps } from 'antd';
-import zhCN from 'antd/locale/zh_CN';
+import en_GB from 'antd/locale/en_GB';
 
 import timeImg from '../../../../../../public/img/news/time.png'
 
@@ -89,12 +89,12 @@ function ListComponent({ inputValue, handleView }: any) {
             }
           </ul>
           : <div className={styles.noData}>
-            <p>暂无与 <span>({inputValue})</span>相关的数据</p>
+            <p>No data available for <span>({inputValue})</span></p>
           </div>
       }
 
       <div className={styles.pagination}>
-        <ConfigProvider locale={zhCN}>
+        <ConfigProvider locale={en_GB}>
           <Pagination
             showQuickJumper
             showSizeChanger
@@ -102,7 +102,7 @@ function ListComponent({ inputValue, handleView }: any) {
             current={searchParams.pageNum}
             defaultCurrent={searchParams.pageNum}
             pageSize={searchParams.pageSize}
-            showTotal={(total) => `总共 ${total} 条`}
+            showTotal={(total) => `${total} In Total`}
             onChange={onChange}
           />
         </ConfigProvider>
