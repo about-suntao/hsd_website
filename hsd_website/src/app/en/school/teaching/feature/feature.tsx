@@ -53,8 +53,8 @@ function Feature() {
       picture: tfImg4,
       tips: [
         { id: 1, label: 'Arranging no less than 10 Chinese and foreign English lessons per week' },
-        { id: 2, label: 'Provide public interest IELTS / TOEFL classes every Sunday afternoon' },
-        { id: 3, label: 'Organise English Debate Club' },
+        { id: 2, label: 'Providing public interest IELTS / TOEFL classes every Sunday afternoon' },
+        { id: 3, label: 'Organizing English Debate Clubs' },
       ]
     }, {
       id: 5,
@@ -74,8 +74,8 @@ function Feature() {
       desc: "Scientific assessment of academic performance, scientifically customised assessment system, full-time counselling to improve students' performance.",
       picture: tfImg6,
       tips: [
-        { id: 1, label: 'Organise monthly, mid-term and final exams to comprehensively assess academic performance.' },
-        { id: 2, label: 'Compare the results with the requirements of target universities and provide suggestions for strengthening the subjects.' },
+        { id: 1, label: 'Organizing monthly, mid-term and final exams to comprehensively assess academic performance.' },
+        { id: 2, label: 'Comparing the results with the requirements of target universities and provide suggestions for strengthening the subjects.' },
         { id: 3, label: 'Strict assessment of each assignment to ensure quality teaching and learning' },
       ]
     },

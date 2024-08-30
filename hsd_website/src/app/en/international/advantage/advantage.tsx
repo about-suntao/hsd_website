@@ -25,11 +25,11 @@ function Advantage() {
     }, {
       id: 2,
       icon: iconImg2,
-      value: "International students can apply to the world's leading universities in the US, UK, Australia, Canada, New Zealand and Hong Kong by virtue of their high quality US High School and international student background.",
+      value: "International students can apply to the world's leading universities in the US, UK, Australia, Canada, New Zealand and Hong Kong by virtue of their high quality US High School and international education background.",
     }, {
       id: 3,
       icon: iconImg3,
-      value: "Compete with U.S. high school graduates and have a higher probability of applying to U.S. top schools.",
+      value: "Have better chances of getting admitted to",
     },
   ]
 
