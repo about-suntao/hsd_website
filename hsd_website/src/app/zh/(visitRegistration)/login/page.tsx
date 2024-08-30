@@ -10,8 +10,8 @@ import Cookies from 'js-cookie';
 
 let timeChange: any;
 
-import phoneIcon from '../../../../public/img/visit/phone.webp'
-import keyIcon from '../../../../public/img/visit/key.webp'
+import phoneIcon from '../../../../../public/img/visit/phone.webp'
+import keyIcon from '../../../../../public/img/visit/key.webp'
 
 function Login() {
 
@@ -59,7 +59,7 @@ function Login() {
       messageApi.success('登陆成功');
       if (formRef.current) {
         formRef.current?.resetFields()
-        router.push('/dashboard')
+        router.push('/zh/dashboard')
       }
     } else {
       message.error(response.message)

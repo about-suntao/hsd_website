@@ -17,7 +17,7 @@ function Success() {
         <p>在-<span>记录查询</span> 中可以查看预约记录</p>
         <p>参观时请携带身份证件</p>
         <div className={styles.btn}>
-          <Button type='primary' onClick={() => router.push('/search')}>查看预约信息</Button>
+          <Button type='primary' onClick={() => router.push('/zh/search')}>查看预约信息</Button>
         </div>
       </div>
     </div>

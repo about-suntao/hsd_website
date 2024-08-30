@@ -198,7 +198,7 @@ function Search() {
   return (
     <div className={styles.pages}>
       <div className={styles.container}>
-        <div className={styles.back} onClick={() => router.push('./dashboard')}>
+        <div className={styles.back} onClick={() => router.push('/zh/dashboard')}>
           <DoubleLeftOutlined /> 返回
         </div>
         <div className={styles.project}>

@@ -14,7 +14,7 @@ function Success() {
         <p>预约成功，请保持手机通讯畅通，招生老师会和您联系。</p>
         <p>在-<span>记录查询</span> 中可以查看报名记录</p>
         <div className={styles.btn}>
-          <Button type='primary' onClick={() => router.push('/search')}>查看报名信息</Button>
+          <Button type='primary' onClick={() => router.push('/zh/search')}>查看报名信息</Button>
         </div>
       </div>
     </div>

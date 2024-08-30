@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import styles from './page.module.scss'
 import Image from 'next/image'
-import schoolImg from '../../../../public/img/visit/dashboard.webp'
-import setImg from '../../../../public/img/visit/set.webp'
+import schoolImg from '../../../../../public/img/visit/dashboard.webp'
+import setImg from '../../../../../public/img/visit/set.webp'
 import { useRouter } from 'next/navigation'
 import { decryptData } from '@/utils/crypto'
 import { Dropdown, Space } from 'antd';
@@ -21,15 +21,15 @@ function Dashboard() {
     {
       id: 1,
       name: '预约参观',
-      url: '/visit',
+      url: '/zh/visit',
     }, {
       id: 2,
       name: '入学报名',
-      url: '/selectProject',
+      url: '/zh/selectProject',
     }, {
       id: 3,
       name: '历史预约',
-      url: '/search',
+      url: '/zh/search',
     },
   ]
 
@@ -45,7 +45,7 @@ function Dashboard() {
     {
       key: '1',
       label: (
-        <p onClick={() => router.replace('/login')}>退出登录</p>
+        <p onClick={() => router.replace('/zh/login')}>退出登录</p>
       ),
     },
   ];
