@@ -75,7 +75,10 @@ function CarouselBox(props: any) {
                     <span>{item.intro}</span>
                   </div>
                   <div className={styles.serial}>
-                    <Image src={item.icon} width={400} height={400} priority alt=''></Image>
+                    {
+                      item?.icon &&
+                      <Image src={item?.icon} width={400} height={400} priority alt=''></Image>
+                    }
                   </div>
                 </div>
               </div>
@@ -105,7 +108,10 @@ function CarouselBox(props: any) {
                   <div className={styles.d_t_r}>
                     <Image src={quotationMark} alt=''></Image>
                     <hr />
-                    <Image src={item.icon} width={400} height={400} alt=''></Image>
+                    {
+                      item?.icon &&
+                      <Image src={item?.icon} width={400} height={400} priority alt=''></Image>
+                    }
                   </div>
                 </div>
                 <div className={styles.details_bottom}>

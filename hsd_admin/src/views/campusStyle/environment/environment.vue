@@ -49,6 +49,7 @@
             >
                 <el-table-column type="selection" width="55" />
                 <el-table-column prop="name" label="名称" />
+                <el-table-column prop="englishName" label="Name" />
                 <el-table-column prop="typeId" label="类型">
                     <template #default="scoped">
                         <p>
@@ -56,7 +57,6 @@
                         </p>
                     </template>
                 </el-table-column>
-
                 <el-table-column prop="picture" label="图片">
                     <template #default="scoped">
                         <el-image class="Img" :src="scoped.row.picture"></el-image>
@@ -85,6 +85,9 @@
                 <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="70">
                     <el-form-item label="名称:" prop="name">
                         <el-input v-model="userForm.name" placeholder="请输入名称" clearable />
+                    </el-form-item>
+                    <el-form-item label="Name:" prop="englishName">
+                        <el-input v-model="userForm.englishName" placeholder="请输入名称" clearable />
                     </el-form-item>
                     <el-form-item label="类型:" prop="typeId">
                         <el-select v-model="userForm.typeId" placeholder="请选择类型" clearable>
@@ -132,6 +135,7 @@
     const userForm = ref({
         id: null,
         name: '',
+        englishName: '',
         typeId: null,
         picture: null,
     })
@@ -190,6 +194,7 @@
         userForm.value = {
             id: null,
             name: '',
+            englishName: '',
             typeId: null,
             picture: null,
         }
@@ -202,6 +207,7 @@
         userForm.value = {
             id: data.id,
             name: data.name,
+            englishName: data.englishName,
             typeId: data.typeId,
             picture: data.picture,
         }

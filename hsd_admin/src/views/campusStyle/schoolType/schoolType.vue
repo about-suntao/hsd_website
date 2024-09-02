@@ -38,6 +38,7 @@
             >
                 <el-table-column type="selection" width="55" />
                 <el-table-column prop="name" label="类型" />
+                <el-table-column prop="englishName" label="Type" />
                 <el-table-column prop="createTime" label="创建时间" />
                 <el-table-column label="操作" width="200">
                     <template #default="scope">
@@ -61,6 +62,9 @@
                 <el-form :model="userForm" ref="ruleFormRef" :rules="rules" label-width="70">
                     <el-form-item label="类型:" prop="name">
                         <el-input v-model="userForm.name" placeholder="请输入名称" clearable />
+                    </el-form-item>
+                    <el-form-item label="类型:" prop="englishName">
+                        <el-input v-model="userForm.englishName" placeholder="请输入名称" clearable />
                     </el-form-item>
                 </el-form>
             </div>
@@ -94,6 +98,7 @@
     const userForm = ref({
         id: null,
         name: '',
+        englishName: '',
     })
 
     const ruleFormRef = ref<any>(null)
@@ -134,6 +139,7 @@
         userForm.value = {
             id: null,
             name: '',
+            englishName: '',
         }
         ruleFormRef.value?.clearValidate()
         PopupStatus.value = 'add'
@@ -144,6 +150,7 @@
         userForm.value = {
             id: data.id,
             name: data.name,
+            englishName: data.englishName,
         }
         PopupStatus.value = 'edit'
         Popup.value = true

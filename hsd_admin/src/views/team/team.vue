@@ -48,6 +48,7 @@
             >
                 <el-table-column type="selection" width="55" />
                 <el-table-column prop="name" label="姓名" />
+                <el-table-column prop="enName" label="Name" />
                 <el-table-column prop="teamName" label="团队类型" />
                 <el-table-column prop="photograph" label="照片">
                     <template #default="scoped">
@@ -60,7 +61,9 @@
                     </template>
                 </el-table-column>
                 <el-table-column prop="position" label="职位" />
+                <el-table-column prop="enPosition" label="Position" />
                 <el-table-column prop="intro" label="描述" show-overflow-tooltip />
+                <el-table-column prop="enIntro" label="Introduce" show-overflow-tooltip />
                 <el-table-column label="操作" width="200">
                     <template #default="scope">
                         <el-button type="primary" size="small" @click="openEditPopup(scope.row)">编辑</el-button>
@@ -84,8 +87,14 @@
                     <el-form-item label="姓名:" prop="name">
                         <el-input v-model="userForm.name" placeholder="请输入姓名" />
                     </el-form-item>
+                    <el-form-item label="Name:" prop="enName">
+                        <el-input v-model="userForm.enName" placeholder="请输入姓名" />
+                    </el-form-item>
                     <el-form-item label="职位:" prop="position">
                         <el-input v-model.number="userForm.position" placeholder="请输入职位" />
+                    </el-form-item>
+                    <el-form-item label="Position:" prop="enPosition">
+                        <el-input v-model.number="userForm.enPosition" placeholder="请输入职位" />
                     </el-form-item>
                     <el-form-item label="团队类型:" prop="teamId">
                         <el-select v-model="userForm.teamId" placeholder="请选择类型" clearable>
@@ -105,9 +114,26 @@
                             </el-col>
                         </el-row>
                     </el-form-item>
+                    <el-form-item label="honor:">
+                        <el-row v-for="(item, index) in honorEnArr" :key="item.id">
+                            <el-col :span="20">
+                                <el-form-item>
+                                    <el-input v-model="item.name" placeholder="请输入" />
+                                </el-form-item>
+                            </el-col>
+                        </el-row>
+                    </el-form-item>
                     <el-form-item label="描述:" prop="intro">
                         <el-input
                             v-model.number="userForm.intro"
+                            :rows="4"
+                            type="textarea"
+                            placeholder="请输入个人描述"
+                        />
+                    </el-form-item>
+                    <el-form-item label="Introduce:" prop="enIntro">
+                        <el-input
+                            v-model.number="userForm.enIntro"
                             :rows="4"
                             type="textarea"
                             placeholder="请输入个人描述"
@@ -160,27 +186,42 @@
         },
     ])
 
+    const honorEnArr = ref([
+        {
+            id: 1,
+            name: '',
+        },
+    ])
+
     const Popup = ref(false)
     const PopupStatus = ref('')
 
     const userForm = ref<{
         id: null
         name: string
+        enName: string
         teamId: null
         position: string
+        enPosition: string
         photograph: null
         signature: null
         intro: string
+        enIntro: string
         honors: any[]
+        enHonors: any[]
     }>({
         id: null,
         name: '',
+        enName: '',
         teamId: null,
         position: '',
+        enPosition: '',
         photograph: null,
         signature: null,
         intro: '',
+        enIntro: '',
         honors: [],
+        enHonors: [],
     })
 
     const ruleFormRef = ref<any>(null)
@@ -195,6 +236,7 @@
 
     const rules = reactive<FormRules>({
         name: [{ required: true, message: '请输入姓名', trigger: 'blur' }],
+        enName: [{ required: true, message: '请输入姓名', trigger: 'blur' }],
         photograph: [{ required: true, validator: checkPicture, trigger: 'blur' }],
     })
 
@@ -222,6 +264,7 @@
 
     const delHonor = (index: number) => {
         honorArr.value.splice(index, 1)
+        honorEnArr.value.splice(index, 1)
     }
 
     const addHonor = () => {
@@ -229,7 +272,10 @@
             id: honorArr.value[honorArr.value.length - 1].id + 1,
             name: '',
         })
-        console.log(honorArr.value)
+        honorEnArr.value.push({
+            id: honorEnArr.value[honorEnArr.value.length - 1].id + 1,
+            name: '',
+        })
     }
 
     const clearSearch = () => {
@@ -242,14 +288,24 @@
         userForm.value = {
             id: null,
             name: '',
+            enName: '',
             teamId: null,
             position: '',
-            intro: '',
+            enPosition: '',
             photograph: null,
             signature: null,
+            intro: '',
+            enIntro: '',
             honors: [],
+            enHonors: [],
         }
         honorArr.value = [
+            {
+                id: 1,
+                name: '',
+            },
+        ]
+        honorEnArr.value = [
             {
                 id: 1,
                 name: '',
@@ -261,17 +317,9 @@
     }
 
     const openEditPopup = (data: any) => {
-        userForm.value = {
-            id: data.id,
-            name: data.name,
-            teamId: data.teamId,
-            position: data.position,
-            photograph: data.photograph,
-            intro: data.intro,
-            signature: data.signature,
-            honors: data.honors,
-        }
+        userForm.value = { ...data }
         honorArr.value = [...data.honors]
+        honorEnArr.value = [...data.honors]
         PopupStatus.value = 'edit'
         Popup.value = true
     }
@@ -350,12 +398,14 @@
         ruleFormRef.value.validate((valid: any) => {
             // 表单验证成功
             if (valid) {
+                console.log('1561')
+
                 // 获取规格信息
-                console.log(honorArr.value.filter((item) => item.name === '' || item.name === null).length)
                 if (honorArr.value.filter((item) => item.name === '' || item.name === null).length != 0) {
                     ElMessage.warning('荣誉输入项不能为空')
                 } else {
                     userForm.value.honors = honorArr.value
+                    userForm.value.enHonors = honorEnArr.value
                     PopupStatus.value === 'add' ? addUser() : editUser()
                     Popup.value = false
                 }

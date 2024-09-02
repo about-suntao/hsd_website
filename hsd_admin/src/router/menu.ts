@@ -54,16 +54,16 @@ const MenuRouter: Array<RouteRecordRaw> = [
             },
         ],
     },
-    {
-        path: 'banner',
-        name: 'banner',
-        component: () => import('@/views/banner/banner.vue'),
-        meta: {
-            title: 'banner',
-            icon: 'Picture',
-            hidden: false,
-        },
-    },
+    // {
+    //     path: 'banner',
+    //     name: 'banner',
+    //     component: () => import('@/views/banner/banner.vue'),
+    //     meta: {
+    //         title: 'banner',
+    //         icon: 'Picture',
+    //         hidden: false,
+    //     },
+    // },
     {
         path: 'team',
         name: 'team',
