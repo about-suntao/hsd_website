@@ -37,13 +37,14 @@ function NewsList({ articleId }: { articleId?: number }) {
 
   const handleView = (id: number) => {
     if (id) {
-      router.push(`/news/${id}`)
+      router.push(`/zh/news/${id}`)
     }
   }
 
   const backList = () => {
-    router.push(`/news`)
+    router.push(`/zh/news`)
   }
+
 
   useEffect(() => {
     getHotList()
