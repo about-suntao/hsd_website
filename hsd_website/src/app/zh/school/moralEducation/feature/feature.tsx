@@ -16,7 +16,7 @@ function Feature() {
       id: 1,
       title: '特色社团活动',
       serial: '01',
-      desc: '国际高中社团课程秉承原则：以学生意愿为主导，学校全力提供支持。',
+      desc: '融合部社团课程秉承原则：以学生意愿为主导，学校全力提供支持。',
       descBottom: '',
       picture: mfImg1,
       tips: []

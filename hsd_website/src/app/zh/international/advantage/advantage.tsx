@@ -25,7 +25,7 @@ function Advantage() {
     }, {
       id: 2,
       icon: iconImg2,
-      value: '国际部学生凭借优质美高学籍与国际生背景，可以顺利申请美、英、澳、加、新及中国香港地区的世界一流大学',
+      value: '凭借全球认可的毕业证书与成绩单，可以顺利申请美、英、澳、加、新及中国香港地区的世界一流大学',
     }, {
       id: 3,
       icon: iconImg3,
@@ -62,7 +62,7 @@ function Advantage() {
           <div className={styles.right}>
             <div className={styles.title}>
               <p>Advantages of College Admission</p>
-              <h2>美高学籍优势</h2>
+              <h2>融合部学生优势</h2>
             </div>
             <ul>
               {
@@ -82,7 +82,7 @@ function Advantage() {
           <div className={styles.left}>
             <div className={styles.title}>
               <p>Introduction to Cooperative American High Schools</p>
-              <h2>合作办学美高介绍</h2>
+              <h2>友好学校介绍</h2>
             </div>
             <div className={styles.introduce}>
               <p><span>Foxcroft Academy</span>（福克斯克罗夫特学院）成立于1823年，摘得美国缅因州TOP10寄宿学校的桂冠。是一所历史悠久、学术氛围浓郁的私立寄宿学校。</p>

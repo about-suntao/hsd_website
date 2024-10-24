@@ -35,7 +35,7 @@ function Division() {
           <Image src={divisionImg} alt=''></Image>
         </div>
         <div className={styles.right}>
-          <h2>HSD Foreign Language School International Division</h2>
+          <h2>Foxcroft Academy HSD</h2>
           <p className={styles.article}>
             {str}
           </p>

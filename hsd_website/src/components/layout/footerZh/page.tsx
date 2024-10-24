@@ -80,14 +80,14 @@ function Footer() {
           <h2>网站概况</h2>
           <p><Link href="/zh/school/profile">学校概况</Link></p>
           <p><Link href="/zh/course">课程安排</Link></p>
-          <p><Link href="/zh/international">合作办学</Link></p>
+          <p><Link href="/zh/international">友好学校</Link></p>
           <p><Link href="/zh/team/management">教研团队</Link></p>
           <p><Link href="/zh/campusClass">校园风采</Link></p>
-          <h2 className={styles.link}>合作办学</h2>
+          <h2 className={styles.link}>学校链接</h2>
           <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>华盛达外语学校官网</p>
           <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>福克斯克罗夫特学院官网</p>
         </div>
-        <div className={styles.news}>
+        {/* <div className={styles.news}>
           <h2>新闻资讯</h2>
           {
             newsData.map((item: any) => {
@@ -106,7 +106,7 @@ function Footer() {
               )
             })
           }
-        </div>
+        </div> */}
       </div>
     </div>
   )

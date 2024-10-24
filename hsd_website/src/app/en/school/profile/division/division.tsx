@@ -18,7 +18,7 @@ function Division() {
         </div>
         <div className={styles.right}>
           <div className={styles.title}>
-            <h2>HSD Foreign Language School International Division</h2>
+            <h2>Foxcroft Academy HSD</h2>
           </div>
           <div className={styles.article}>
             <p>{str1}</p>

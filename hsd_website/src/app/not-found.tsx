@@ -6,10 +6,16 @@ import EnFooter from "@/components/layout/footerEn/page"
 import { usePathname } from 'next/navigation';
 import styles from './not-found.module.scss'
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 import picture404 from '../../public/img/home/404.webp'
 
+
 const ZhComponent = () => {
+  const router = useRouter()
+  const backHome = () => {
+    router.push('/zh')
+  }
   return (
     <div className={styles.notFound}>
       <div className={styles.container}>
@@ -20,7 +26,7 @@ const ZhComponent = () => {
           <h3>错误</h3>
           <p>很抱歉，您要访问的页面地址有误，或者该页面不存在。</p>
           <div className={styles.btn}>
-            <button>返回首页</button>
+            <button onClick={() => backHome()}>返回首页</button>
           </div>
         </div>
       </div>
@@ -29,6 +35,10 @@ const ZhComponent = () => {
 }
 
 const EnComponent = () => {
+  const router = useRouter()
+  const backHome = () => {
+    router.push('/en')
+  }
   return (
     <div className={styles.notFound}>
       <div className={styles.container}>
@@ -41,7 +51,7 @@ const EnComponent = () => {
           <p>The page you are looking for is incorrect</p>
           <p>Or the page does not exist</p>
           <div className={styles.btn}>
-            <button>Back Home</button>
+            <button onClick={() => backHome()}>Back Home</button>
           </div>
         </div>
       </div>

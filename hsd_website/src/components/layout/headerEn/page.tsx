@@ -63,17 +63,17 @@ function Header() {
       label: (<Link href="/en/campusClass">Campus</Link>),
       key: '/en/campusClass',
     },
-    {
-      label: (<Link href="/en/news">Information</Link>),
-      key: '/en/news',
-    },
+    // {
+    //   label: (<Link href="/en/news">Information</Link>),
+    //   key: '/en/news',
+    // },
     {
       label: 'Enrollment',
       key: 'entranceSchool',
       children: [
         {
-          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>Admissions</a>),
-          key: 'recruitStudent',
+          label: (<Link href="/en/dashboard">Appointment</Link>),
+          key: '/en/dashboard',
         },
         { label: (<Link href="/en/entranceSchool/admissionGoal">Further Studies</Link>), key: '/en/entranceSchool/admissionGoal' },
         { label: (<Link href="/en/entranceSchool/scholarship">Scholarships</Link>), key: '/en/entranceSchool/scholarship' },
@@ -156,9 +156,9 @@ function Header() {
             <div className={styles.icons}>
               <MenuOutlined onClick={openDrawer} />
             </div>
-            <div className={styles.btn}>
+            {/* <div className={styles.btn}>
               <button onClick={() => handleRouter()}>Appointment</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

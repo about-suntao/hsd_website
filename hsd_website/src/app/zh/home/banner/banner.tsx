@@ -39,8 +39,8 @@ function Banner() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h1>华盛达外语学校国际部</h1>
-          <p>HSD Foreign Language School International Division</p>
+          <h1>华盛达外语学校融合部</h1>
+          <p>Foxcroft Academy HSD</p>
         </div>
         <div className={styles.tips}>
           <Image className={styles.firstColon} src={colon} alt=''></Image>

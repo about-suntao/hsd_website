@@ -72,6 +72,8 @@
                     }
                 }
                 .menu {
+                    display: flex;
+                    align-items: center;
                     :global {
                         .ant-menu-horizontal {
                             border-bottom: none;
@@ -79,7 +81,7 @@
                         .ant-menu-title-content {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 1rem;
+                            font-size: 1.1rem;
                             color: #16213a;
                             line-height: 1.6rem;
                             letter-spacing: 1px;
@@ -120,38 +122,23 @@
                         display: flex;
                         list-style: none;
                         li {
-                            width: 6rem;
+                            width: 8rem;
                             display: flex;
                             justify-content: center;
                             align-items: center;
                         }
                     }
-                }
-                .right {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .icons {
-                        margin-left: 1rem;
-                        font-size: 1.5rem;
-                        color: #012247;
-                        span + span {
-                            margin-left: 1.5rem;
-                        }
-                    }
-                    .btn {
-                        margin-left: 2rem;
-                        button {
-                            width: 7.38rem;
-                            height: 3.13rem;
-                            background: #253468;
-                            border: none;
-                            color: white;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 1rem;
-                            line-height: 1.6rem;
-                            letter-spacing: 1px;
+                    .right {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icons {
+                            margin-left: 1rem;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            span + span {
+                                margin-left: 1.5rem;
+                            }
                         }
                     }
                 }
@@ -265,6 +252,8 @@
                     }
                 }
                 .menu {
+                    display: flex;
+                    align-items: center;
                     :global {
                         .ant-menu-horizontal {
                             border-bottom: none;
@@ -272,7 +261,7 @@
                         .ant-menu-title-content {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 1rem;
+                            font-size: 1.05rem;
                             color: #16213a;
                             line-height: 1.6rem;
                             letter-spacing: 1px;
@@ -313,37 +302,23 @@
                         display: flex;
                         list-style: none;
                         li {
-                            width: 5rem;
+                            width: 7rem;
                             display: flex;
                             justify-content: center;
                             align-items: center;
                         }
                     }
-                }
-                .right {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .icons {
-                        font-size: 1.5rem;
-                        color: #012247;
-                        span + span {
+                    .right {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icons {
                             margin-left: 1rem;
-                        }
-                    }
-                    .btn {
-                        margin-left: 1.5rem;
-                        button {
-                            width: 6.8rem;
-                            height: 3rem;
-                            background: #253468;
-                            border: none;
-                            color: white;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 1rem;
-                            line-height: 1.6rem;
-                            letter-spacing: 1px;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            span + span {
+                                margin-left: 1rem;
+                            }
                         }
                     }
                 }
@@ -445,10 +420,10 @@
             align-items: center;
             background-color: white;
             .container {
-                width: 96%;
+                width: 90%;
                 height: 6.88rem;
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
                 .logo {
                     img {
@@ -457,6 +432,8 @@
                     }
                 }
                 .menu {
+                    display: flex;
+                    align-items: center;
                     :global {
                         .ant-menu-horizontal {
                             border-bottom: none;
@@ -464,7 +441,7 @@
                         .ant-menu-title-content {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 1rem;
+                            font-size: 1.1rem;
                             color: #16213a;
                             line-height: 1.6rem;
                             letter-spacing: 1px;
@@ -505,38 +482,23 @@
                         display: flex;
                         list-style: none;
                         li {
-                            width: 5rem;
+                            width: 7rem;
                             display: flex;
                             justify-content: center;
                             align-items: center;
                         }
                     }
-                }
-                .right {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .icons {
-                        margin-left: 1rem;
-                        font-size: 1.5rem;
-                        color: #012247;
-                        span + span {
+                    .right {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icons {
                             margin-left: 1rem;
-                        }
-                    }
-                    .btn {
-                        margin-left: 1rem;
-                        button {
-                            width: 5.8rem;
-                            height: 2.8rem;
-                            background: #253468;
-                            border: none;
-                            color: white;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 1rem;
-                            line-height: 1.6rem;
-                            letter-spacing: 1px;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            span + span {
+                                margin-left: 1rem;
+                            }
                         }
                     }
                 }
@@ -638,7 +600,7 @@
             align-items: center;
             background-color: white;
             .container {
-                width: 98%;
+                width: 90%;
                 height: 6rem;
                 display: flex;
                 justify-content: space-between;
@@ -651,6 +613,8 @@
                 }
                 .menu {
                     display: flex;
+                    align-items: center;
+                    justify-content: center;
                     :global {
                         .ant-menu-horizontal {
                             border-bottom: none;
@@ -658,7 +622,7 @@
                         .ant-menu-title-content {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: 400;
-                            font-size: 0.9rem;
+                            font-size: 1rem;
                             color: #16213a;
                             line-height: 1.6rem;
                             letter-spacing: 1px;
@@ -702,35 +666,17 @@
                             width: 1rem;
                         }
                         li {
-                            width: 4.5rem;
+                            width: 5.5rem;
                         }
                     }
-                }
-                .right {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .icons {
-                        margin-left: 0.5rem;
-                        font-size: 1.2rem;
-                        color: #012247;
-                        span + span {
-                            margin-left: 0.5rem;
-                        }
-                    }
-                    .btn {
-                        margin-left: 1rem;
-                        button {
-                            width: 5rem;
-                            height: 2.6rem;
-                            background: #253468;
-                            border: none;
-                            color: white;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 0.9rem;
-                            line-height: 1.6rem;
-                            letter-spacing: 1px;
+                    .right {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icons {
+                            margin-left: 1.5rem;
+                            font-size: 1.3rem;
+                            color: #012247;
                         }
                     }
                 }
@@ -844,33 +790,20 @@
                     }
                 }
                 .menu {
-                    display: none;
-                }
-                .right {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .icons {
-                        margin-left: 0.5rem;
-                        font-size: 1.5rem;
-                        color: #012247;
-                        span + span {
-                            margin-left: 0.5rem;
-                        }
+                    .menuBox {
+                        display: none;
                     }
-                    .btn {
-                        margin-left: 1rem;
-                        button {
-                            width: 5rem;
-                            height: 2.6rem;
-                            background: #253468;
-                            border: none;
-                            color: white;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 0.9rem;
-                            line-height: 1.6rem;
-                            letter-spacing: 1px;
+                    .right {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icons {
+                            margin-left: 0.5rem;
+                            font-size: 1.5rem;
+                            color: #012247;
+                            span + span {
+                                margin-left: 0.5rem;
+                            }
                         }
                     }
                 }

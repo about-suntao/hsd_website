@@ -21,9 +21,9 @@ function Feature() {
       desc: '',
       picture: tfImg1,
       tips: [
-        { id: 1, label: 'Foxcroft Academy 官方合作伙伴' },
+        { id: 1, label: 'Foxcroft Academy 友好学校' },
         { id: 2, label: 'Edexcel 官方授权考试中心' },
-        { id: 3, label: '美高AP授权学校' },
+        { id: 3, label: 'AP授权学校' },
         { id: 4, label: 'UCAS官方注册中心' },
         { id: 5, label: 'ASDAN（阿思丹）国际理科竞赛官方考点' },
       ]

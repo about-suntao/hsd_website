@@ -39,7 +39,7 @@ function Banner() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h1>HSD Foreign Language School International Division</h1>
+          <h1>Foxcroft Academy HSD</h1>
         </div>
         <div className={styles.tips}>
           <Image className={styles.firstColon} src={colon} alt=''></Image>

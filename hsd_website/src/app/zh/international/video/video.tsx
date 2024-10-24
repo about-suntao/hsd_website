@@ -35,7 +35,7 @@ function Video() {
             <h2>Foxcroft Academy G-11在读中国学生访谈</h2>
           </div>
           <div className={styles.introduce}>
-            <p>华盛达外语学校国际部运营校长陈昊宇，来到了合作办学的美高Foxcroft Acadamy，采访了在读中国学生，倾听同学在Foxcroft Acadamy的真实经历和遇到的困难...</p>
+            <p>华盛达外语学校融合部运营校长陈昊宇，来到了友好学校Foxcroft Academy，采访了在读中国学生，倾听同学在Foxcroft Acadamy的真实经历和遇到的困难...</p>
           </div>
           <div className={styles.btn} onClick={() => openDialog()}>
             <div className={styles.triangular}></div>
@@ -54,7 +54,7 @@ function Video() {
           >
             <div className={styles.videoContent}>
               <video autoPlay controls loop ref={videoRefPc} id="1">
-                <source src='https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/06/03/155_WeChat_20240601150326.mp4' />
+                <source src='https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/10/24/973_5cb034abc49ff8e22c5b0dfda66ed9b5.mp4' />
               </video>
             </div>
           </Modal>

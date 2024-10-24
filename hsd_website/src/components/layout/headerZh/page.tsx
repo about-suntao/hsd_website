@@ -37,7 +37,7 @@ function Header() {
 
   const items: MenuItem[] = [
     {
-      label: <Link href="/">首页</Link>,
+      label: <Link href="/zh">首页</Link>,
       key: 'home',
     },
     {
@@ -53,7 +53,7 @@ function Header() {
       label: (<Link href="/zh/course">课程安排</Link>),
       key: '/zh/course',
     }, {
-      label: (<Link href="/zh/international">合作办学</Link>),
+      label: (<Link href="/zh/international">友好学校</Link>),
       key: '/zh/international',
     },
     {
@@ -63,17 +63,17 @@ function Header() {
       label: (<Link href="/zh/campusClass">校园风采</Link>),
       key: '/zh/campusClass',
     },
-    {
-      label: (<Link href="/zh/news">新闻资讯</Link>),
-      key: '/zh/news',
-    },
+    // {
+    //   label: (<Link href="/zh/news">新闻资讯</Link>),
+    //   key: '/zh/news',
+    // },
     {
       label: '入学报名',
       key: 'entranceSchool',
       children: [
         {
-          label: (<a onClick={() => openNewWindow('https://mp.weixin.qq.com/s/C2ealJO5Rd4JqakrxUECdw')}>招生简章</a>),
-          key: 'recruitStudent',
+          label: (<Link href="/zh/dashboard">访校预约</Link>),
+          key: '/zh/dashboard',
         },
         { label: (<Link href="/zh/entranceSchool/admissionGoal">升学目标</Link>), key: '/zh/entranceSchool/admissionGoal' },
         { label: (<Link href="/zh/entranceSchool/scholarship">奖学金</Link>), key: '/zh/entranceSchool/scholarship' },
@@ -150,15 +150,13 @@ function Header() {
             <Image src={logoImg} alt=''></Image>
           </div>
           <div className={styles.menu}>
-            {isMenuVisible && (<Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />)}
-          </div>
-          <div className={styles.right}>
-            <div className={styles.icons}>
-              <SearchOutlined />
-              <MenuOutlined onClick={openDrawer} />
+            <div className={styles.menuBox}>
+              {isMenuVisible && (<Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />)}
             </div>
-            <div className={styles.btn}>
-              <button onClick={() => handleRouter()}>报名预约</button>
+            <div className={styles.right}>
+              <div className={styles.icons}>
+                <MenuOutlined onClick={openDrawer} />
+              </div>
             </div>
           </div>
         </div>

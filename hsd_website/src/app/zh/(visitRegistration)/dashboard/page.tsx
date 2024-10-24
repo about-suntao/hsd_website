@@ -67,7 +67,7 @@ function Dashboard() {
           <Image className={styles.showImg} src={schoolImg} alt=""></Image>
         </div>
         <div className={styles.title}>
-          <h2>德清县华盛达外语学校国际部</h2>
+          <h2>德清县华盛达外语学校融合部</h2>
           <p>家长您好:如您有意向预约访校和招生咨询，请选择并填写下方表单。</p>
         </div>
         <ul>

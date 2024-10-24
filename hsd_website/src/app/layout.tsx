@@ -14,8 +14,8 @@ import 'swiper/css/grid';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '华盛达外语学校国际部',
-  description: '华盛达外语学校国际部',
+  title: '华盛达外语学校融合部',
+  description: '华盛达外语学校融合部',
   formatDetection: {
     email: false,
     address: false,
