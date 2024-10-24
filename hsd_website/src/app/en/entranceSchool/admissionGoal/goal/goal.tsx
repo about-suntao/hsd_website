@@ -21,14 +21,6 @@ function Goal() {
               <p>100% of students are accepted into universities ranked in the top 80 globally according to QS rankings.</p>
             </div>
           </div>
-          <div className={styles.list}>
-            <h3>AP Track</h3>
-            <p>80% of students are admitted to the top 50 universities in the United States.</p>
-          </div>
-          <div className={styles.list}>
-            <h3>A-Level Track</h3>
-            <p>50% of students are admitted to the top 5 universities in the UK, the top 3 in Hong Kong, and the top 2 in Singapore.</p>
-          </div>
         </div>
         <div className={styles.picture}>
           <Image src={goalimg} alt=''></Image>

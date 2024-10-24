@@ -9,7 +9,7 @@
             display: flex;
             justify-content: space-between;
             .goal {
-                width: 40%;
+                width: 45%;
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -34,8 +34,8 @@
                     background: #fdfaf8;
                     .icon {
                         img {
-                            width: 4.33rem;
-                            height: 4.75rem;
+                            width: 7rem;
+                            height: auto;
                         }
                     }
                     .card_text {
@@ -49,22 +49,9 @@
                             font-weight: bold;
                             font-size: 1.1rem;
                             color: #012247;
-                            line-height: 1.3rem;
+                            line-height: 1.5rem;
                             letter-spacing: 0.5px;
                         }
-                    }
-                }
-                .list {
-                    margin-top: 1rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.1rem;
-                    color: #012247;
-                    line-height: 1.8rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
                     }
                 }
             }
@@ -134,19 +121,6 @@
                             letter-spacing: 1px;
                             text-align: justified;
                         }
-                    }
-                }
-                .list {
-                    margin-top: 0.5rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1rem;
-                    color: #012247;
-                    line-height: 1.5rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
                     }
                 }
             }
@@ -221,19 +195,6 @@
                         }
                     }
                 }
-                .list {
-                    margin-top: 0.5rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 0.9rem;
-                    color: #012247;
-                    line-height: 1.2rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
-                    }
-                }
             }
             .picture {
                 width: 46%;
@@ -280,6 +241,7 @@
                     margin-top: 2rem;
                     padding: 1.5rem 0.5rem;
                     display: flex;
+                    align-items: center;
                     background: #fdfaf8;
                     .icon {
                         img {
@@ -302,20 +264,6 @@
                             letter-spacing: 1px;
                             text-align: justified;
                         }
-                    }
-                }
-                .list {
-                    width: 90%;
-                    margin-top: 1rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1rem;
-                    color: #012247;
-                    line-height: 1.5rem;
-                    letter-spacing: 1px;
-                    h3 {
-                        font-weight: bold;
-                        text-align: center;
                     }
                 }
             }

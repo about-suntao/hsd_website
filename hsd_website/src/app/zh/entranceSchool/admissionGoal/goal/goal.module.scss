@@ -37,14 +37,14 @@
                     }
                 }
                 .card {
-                    margin-top: 1.25rem;
+                    margin-top: 2.5rem;
                     padding: 1.5rem 0.94rem;
                     display: flex;
                     background: #fdfaf8;
                     .icon {
                         img {
-                            width: 4.33rem;
-                            height: 4.75rem;
+                            width: 6rem;
+                            height: auto;
                         }
                     }
                     .card_text {
@@ -52,29 +52,16 @@
                         display: flex;
                         flex-wrap: wrap;
                         flex-direction: column;
-                        justify-content: space-between;
+                        justify-content: center;
                         p {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
-                            font-size: 1.25rem;
+                            font-size: 1.5rem;
                             color: #012247;
-                            line-height: 2.25rem;
+                            line-height: 3rem;
                             letter-spacing: 1px;
                             text-align: justified;
                         }
-                    }
-                }
-                .list {
-                    margin-top: 1.25rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.25rem;
-                    color: #012247;
-                    line-height: 2.25rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
                     }
                 }
             }
@@ -129,14 +116,14 @@
                     }
                 }
                 .card {
-                    margin-top: 1.25rem;
+                    margin-top: 2.5rem;
                     padding: 1.5rem 0.94rem;
                     display: flex;
                     background: #fdfaf8;
                     .icon {
                         img {
-                            width: 4.33rem;
-                            height: 4.75rem;
+                            width: 5rem;
+                            height: auto;
                         }
                     }
                     .card_text {
@@ -144,29 +131,16 @@
                         display: flex;
                         flex-wrap: wrap;
                         flex-direction: column;
-                        justify-content: space-between;
+                        justify-content: center;
                         p {
                             font-family: Microsoft YaHei, sans-serif;
                             font-weight: bold;
                             font-size: 1.2rem;
                             color: #012247;
-                            line-height: 2.25rem;
+                            line-height: 2.5rem;
                             letter-spacing: 1px;
                             text-align: justified;
                         }
-                    }
-                }
-                .list {
-                    margin-top: 1.25rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.25rem;
-                    color: #012247;
-                    line-height: 2.25rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
                     }
                 }
             }
@@ -250,19 +224,6 @@
                         }
                     }
                 }
-                .list {
-                    margin-top: 1rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.25rem;
-                    color: #012247;
-                    line-height: 2.25rem;
-                    letter-spacing: 1px;
-                    text-align: justified;
-                    h3 {
-                        font-weight: bold;
-                    }
-                }
             }
             .picture {
                 width: 46%;
@@ -341,20 +302,6 @@
                             letter-spacing: 1px;
                             text-align: justified;
                         }
-                    }
-                }
-                .list {
-                    width: 90%;
-                    margin-top: 1rem;
-                    font-family: Microsoft YaHei, sans-serif;
-                    font-weight: 400;
-                    font-size: 1.25rem;
-                    color: #012247;
-                    line-height: 2.25rem;
-                    letter-spacing: 1px;
-                    h3 {
-                        font-weight: bold;
-                        text-align: center;
                     }
                 }
             }
