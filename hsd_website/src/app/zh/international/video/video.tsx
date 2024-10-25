@@ -54,7 +54,7 @@ function Video() {
           >
             <div className={styles.videoContent}>
               <video autoPlay controls loop ref={videoRefPc} id="1">
-                <source src='https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/10/24/973_5cb034abc49ff8e22c5b0dfda66ed9b5.mp4' />
+                <source src='https://icon-hsd.oss-cn-hangzhou.aliyuncs.com/2024/10/25/507_260_1729755046(原视频).mp4' />
               </video>
             </div>
           </Modal>
