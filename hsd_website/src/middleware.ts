@@ -23,9 +23,23 @@ export function middleware(req: NextRequest) {
     }
 
     // 登录验证逻辑：仅对特定路由进行验证
-    if (['/dashboard', '/visit', '/selectProject', '/apply', '/search'].some((route) => pathname.startsWith(route))) {
+    if (
+        ['/zh/dashboard', '/zh/visit', '/zh/selectProject', '/zh/apply', '/zh/search'].some((route) =>
+            pathname.startsWith(route)
+        )
+    ) {
         if (!token) {
-            const loginUrl = new URL('/login', req.url)
+            const loginUrl = new URL('/zh/login', req.url)
+            return NextResponse.redirect(loginUrl)
+        }
+    }
+    if (
+        ['/en/dashboard', '/en/visit', '/en/selectProject', '/en/apply', '/en/search'].some((route) =>
+            pathname.startsWith(route)
+        )
+    ) {
+        if (!token) {
+            const loginUrl = new URL('/en/login', req.url)
             return NextResponse.redirect(loginUrl)
         }
     }

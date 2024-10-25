@@ -5,7 +5,6 @@ import Image from 'next/image'
 import fetchRequest from '@/utils/fetchRequest'
 import { DoubleRightOutlined } from '@ant-design/icons';
 
-import A1 from '../../../../../public/img/course/A1.webp'
 import A2 from '../../../../../public/img/course/A2.webp'
 
 function Advantage() {
@@ -15,8 +14,7 @@ function Advantage() {
 
   const getData = async () => {
     const res = await fetchRequest.get('/icon/web/course/queryAll', { language: 'CN' });
-    setActive(res.data[0].id)
-    setActiveTwo(res.data[3].id)
+    setActiveTwo(res.data[0].id)
     setData(res.data)
   }
   useEffect(() => {
@@ -26,10 +24,10 @@ function Advantage() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>课程类型</h2>
-          <p>Type of Course</p>
+          <h2>拓展课程</h2>
+          <p>Extended Course</p>
         </div>
-        <div className={styles.content_top}>
+        {/* <div className={styles.content_top}>
           <div className={styles.picture}>
             <Image src={A1} alt=''></Image>
           </div>
@@ -69,17 +67,17 @@ function Advantage() {
               })
             }
           </ul>
-        </div>
+        </div> */}
         <div className={styles.content_bottom}>
           <ul className={styles.lists}>
             {
-              data.slice(3, 8).map((item: any, index: any) => {
+              data.map((item: any, index: any) => {
                 return (
                   <li key={item.id}
                     className={`${styles.list} ${item.id === activeTwo ? styles.activeList : ''}`}
                   >
                     <div className={styles.list_title} onClick={() => setActiveTwo(item.id)}>
-                      <p>{index + 4}.{item.name}</p>
+                      <p>{item.name}</p>
                       <button className={styles.icon}>
                         <DoubleRightOutlined />
                       </button>
