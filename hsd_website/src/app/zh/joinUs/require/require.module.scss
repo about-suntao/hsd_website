@@ -1,89 +1,542 @@
-.pages {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .container {
-        margin-top: 6.25rem;
-        max-width: 120rem;
-        width: 100%;
+@media screen and (min-width: 1701px) {
+    .pages {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        .left {
-            width: 63.38rem;
-            img {
-                width: 100%;
-                height: auto;
-                display: block;
+        justify-content: center;
+        .container {
+            margin-top: 6.25rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                img {
+                    width: 63.38rem;
+                    height: 44.5rem;
+                    display: block;
+                }
+            }
+            .right {
+                width: 78.5rem;
+                margin-left: -23.57rem;
+                padding: 5.44rem 12rem 8rem 3.81rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.88rem 1.88rem 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.75rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.25rem;
+                            color: #ffffff;
+                            line-height: 3.6rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.75rem;
+                    .list_item {
+                        margin-top: 2.5rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 2rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.25rem;
+                            color: #00162d;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 7.75rem;
+                    bottom: 1.25rem;
+                    img {
+                        width: 28.81rem;
+                        height: 28.81rem;
+                    }
+                }
             }
         }
-        .right {
-            width: 78.5rem;
-            margin-left: -23.57rem;
-            padding: 5.44rem 18rem 8rem 3.81rem;
-            background: #ffffff;
-            position: relative;
-            .title {
-                width: 18.25rem;
-                padding: 0.88rem 1.88rem 0.88rem 1rem;
-                background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
-                border-radius: 0rem 0rem 0rem 0rem;
-                display: flex;
-                align-items: center;
-                .titleLogo {
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 60%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .right {
+                width: 70%;
+                margin-left: -20%;
+                padding: 3rem 6rem 3rem 3.81rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.88rem 1.88rem 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.75rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2.2rem;
+                            color: #ffffff;
+                            line-height: 3rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.75rem;
+                    .list_item {
+                        margin-top: 2.5rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 2rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #00162d;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 5rem;
+                    bottom: 1.25rem;
                     img {
-                        width: 2.75rem;
+                        width: 24rem;
+                        height: 24rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 60%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .right {
+                width: 70%;
+                margin-left: -20%;
+                padding: 2rem 6rem 2rem 3rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.6rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.5rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #ffffff;
+                            line-height: 3rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.75rem;
+                    .list_item {
+                        margin-top: 1.2rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 2rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.88rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.15rem;
+                            color: #00162d;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 3rem;
+                    bottom: 1.25rem;
+                    img {
+                        width: 18rem;
                         height: auto;
                     }
                 }
-                .titleText {
-                    margin-left: 1rem;
-                    p {
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: bold;
-                        font-size: 2.25rem;
-                        color: #ffffff;
-                        line-height: 3.6rem;
-                        letter-spacing: 2px;
-                    }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 60%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
                 }
             }
-            .content {
-                padding-left: 1.75rem;
-                .list_item {
-                    margin-top: 2.5rem;
+            .right {
+                width: 60%;
+                margin-left: -20%;
+                padding: 2rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.6rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
                     display: flex;
-                    align-items: flex-start;
-                    .logo {
-                        height: 2rem;
-                        display: flex;
-                        align-items: center;
-                        .point {
-                            width: 1.25rem;
-                            height: 1.25rem;
-                            background: #0b277a;
-                            border-radius: 50%;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.5rem;
+                            height: auto;
                         }
                     }
-                    p {
-                        margin-left: 1.88rem;
-                        font-family: Microsoft YaHei, sans-serif;
-                        font-weight: 400;
-                        font-size: 1.25rem;
-                        color: #00162d;
-                        line-height: 2rem;
-                        letter-spacing: 1px;
-                        text-align: justify;
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #ffffff;
+                            line-height: 3rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.75rem;
+                    .list_item {
+                        margin-top: 1.2rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.5rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.5rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                            color: #00162d;
+                            line-height: 1.5rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 3rem;
+                    bottom: 1.25rem;
+                    img {
+                        width: 16rem;
+                        height: auto;
                     }
                 }
             }
-            .schoolLogo {
-                position: absolute;
-                right: 7.75rem;
-                bottom: 1.25rem;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 44%;
                 img {
-                    width: 28.81rem;
-                    height: 28.81rem;
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .right {
+                width: 56%;
+                padding: 0 2rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.6rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.5rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 2rem;
+                            color: #ffffff;
+                            line-height: 3rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.5rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.5rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                            color: #00162d;
+                            line-height: 1.5rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 1rem;
+                    bottom: 1rem;
+                    img {
+                        width: 14rem;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 3rem;
+            width: 90%;
+            .left {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .right {
+                padding-top: 2rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    width: 18.25rem;
+                    padding: 0.6rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        img {
+                            width: 2.5rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 1rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            color: #ffffff;
+                            line-height: 3rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.5rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1.5rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #00162d;
+                            line-height: 1.5rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 1rem;
+                    bottom: 1rem;
+                    img {
+                        width: 14rem;
+                        height: auto;
+                    }
                 }
             }
         }
