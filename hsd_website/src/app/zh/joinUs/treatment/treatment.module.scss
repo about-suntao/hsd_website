@@ -1,0 +1,93 @@
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container {
+        margin-top: 6.25rem;
+        max-width: 120rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .left {
+            width: 63.38rem;
+            height: 37.13rem;
+            padding: 4.2rem 3rem 4rem 16.81rem;
+            background: #ffffff;
+            position: relative;
+            z-index: 10;
+            .title {
+                width: 26.31rem;
+                padding: 0.88rem 1.88rem 0.88rem 1rem;
+                background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                border-radius: 0rem 0rem 0rem 0rem;
+                display: flex;
+                align-items: center;
+                .titleLogo {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 2.75rem;
+                        height: auto;
+                    }
+                }
+                .titleText {
+                    margin-left: 0.5rem;
+                    p {
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: bold;
+                        font-size: 2.25rem;
+                        color: #ffffff;
+                        line-height: 3.6rem;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+            .content {
+                padding-left: 1.25rem;
+                .list_item {
+                    margin-top: 2.3rem;
+                    display: flex;
+                    align-items: center;
+                    .logo {
+                        height: 1.38rem;
+                        .point {
+                            width: 1.25rem;
+                            height: 1.25rem;
+                            background: #0b277a;
+                            border-radius: 50%;
+                        }
+                    }
+                    p {
+                        margin-left: 1rem;
+                        font-family: Microsoft YaHei, sans-serif;
+                        font-weight: 400;
+                        font-size: 1.38rem;
+                        color: #012247;
+                        line-height: 2.2rem;
+                        letter-spacing: 2px;
+                        text-align: justify;
+                    }
+                }
+            }
+            .schoolLogo {
+                position: absolute;
+                left: 1.75rem;
+                bottom: 0;
+                img {
+                    width: 28.81rem;
+                    height: 28.81rem;
+                }
+            }
+        }
+        .right {
+            margin-left: -8rem;
+            position: relative;
+            z-index: 5;
+            img {
+                width: 64.56rem;
+                height: auto;
+                display: block;
+            }
+        }
+    }
+}

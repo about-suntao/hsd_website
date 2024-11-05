@@ -79,7 +79,10 @@ function Header() {
         { label: (<Link href="/zh/entranceSchool/scholarship">奖学金</Link>), key: '/zh/entranceSchool/scholarship' },
       ]
     },
-
+    {
+      label: (<Link href="/zh/joinUs">加入我们</Link>),
+      key: '/zh/joinUs',
+    },
   ];
 
   const onClick: MenuProps['onClick'] = (e) => {

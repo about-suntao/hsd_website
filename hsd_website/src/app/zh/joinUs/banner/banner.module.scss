@@ -1,0 +1,53 @@
+.pages {
+    width: 100%;
+    background-image: url('../../../../../public/img/joinUs/banner.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .content {
+        padding: 9.2rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        h1 {
+            font-family: Microsoft YaHei, sans-serif;
+            font-weight: bold;
+            font-size: 4.38rem;
+            color: #ffffff;
+            line-height: 5.13rem;
+            letter-spacing: 5px;
+        }
+        .titleEn {
+            margin: 1.25rem 0;
+            width: 27.5rem;
+            height: 2.63rem;
+            font-family: Abhaya Libre, sans-serif;
+            font-weight: bold;
+            font-size: 2.25rem;
+            color: #ffaa00;
+            line-height: 2.64rem;
+            letter-spacing: 2px;
+        }
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            hr {
+                width: 5.5rem;
+                height: 0.13rem;
+                background: #ffffff;
+            }
+            p {
+                margin: 0 1.7rem;
+                font-family: Microsoft YaHei, sans-serif;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: #ffffff;
+                line-height: 2.93rem;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
