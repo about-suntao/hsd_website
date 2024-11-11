@@ -22,7 +22,7 @@ function Division() {
       label: 'UCAS Official Registration Center',
     }, {
       id: 5,
-      label: 'ASDAN (ASDAN) International Science Competition Official Test Site',
+      label: 'ASDAN International Science Competition Official Test Site',
     },
   ]
 

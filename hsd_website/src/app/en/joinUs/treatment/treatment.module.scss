@@ -1,0 +1,577 @@
+@media screen and (min-width: 1701px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 6.25rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .left {
+                width: 63.38rem;
+                height: 37.13rem;
+                padding: 4.2rem 3rem 4rem 16.81rem;
+                background: #ffffff;
+                position: relative;
+                z-index: 10;
+                .title {
+                    width: 26.31rem;
+                    padding: 0.88rem 1.88rem 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1.8rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 2rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #012247;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    left: 1.75rem;
+                    bottom: 0;
+                    img {
+                        width: 28.81rem;
+                        height: 28.81rem;
+                    }
+                }
+            }
+            .right {
+                margin-left: -8rem;
+                position: relative;
+                z-index: 5;
+                img {
+                    width: 64.56rem;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 6.25rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 54%;
+                padding: 4.2rem 3rem 4rem 14rem;
+                background: #ffffff;
+                position: relative;
+                z-index: 10;
+                .title {
+                    width: 26rem;
+                    padding: 0.88rem 1.88rem 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1.8rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.6rem;
+                            display: flex;
+                            justify-content: center;
+                            .point {
+                                width: 1.25rem;
+                                height: 1.25rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #012247;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    left: 1.75rem;
+                    bottom: 0;
+                    img {
+                        width: 24rem;
+                        height: 24rem;
+                    }
+                }
+            }
+            .right {
+                width: 56%;
+                margin-left: -10%;
+                position: relative;
+                z-index: 5;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 5rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 54%;
+                padding: 3rem 3rem 3rem 8rem;
+                background: #ffffff;
+                position: relative;
+                z-index: 10;
+                .title {
+                    width: 26rem;
+                    padding: 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1.4rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.6rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #012247;
+                            line-height: 1.6rem;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    left: 1.75rem;
+                    bottom: 0;
+                    img {
+                        width: 18rem;
+                        height: auto;
+                    }
+                }
+            }
+            .right {
+                width: 56%;
+                margin-left: -10%;
+                position: relative;
+                z-index: 5;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 5rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 54%;
+                padding: 1rem 3rem;
+                background: #ffffff;
+                position: relative;
+                z-index: 10;
+                .title {
+                    width: 26rem;
+                    padding: 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.6rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.15rem;
+                            color: #012247;
+                            line-height: 1.5rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    left: 1.75rem;
+                    bottom: 0;
+                    img {
+                        width: 16rem;
+                        height: auto;
+                    }
+                }
+            }
+            .right {
+                width: 54%;
+                margin-left: -8%;
+                position: relative;
+                z-index: 5;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 4rem;
+            max-width: 120rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left {
+                width: 54%;
+                padding: 1rem 3rem;
+                background: #ffffff;
+                position: relative;
+                z-index: 10;
+                .title {
+                    width: 22rem;
+                    padding: 0.88rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2.5rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.1rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 0.5rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            display: flex;
+                            align-items: center;
+                            height: 1.5rem;
+                            .point {
+                                width: 0.8rem;
+                                height: 0.8rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color: #012247;
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    left: 1.75rem;
+                    bottom: 0;
+                    img {
+                        width: 16rem;
+                        height: auto;
+                    }
+                }
+            }
+            .right {
+                width: 46%;
+                position: relative;
+                z-index: 5;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container {
+            margin-top: 3rem;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            .left {
+                width: 100%;
+                margin-top: 2rem;
+                background: #ffffff;
+                position: relative;
+                .title {
+                    max-width: 23rem;
+                    padding: 0.6rem 1rem;
+                    background: linear-gradient(90deg, #0b277a 0%, rgba(12, 40, 123, 0) 100%);
+                    border-radius: 0rem 0rem 0rem 0rem;
+                    display: flex;
+                    align-items: center;
+                    .titleLogo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 2rem;
+                            height: auto;
+                        }
+                    }
+                    .titleText {
+                        margin-left: 0.5rem;
+                        p {
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: bold;
+                            font-size: 1.2rem;
+                            color: #ffffff;
+                            line-height: 2rem;
+                        }
+                    }
+                }
+                .content {
+                    padding-left: 1.25rem;
+                    .list_item {
+                        margin-top: 1rem;
+                        display: flex;
+                        align-items: flex-start;
+                        .logo {
+                            height: 1.6rem;
+                            display: flex;
+                            align-items: center;
+                            .point {
+                                width: 1rem;
+                                height: 1rem;
+                                background: #0b277a;
+                                border-radius: 50%;
+                            }
+                        }
+                        p {
+                            margin-left: 1rem;
+                            font-family: Microsoft YaHei, sans-serif;
+                            font-weight: 400;
+                            font-size: 1.2rem;
+                            color: #012247;
+                            line-height: 1.6rem;
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                .schoolLogo {
+                    position: absolute;
+                    right: 0rem;
+                    bottom: 1rem;
+                    img {
+                        width: 14rem;
+                        height: auto;
+                    }
+                }
+            }
+            .right {
+                position: relative;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}

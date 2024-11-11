@@ -80,8 +80,8 @@ function Header() {
       ]
     },
     {
-      label: (<Link href="/en/news">Join Us</Link>),
-      key: '/en/news',
+      label: (<Link href="/en/joinUs">Join Us</Link>),
+      key: '/en/joinUs',
     },
   ];
 

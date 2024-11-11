@@ -25,7 +25,7 @@ function Feature() {
         { id: 2, label: 'Edexcel Official Authorized Test Center' },
         { id: 3, label: 'AP Authorized School' },
         { id: 4, label: 'UCAS Official Registration Center' },
-        { id: 5, label: 'ASDAN (ASDAN) International Science Competition Official Test Site' },
+        { id: 5, label: 'ASDAN International Science Competition Official Test Site' },
       ]
     }, {
       id: 2,
