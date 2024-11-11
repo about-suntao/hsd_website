@@ -14,9 +14,9 @@ function Feature() {
   const data = [
     {
       id: 1,
-      title: 'Speciality Clubs',
+      title: 'Characteristic Club Activities',
       serial: '01',
-      desc: "The International Baccalaureate Clubs Programme is based on the principle that students' wishes should be the guiding principle and the school should provide full support.",
+      desc: "The club curriculum of the Integration Department adheres to the principle that students' wishes are the leading role, and the school provides full support.",
       descBottom: '',
       picture: mfImg1,
       tips: []

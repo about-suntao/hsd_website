@@ -21,11 +21,11 @@ function Feature() {
       desc: '',
       picture: tfImg1,
       tips: [
-        { id: 1, label: 'Foxcroft Academy Official Partner' },
-        { id: 2, label: 'Edexcel Official Test Centre' },
-        { id: 3, label: 'AP Authorised School' },
-        { id: 4, label: 'UCAS Official Registration Centre' },
-        { id: 5, label: 'ASDAN International Science Competition Official Test Centre' },
+        { id: 1, label: 'Foxcroft Academy‘s Friendly School' },
+        { id: 2, label: 'Edexcel Official Authorized Test Center' },
+        { id: 3, label: 'AP Authorized School' },
+        { id: 4, label: 'UCAS Official Registration Center' },
+        { id: 5, label: 'ASDAN (ASDAN) International Science Competition Official Test Site' },
       ]
     }, {
       id: 2,

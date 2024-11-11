@@ -21,15 +21,15 @@ function Advantage() {
     {
       id: 1,
       icon: iconImg1,
-      value: 'Highly recognised transcripts, graduation certificates, recommendation letters, etc, with obvious application advantages。',
+      value: 'Highly recognized transcripts, graduation certificates, recommendation letters, etc., with obvious application advantages.',
     }, {
       id: 2,
       icon: iconImg2,
-      value: "International students can apply to the world's leading universities in the US, UK, Australia, Canada, New Zealand and Hong Kong by virtue of their high quality US High School and international education background.",
+      value: "With globally recognized diplomas and transcripts, students can apply to world-class universities in the U.S., U.K., Australia, Canada, New Zealand and Hong Kong.",
     }, {
       id: 3,
       icon: iconImg3,
-      value: "Have better chances of getting admitted to",
+      value: "Students can compete with U.S. high school graduates and have a higher probability of applying to U.S. Vineyard Schools if they have excellent grades.",
     },
   ]
 
@@ -61,7 +61,7 @@ function Advantage() {
           </div>
           <div className={styles.right}>
             <div className={styles.title}>
-              <h2>Advantages of College Admission</h2>
+              <h2>Advantages for Students in Our School</h2>
             </div>
             <ul>
               {
@@ -80,7 +80,7 @@ function Advantage() {
         <div className={styles.cardTwo}>
           <div className={styles.left}>
             <div className={styles.title}>
-              <h2>Introduction of Cooperative American High School</h2>
+              <h2>Introduction of Foxcroft Academy</h2>
             </div>
             <div className={styles.introduce}>
               <p><span>Foxcroft Academy</span>, founded in 1823, is one of the TOP 10 boarding schools in Maine. FOXCroft Academy is a private boarding school with a rich history and a strong academic atmosphere.</p>

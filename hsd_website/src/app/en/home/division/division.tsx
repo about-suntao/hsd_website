@@ -10,23 +10,23 @@ function Division() {
   const data = [
     {
       id: 1,
-      label: 'Foxcroft Academy Official Partner',
+      label: 'Foxcroft Academy‘s Friendly School',
     }, {
       id: 2,
-      label: 'Edexcel Official Authorised Test Centre (Authorisation Code 95078)',
+      label: 'Edexcel Official Authorized Test Center',
     }, {
       id: 3,
-      label: 'US High School AP Authorised School',
+      label: 'AP Authorized School',
     }, {
       id: 4,
-      label: 'UCAS Official Registration Centre',
+      label: 'UCAS Official Registration Center',
     }, {
       id: 5,
-      label: 'ASDAN International Science Competition Official Test Centre',
+      label: 'ASDAN (ASDAN) International Science Competition Official Test Site',
     },
   ]
 
-  const str = `The International Department is a part of Huashengda Foreign Language School. It implements advanced international quality education concepts, advocates the education model of "foreign language characteristics, compatibility of arts and sciences, and international co-operation", and encourages students to achieve all-round development by restoring the concepts of British and American local education and realising localised teaching. The International Department offers IGCSE, A-Level, AP, IELTS, TOEFL, International Competitions, EPQ and PBL courses for students who want to enter the top 80 QS ranked colleges and universities, aiming to provide students with good foundations in language, comprehensively improve their academic levels, enrich their backgrounds and help them enter their dream schools!`
+  const str = `The Integration Department is affiliated to Huashengda Foreign Language School, which promotes the international advanced quality education concept, advocates the education model of "foreign language characteristics, compatible with liberal arts and science, and international cooperation", restores the British and American local education concepts and realizes localized teaching, and encourages the all-round development of students. The Integration Department provides English, mathematics, physics, chemistry, economics, art, Chinese, psychology, PE and other general courses for students who want to study in the QS top 80 global universities. It integrates IELTS, TOEFL, international competition, EPQ project-based courses and PBL project-based courses, aiming to lay a good language foundation for students and comprehensively improve their academic level. Enrich students' background and resume, and help students successfully enter the dream school!`
 
   return (
     <div className={styles.pages}>
