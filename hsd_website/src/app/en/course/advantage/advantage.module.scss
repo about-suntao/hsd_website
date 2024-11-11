@@ -118,20 +118,6 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                .picture {
-                    img {
-                        width: 43.13rem;
-                        height: 31.19rem;
-                    }
-                }
-                .lists {
-                    margin-left: 4rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
@@ -267,21 +253,6 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 40rem;
-                        height: 30rem;
-                    }
-                }
-                .lists {
-                    margin-left: 3rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
@@ -413,21 +384,6 @@
                             }
                         }
                     }
-                }
-            }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 36rem;
-                        height: 27rem;
-                    }
-                }
-                .lists {
-                    margin-left: 2rem;
                 }
             }
             .content_bottom {
@@ -565,21 +521,6 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 26rem;
-                        height: 20rem;
-                    }
-                }
-                .lists {
-                    margin-left: 2rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
@@ -714,16 +655,6 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                .picture {
-                    margin-bottom: 2rem;
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-            }
             .content_bottom {
                 margin-top: 1.25rem;
                 display: flex;
@@ -854,16 +785,6 @@
                                 }
                             }
                         }
-                    }
-                }
-            }
-            .content_top {
-                margin-top: 2.5rem;
-                .picture {
-                    margin-bottom: 2rem;
-                    img {
-                        width: 100%;
-                        height: auto;
                     }
                 }
             }
