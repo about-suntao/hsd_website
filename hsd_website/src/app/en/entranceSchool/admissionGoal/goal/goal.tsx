@@ -17,7 +17,7 @@ function Goal() {
               <Image src={goldImg} alt=''></Image>
             </div>
             <div className={styles.card_text}>
-              <p>Upon enrollment, students are registered with a U.S. high school.</p>
+              <p>Students can exchange credits and receive a globally recognized diploma.</p>
               <p>100% of students are accepted into universities ranked in the top 80 globally according to QS rankings.</p>
             </div>
           </div>
