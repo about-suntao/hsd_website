@@ -19,7 +19,7 @@ function Data() {
     }, {
       id: 4,
       num: '100%',
-      label: 'Enrolment Rate to QS80',
+      label: 'Enrolment Rate to QS 80',
     },
   ]
   return (

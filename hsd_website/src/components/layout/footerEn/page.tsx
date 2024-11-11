@@ -85,7 +85,7 @@ function Footer() {
           <p><Link href="/en/campusClass">Campus</Link></p>
           <h2 className={styles.link}>Cooperation</h2>
           <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>HuaShengDa Foreign Language School</p>
-          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft College</p>
+          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft Academy</p>
         </div>
         <div className={styles.news}>
           <h2>Information</h2>

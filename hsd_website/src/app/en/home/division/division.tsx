@@ -10,7 +10,7 @@ function Division() {
   const data = [
     {
       id: 1,
-      label: 'Foxcroft Academy‘s Friendly School',
+      label: "Foxcroft Academy's Friendly School",
     }, {
       id: 2,
       label: 'Edexcel Official Authorized Test Center',
@@ -26,7 +26,7 @@ function Division() {
     },
   ]
 
-  const str = `The Integration Department is affiliated to Huashengda Foreign Language School, which promotes the international advanced quality education concept, advocates the education model of "foreign language characteristics, compatible with liberal arts and science, and international cooperation", restores the British and American local education concepts and realizes localized teaching, and encourages the all-round development of students. The Integration Department provides English, mathematics, physics, chemistry, economics, art, Chinese, psychology, PE and other general courses for students who want to study in the QS top 80 global universities. It integrates IELTS, TOEFL, international competition, EPQ project-based courses and PBL project-based courses, aiming to lay a good language foundation for students and comprehensively improve their academic level. Enrich students' background and resume, and help students successfully enter the dream school!`
+  const str = `The Integration Department is affiliated to Huashengda Foreign Language School, which promotes the international advanced quality education concept, advocates the education model of "Foreign language characteristics, compatible with liberal arts and science, and international cooperation", restores the British and American local education concepts and realizes localized teaching, and encourages the all-round development of students. The Integration Department provides English, Mathematics, Physics, Chemistry, Economics, Art, Chinese, Psychology, PE and other general courses for students who want to study in the QS top 80 global universities. It integrates IELTS, TOEFL, international competition, EPQ project-based courses and PBL project-based courses, aiming to lay a good language foundation for students and comprehensively improve their academic level. Enrich students' background and resume, and help students successfully enter the dream school!`
 
   return (
     <div className={styles.pages}>

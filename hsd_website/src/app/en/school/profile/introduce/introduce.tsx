@@ -9,7 +9,7 @@ import linkImg from '../../../../../../public/img/school/link.webp'
 
 function Introduce() {
 
-  const str = `Founded in 1996, Deqing Huashengda Foreign Language School was listed as a foreign language experimental school by the National Experimental Centre for Basic Education, and runs a school that integrates Chinese and Western civilisations, epitomising the development history of private education in Deqing County. The school carries out the Party's education policy in a comprehensive manner, and fosters future elites with an international outlook and the roots of Chinese culture.`
+  const str = `Deqing Huashengda Foreign Language School was listed as a foreign language experimental school by the National Experimental Centre for Basic Education, and runs a school that integrates Chinese and Western civilisations, epitomising the development history of private education in Deqing County. The school carries out the Party's education policy in a comprehensive manner, and fosters future elites with an international outlook and the roots of Chinese culture.`
 
   function openNewWindow(url: string) {
     window.open(url, '_blank');

@@ -83,7 +83,7 @@ function Advantage() {
               <h2>Introduction of Foxcroft Academy</h2>
             </div>
             <div className={styles.introduce}>
-              <p><span>Foxcroft Academy</span>, founded in 1823, is one of the TOP 10 boarding schools in Maine. FOXCroft Academy is a private boarding school with a rich history and a strong academic atmosphere.</p>
+              <p><span>Foxcroft Academy</span>, founded in 1823, is one of the TOP 10 boarding schools in Maine. Foxcroft Academy is a private boarding school with a rich history and a strong academic atmosphere.</p>
               <p>The school offers a diverse curriculum of up to 150 courses: 21 AP courses, 21 visual and performing arts courses, 24 technology education programmes, 5 foreign languages and 10 computer science courses.</p>
             </div>
             <button className={styles.link} onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>

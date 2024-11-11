@@ -35,7 +35,7 @@ function Video() {
             <h2>Foxcroft Academy G-11 Interviews with Chinese students</h2>
           </div>
           <div className={styles.introduce}>
-            <p>Mr. Chen Hao Yu, the Operation Principal of the Integration Department of China Shengda Foreign Language School, came to Foxcroft Academy, a friendly school, to interview the current Chinese students and listen to their real experiences and difficulties they encountered in Foxcroft Acadamy...</p>
+            <p>Haoyu Chen, the Operation Principal of the Integration Department of China Shengda Foreign Language School, came to Foxcroft Academy, a friendly school, to interview the current Chinese students and listen to their real experiences and difficulties they encountered in Foxcroft Academy...</p>
           </div>
           <div className={styles.btn} onClick={() => openDialog()}>
             <div className={styles.triangular}></div>
