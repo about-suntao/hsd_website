@@ -3,7 +3,7 @@
         <pageTitle name="环境类型"></pageTitle>
         <div class="searchForm">
             <div class="search">
-                <el-form :model="searchParams">
+                <el-form :model="searchParams" @submit.prevent="() => {}">
                     <el-form-item label="名称：">
                         <el-input
                             v-model="searchParams.name"

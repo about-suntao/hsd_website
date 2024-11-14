@@ -2,7 +2,7 @@
     <div class="tabsChildren">
         <div class="searchForm">
             <div class="search">
-                <el-form :model="searchParams">
+                <el-form :model="searchParams" @submit.prevent="() => {}">
                     <el-form-item label="标题：">
                         <el-input
                             v-model="searchParams.title"
