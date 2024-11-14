@@ -72,8 +72,8 @@ function Header() {
       key: 'entranceSchool',
       children: [
         {
-          label: (<Link href="/en/dashboard">Visit Appointment</Link>),
-          key: '/en/dashboard',
+          label: (<Link href="/en/appointment">Visit Appointment</Link>),
+          key: '/en/appointment',
         },
         { label: (<Link href="/en/entranceSchool/admissionGoal">Academic goals</Link>), key: '/en/entranceSchool/admissionGoal' },
         { label: (<Link href="/en/entranceSchool/scholarship">Scholarships</Link>), key: '/en/entranceSchool/scholarship' },
