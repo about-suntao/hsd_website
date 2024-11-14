@@ -13,57 +13,6 @@ const MenuRouter: Array<RouteRecordRaw> = [
             hidden: true,
         },
     },
-    // {
-    //     path: 'visit',
-    //     name: 'visit',
-    //     meta: {
-    //         title: '预约访校',
-    //         icon: 'Management',
-    //         hidden: false,
-    //     },
-    //     children: [
-    //         {
-    //             path: 'orderInfo',
-    //             name: 'orderInfo',
-    //             component: () => import('@/views/orderInfo/orderInfo.vue'),
-    //             meta: {
-    //                 title: '预约信息',
-    //                 icon: 'Odometer',
-    //                 hidden: false,
-    //             },
-    //         },
-    //         {
-    //             path: 'applyInfo',
-    //             name: 'applyInfo',
-    //             component: () => import('@/views/applyInfo/applyInfo.vue'),
-    //             meta: {
-    //                 title: '报名信息',
-    //                 icon: 'Odometer',
-    //                 hidden: false,
-    //             },
-    //         },
-    //         {
-    //             path: 'applyItem',
-    //             name: 'applyItem',
-    //             component: () => import('@/views/applyItem/applyItem.vue'),
-    //             meta: {
-    //                 title: '报名项目',
-    //                 icon: 'Odometer',
-    //                 hidden: false,
-    //             },
-    //         },
-    //     ],
-    // },
-    // {
-    //     path: 'banner',
-    //     name: 'banner',
-    //     component: () => import('@/views/banner/banner.vue'),
-    //     meta: {
-    //         title: 'banner',
-    //         icon: 'Picture',
-    //         hidden: false,
-    //     },
-    // },
     {
         path: 'appointment',
         name: 'appointment',
