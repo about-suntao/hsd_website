@@ -26,7 +26,7 @@ function Footer() {
   }
 
   useEffect(() => {
-    getData()
+    // getData()
   }, []);
 
 
@@ -87,7 +87,7 @@ function Footer() {
           <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>HuaShengDa Foreign Language School</p>
           <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft Academy</p>
         </div>
-        <div className={styles.news}>
+        {/* <div className={styles.news}>
           <h2>Information</h2>
           {
             newsData.map((item: any) => {
@@ -106,7 +106,7 @@ function Footer() {
               )
             })
           }
-        </div>
+        </div> */}
       </div>
     </div>
   )

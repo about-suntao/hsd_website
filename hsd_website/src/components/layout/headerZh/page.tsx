@@ -72,8 +72,8 @@ function Header() {
       key: 'entranceSchool',
       children: [
         {
-          label: (<Link href="/zh/dashboard">访校预约</Link>),
-          key: '/zh/dashboard',
+          label: (<Link href="/zh/appointment">访校预约</Link>),
+          key: '/zh/appointment',
         },
         { label: (<Link href="/zh/entranceSchool/admissionGoal">升学目标</Link>), key: '/zh/entranceSchool/admissionGoal' },
         { label: (<Link href="/zh/entranceSchool/scholarship">奖学金</Link>), key: '/zh/entranceSchool/scholarship' },

@@ -3,7 +3,7 @@ import getToken from './getToken'
 
 const fetchRequest = {
     baseUrl: 'https://back.hsd-elite.org',
-    // baseUrl: 'http://192.168.111.87:8089',
+    // baseUrl: 'http://192.168.111.71:8089',
 
     get: (url: string, params?: any, requireToken: boolean = false) => {
         const searchParams = params ? new URLSearchParams(params).toString() : ''

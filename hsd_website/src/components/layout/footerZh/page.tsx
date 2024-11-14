@@ -26,7 +26,7 @@ function Footer() {
   }
 
   useEffect(() => {
-    getData()
+    // getData()
   }, []);
 
 

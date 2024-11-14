@@ -14,7 +14,7 @@ function Banner() {
   const router = useRouter()
 
   const handleRouter = () => {
-    localStorage.getItem('user') ? router.push('/zh/dashboard') : router.push('/zh/login')
+    router.push('/zh/appointment')
   }
   const data = [
     {
