@@ -6,7 +6,7 @@ const MenuRouter: Array<RouteRecordRaw> = [
     {
         path: '/',
         name: 'dashboard',
-        redirect: '/visit/orderInfo',
+        redirect: '/appointment',
         meta: {
             title: '仪表盘',
             icon: 'Odometer',
