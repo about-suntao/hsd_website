@@ -45,8 +45,8 @@ function Recruitment() {
             <ListItem value="双语化学教师"></ListItem>
             <ListItem value="双语物理教师"></ListItem>
             <hr />
-            <ListItem value="双语数学教师（储备） "></ListItem>
-            <ListItem value="ESL教师（储备）"></ListItem>
+            <ListItem value="双语数学教师"></ListItem>
+            <ListItem value="ESL教师"></ListItem>
           </div>
           <div className={styles.schoolLogo}>
             <Image src={schoolLogo} alt=''></Image>

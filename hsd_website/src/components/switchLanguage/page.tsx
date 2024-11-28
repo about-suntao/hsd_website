@@ -27,6 +27,11 @@ export default function SwitchLanguage() {
     <div className={styles.switch}>
       {
         current === 'zh' ?
+          <p>语言：</p> :
+          <p>Language：</p>
+      }
+      {
+        current === 'zh' ?
           <Image src={enImg} alt='' onClick={() => switchToLocale('en')}></Image> :
           <Image src={zhImg} alt='' onClick={() => switchToLocale('zh')}></Image>
       }
