@@ -1,9 +1,22 @@
-.switch {
-    display: flex;
-    align-items: center;
-    img {
-        margin-left: 1rem;
-        width: 2.5rem;
-        height: auto;
+@media screen and (min-width: 769px) {
+    .switch {
+        display: flex;
+        align-items: center;
+        img {
+            margin-left: 1rem;
+            width: 2.5rem;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .switch {
+        display: flex;
+        align-items: center;
+        img {
+            width: 2.5rem;
+            height: auto;
+        }
     }
 }
