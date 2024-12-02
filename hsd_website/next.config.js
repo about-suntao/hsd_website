@@ -5,6 +5,9 @@ const nextConfig = {
     sassOptions: {
         prependData: "@import '@/assets/styles/globals.scss';",
     },
+    experimental: {
+        outputFileTracing: true, // 减少不必要的文件处理
+    },
     // 配置阿里云oss图片链接
     images: {
         remotePatterns: [
@@ -21,6 +24,14 @@ const nextConfig = {
                 pathname: '/**',
             },
         ],
+    },
+    webpack(config) {
+        config.optimization.minimizer.forEach((minimizer) => {
+            if (minimizer.constructor.name === 'TerserPlugin') {
+                minimizer.options.parallel = 2 // 减少线程数
+            }
+        })
+        return config
     },
 }
 
