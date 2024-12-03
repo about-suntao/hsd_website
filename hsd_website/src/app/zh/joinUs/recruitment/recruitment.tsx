@@ -44,7 +44,6 @@ function Recruitment() {
             <ListItem value="双语经济教师"></ListItem>
             <ListItem value="双语化学教师"></ListItem>
             <ListItem value="双语物理教师"></ListItem>
-            <hr />
             <ListItem value="双语数学教师"></ListItem>
             <ListItem value="ESL教师"></ListItem>
           </div>
