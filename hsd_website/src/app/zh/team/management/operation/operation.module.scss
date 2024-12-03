@@ -1,102 +1,526 @@
-.pages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    .container {
-        width: 81rem;
-        padding-bottom: 6.25rem;
-        .title {
-            h2 {
-                font-family: Microsoft YaHei, serif;
-                font-weight: bold;
-                font-size: 2.25rem;
-                color: #051631;
-                line-height: 2.64rem;
-                letter-spacing: 2px;
-                text-align: center;
+@media screen and (min-width: 1401px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .container {
+            width: 81rem;
+            padding-bottom: 6.25rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #051631;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
             }
-            p {
-                font-family: Abhaya Libre, sans-serif;
-                font-weight: 400;
-                font-size: 2rem;
-                color: #012247;
-                line-height: 3.2rem;
-                letter-spacing: 2px;
-                text-align: center;
+            .cardBox {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+                .card {
+                    width: 43%;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    hr {
+                        width: 0;
+                        height: 11.25rem;
+                        border: 0.06rem solid #ff9900;
+                        transform: rotate(20deg);
+                    }
+                    .card_body {
+                        width: 100%;
+                        margin: 0 5rem;
+                        .serial {
+                            position: absolute;
+                            right: 3rem;
+                            top: 0;
+                            img {
+                                width: 7.75rem;
+                                height: auto;
+                            }
+                        }
+                        .cardTitle {
+                            display: flex;
+                            align-items: center;
+                            .name {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #00162d;
+                                line-height: 2.4rem;
+                                letter-spacing: 1px;
+                            }
+                            .position {
+                                margin-left: 1.25rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                color: #00162d;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .intr {
+                            padding-left: 1rem;
+                            li {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.88rem;
+                                color: #00162d;
+                                line-height: 1.4rem;
+                            }
+                        }
+                    }
+                }
             }
         }
-        .cardBox {
-            margin-top: 3rem;
-            display: flex;
-            justify-content: space-between;
-            .card {
-                width: 43%;
-                display: flex;
-                align-items: center;
-                position: relative;
-                hr {
-                    width: 0;
-                    height: 11.25rem;
-                    border: 0.06rem solid #ff9900;
-                    transform: rotate(20deg);
-                }
-                .card_body {
-                    width: 100%;
-                    margin: 0 5rem;
-                    .serial {
-                        position: absolute;
-                        right: 3rem;
-                        top: 0;
-                        img {
-                            width: 7.75rem;
-                            height: auto;
-                        }
-                    }
-                    .cardTitle {
-                        display: flex;
-                        align-items: center;
-                        .name {
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: bold;
-                            font-size: 1.5rem;
-                            color: #00162d;
-                            line-height: 2.4rem;
-                            letter-spacing: 1px;
-                        }
-                        .position {
-                            margin-left: 1.25rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 500;
-                            font-size: 1rem;
-                            color: #00162d;
-                            line-height: 1.6rem;
-                        }
-                    }
-                    .intr {
-                        padding-left: 1rem;
-                        li {
-                            margin-top: 0.63rem;
-                            font-family: Microsoft YaHei, sans-serif;
-                            font-weight: 400;
-                            font-size: 0.88rem;
-                            color: #00162d;
-                            line-height: 1.4rem;
-                        }
-                    }
-                }
+        .backImg {
+            position: absolute;
+            left: 0;
+            top: 8rem;
+            width: 100%;
+            z-index: -1;
+            img {
+                width: 100%;
+                height: auto;
             }
         }
     }
-    .backImg {
-        position: absolute;
-        left: 0;
-        top: 8rem;
-        width: 100%;
-        z-index: -1;
-        img {
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .container {
+            width: 90%;
+            padding-bottom: 6.25rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #051631;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .cardBox {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+                .card {
+                    width: 44%;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    hr {
+                        width: 0;
+                        height: 11.25rem;
+                        border: 0.06rem solid #ff9900;
+                        transform: rotate(20deg);
+                    }
+                    .card_body {
+                        width: 100%;
+                        margin: 0 5rem;
+                        .serial {
+                            position: absolute;
+                            right: 3rem;
+                            top: 0;
+                            img {
+                                width: 7.75rem;
+                                height: auto;
+                            }
+                        }
+                        .cardTitle {
+                            display: flex;
+                            align-items: center;
+                            .name {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #00162d;
+                                line-height: 2.4rem;
+                                letter-spacing: 1px;
+                            }
+                            .position {
+                                margin-left: 1.25rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                color: #00162d;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .intr {
+                            padding-left: 1rem;
+                            li {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.88rem;
+                                color: #00162d;
+                                line-height: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .backImg {
+            position: absolute;
+            left: 0;
+            top: 8rem;
             width: 100%;
-            height: auto;
+            z-index: -1;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .container {
+            width: 90%;
+            padding-bottom: 5rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #051631;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .cardBox {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+                .card {
+                    width: 44%;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    hr {
+                        width: 0;
+                        height: 11.25rem;
+                        border: 0.06rem solid #ff9900;
+                        transform: rotate(20deg);
+                    }
+                    .card_body {
+                        width: 100%;
+                        margin: 0 4rem;
+                        .serial {
+                            position: absolute;
+                            right: 1rem;
+                            top: 0;
+                            img {
+                                width: 6rem;
+                                height: auto;
+                            }
+                        }
+                        .cardTitle {
+                            display: flex;
+                            align-items: center;
+                            .name {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #00162d;
+                                line-height: 2.4rem;
+                                letter-spacing: 1px;
+                            }
+                            .position {
+                                margin-left: 1.25rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                color: #00162d;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .intr {
+                            padding-left: 1rem;
+                            li {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.88rem;
+                                color: #00162d;
+                                line-height: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .backImg {
+            position: absolute;
+            left: 0;
+            top: 8rem;
+            width: 100%;
+            z-index: -1;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .container {
+            width: 90%;
+            padding-bottom: 4rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, serif;
+                    font-weight: bold;
+                    font-size: 2.25rem;
+                    color: #051631;
+                    line-height: 2.64rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    color: #012247;
+                    line-height: 3.2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .cardBox {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+                .card {
+                    width: 46%;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    hr {
+                        width: 0;
+                        height: 11.25rem;
+                        border: 0.06rem solid #ff9900;
+                        transform: rotate(20deg);
+                    }
+                    .card_body {
+                        width: 100%;
+                        margin: 0 3rem;
+                        .serial {
+                            position: absolute;
+                            right: 1rem;
+                            top: 0;
+                            img {
+                                width: 5rem;
+                                height: auto;
+                            }
+                        }
+                        .cardTitle {
+                            display: flex;
+                            align-items: center;
+                            .name {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #00162d;
+                                line-height: 2.4rem;
+                                letter-spacing: 1px;
+                            }
+                            .position {
+                                margin-left: 1.25rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                color: #00162d;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .intr {
+                            padding-left: 1rem;
+                            li {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.88rem;
+                                color: #00162d;
+                                line-height: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .backImg {
+            position: absolute;
+            left: 0;
+            top: 8rem;
+            width: 100%;
+            z-index: -1;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .container {
+            width: 90%;
+            padding-bottom: 4rem;
+            .title {
+                h2 {
+                    font-family: Microsoft YaHei, serif;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: #051631;
+                    line-height: 2rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Abhaya Libre, sans-serif;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #012247;
+                    line-height: 3rem;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+            }
+            .cardBox {
+                margin-top: 3rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 3rem;
+                .card {
+                    width: 85%;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    hr {
+                        width: 0;
+                        height: 11.25rem;
+                        border: 0.06rem solid #ff9900;
+                        transform: rotate(15deg);
+                    }
+                    .card_body {
+                        width: 100%;
+                        margin: 0 3rem;
+                        .serial {
+                            position: absolute;
+                            right: 1rem;
+                            top: 0;
+                            img {
+                                width: 5rem;
+                                height: auto;
+                            }
+                        }
+                        .cardTitle {
+                            display: flex;
+                            align-items: center;
+                            .name {
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5rem;
+                                color: #00162d;
+                                line-height: 2.4rem;
+                                letter-spacing: 1px;
+                            }
+                            .position {
+                                margin-left: 1rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                color: #00162d;
+                                line-height: 1.6rem;
+                            }
+                        }
+                        .intr {
+                            padding-left: 1rem;
+                            li {
+                                margin-top: 0.63rem;
+                                font-family: Microsoft YaHei, sans-serif;
+                                font-weight: 400;
+                                font-size: 0.88rem;
+                                color: #00162d;
+                                line-height: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .backImg {
+            position: absolute;
+            left: 0;
+            top: 8rem;
+            width: 100%;
+            z-index: -1;
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
     }
 }
