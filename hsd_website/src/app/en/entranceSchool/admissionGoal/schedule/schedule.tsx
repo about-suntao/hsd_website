@@ -9,7 +9,7 @@ function Schedule() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>Curriculum Schedule</h2>
+          <h2>Class Types</h2>
         </div>
         <div className={styles.picture}>
           <Image src={scheduleImg} alt=''></Image>

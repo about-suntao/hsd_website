@@ -9,8 +9,8 @@ function Schedule() {
     <div className={styles.pages}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2>课程安排</h2>
-          <p>Curriculum Schedule</p>
+          <h2>班级类型</h2>
+          <p>Class Types</p>
         </div>
         <div className={styles.picture}>
           <Image src={scheduleImg} alt=''></Image>

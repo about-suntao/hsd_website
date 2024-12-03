@@ -1,4 +1,4 @@
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1351px) {
     .pages {
         display: flex;
         justify-content: center;
@@ -56,9 +56,10 @@
             .teacher {
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
                 flex-wrap: wrap;
                 gap: 5.5rem 5rem;
+
                 .card {
                     width: 16.5rem;
                     height: 20.5rem;
@@ -106,6 +107,10 @@
                             text-align: justify;
                         }
                     }
+                }
+                /* 第一行显示 3 个盒子 */
+                .card:nth-child(1) {
+                    margin-left: 1rem; /* 动态调整第一行左边距 */
                 }
             }
             .overseas {
@@ -175,12 +180,15 @@
                         text-align: justify;
                     }
                 }
+                .card:nth-child(1) {
+                    margin: 0 5rem; /* 动态调整第一行左边距 */
+                }
             }
         }
     }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
     .pages {
         display: flex;
         justify-content: center;
@@ -356,6 +364,9 @@
                         line-height: 1.16rem;
                         text-align: justify;
                     }
+                }
+                .card:nth-child(1) {
+                    margin: 0 6rem; /* 动态调整第一行左边距 */
                 }
             }
         }
@@ -539,6 +550,9 @@
                         text-align: justify;
                     }
                 }
+                .card:nth-child(1) {
+                    margin: 0 5rem; /* 动态调整第一行左边距 */
+                }
             }
         }
     }
@@ -720,6 +734,9 @@
                         line-height: 1.16rem;
                         text-align: justify;
                     }
+                }
+                .card:nth-child(1) {
+                    margin: 0 5rem; /* 动态调整第一行左边距 */
                 }
             }
         }

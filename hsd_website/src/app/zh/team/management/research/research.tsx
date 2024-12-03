@@ -33,7 +33,7 @@ function Research() {
   }
 
   useEffect(() => {
-    handleBtn(tabsItem[0])
+    handleBtn(tabsItem[1])
   }, []);
 
   function Teacher() {
