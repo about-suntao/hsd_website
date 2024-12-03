@@ -8,8 +8,8 @@ import Research from './research/research'
 function Management() {
   return (
     <>
-      {/* <Banner backImg={bannerImg} title='教研团队' titleEn="Teaching and research team"></Banner> */}
-      {/* <Research></Research> */}
+      <Banner backImg={bannerImg} title='教研团队' titleEn="Teaching and research team"></Banner>
+      <Research></Research>
       <Operation></Operation>
     </>
   )

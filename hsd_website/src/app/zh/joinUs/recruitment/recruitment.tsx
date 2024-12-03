@@ -33,7 +33,7 @@ function Recruitment() {
               <Image src={recruitmentImg2} alt=''></Image>
             </div>
             <div className={styles.titleText}>
-              <p>招聘岗位（含储备）</p>
+              <p>招聘岗位</p>
             </div>
           </div>
           <div className={styles.content}>

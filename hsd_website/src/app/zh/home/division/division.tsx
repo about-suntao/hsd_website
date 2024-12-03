@@ -15,9 +15,6 @@ function Division() {
       id: 2,
       label: 'Edexcel官方授权考试中心',
     }, {
-      id: 3,
-      label: 'AP授权学校',
-    }, {
       id: 4,
       label: 'UCAS 官方注册中心',
     }, {

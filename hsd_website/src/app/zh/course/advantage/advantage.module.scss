@@ -127,29 +127,16 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                .picture {
-                    img {
-                        width: 43.13rem;
-                        height: 31.19rem;
-                    }
-                }
-                .lists {
-                    margin-left: 4rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 .picture {
                     margin-left: 4rem;
                     img {
                         width: 43.13rem;
-                        height: 37.5rem;
+                        height: auto;
                     }
                 }
             }
@@ -286,30 +273,16 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 40rem;
-                        height: 30rem;
-                    }
-                }
-                .lists {
-                    margin-left: 3rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 .picture {
                     margin-left: 3rem;
                     img {
                         width: 40rem;
-                        height: 36rem;
+                        height: auto;
                     }
                 }
             }
@@ -443,30 +416,17 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 36rem;
-                        height: 27rem;
-                    }
-                }
-                .lists {
-                    margin-left: 2rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+
                 .picture {
                     margin-left: 2rem;
                     img {
                         width: 36rem;
-                        height: 34rem;
+                        height: auto;
                     }
                 }
             }
@@ -602,21 +562,6 @@
                     }
                 }
             }
-            .content_top {
-                margin-top: 2.5rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .picture {
-                    img {
-                        width: 26rem;
-                        height: 20rem;
-                    }
-                }
-                .lists {
-                    margin-left: 2rem;
-                }
-            }
             .content_bottom {
                 margin-top: 5rem;
                 display: flex;
@@ -626,7 +571,7 @@
                     margin-left: 2rem;
                     img {
                         width: 26rem;
-                        height: 25rem;
+                        height: auto;
                     }
                 }
             }
@@ -757,16 +702,6 @@
                                 }
                             }
                         }
-                    }
-                }
-            }
-            .content_top {
-                margin-top: 2.5rem;
-                .picture {
-                    margin-bottom: 2rem;
-                    img {
-                        width: 100%;
-                        height: auto;
                     }
                 }
             }
@@ -907,16 +842,6 @@
                                 }
                             }
                         }
-                    }
-                }
-            }
-            .content_top {
-                margin-top: 2.5rem;
-                .picture {
-                    margin-bottom: 2rem;
-                    img {
-                        width: 100%;
-                        height: auto;
                     }
                 }
             }

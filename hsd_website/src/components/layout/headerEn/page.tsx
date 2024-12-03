@@ -63,10 +63,10 @@ function Header() {
       label: (<Link href="/en/campusClass">Campus</Link>),
       key: '/en/campusClass',
     },
-    // {
-    //   label: (<Link href="/en/news">Information</Link>),
-    //   key: '/en/news',
-    // },
+    {
+      label: (<Link href="/en/news">Information</Link>),
+      key: '/en/news',
+    },
     {
       label: 'Enrollment',
       key: 'entranceSchool',

@@ -23,7 +23,6 @@ function Feature() {
       tips: [
         { id: 1, label: 'Foxcroft Academy‘s Friendly School' },
         { id: 2, label: 'Edexcel Official Authorized Test Center' },
-        { id: 3, label: 'AP Authorized School' },
         { id: 4, label: 'UCAS Official Registration Center' },
         { id: 5, label: 'ASDAN International Science Competition Official Test Site' },
       ]

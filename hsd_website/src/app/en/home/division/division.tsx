@@ -15,9 +15,6 @@ function Division() {
       id: 2,
       label: 'Edexcel Official Authorized Test Center',
     }, {
-      id: 3,
-      label: 'AP Authorized School',
-    }, {
       id: 4,
       label: 'UCAS Official Registration Center',
     }, {

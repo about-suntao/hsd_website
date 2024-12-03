@@ -33,7 +33,7 @@ function Recruitment() {
               <Image src={recruitmentImg2} alt=''></Image>
             </div>
             <div className={styles.titleText}>
-              <p>Recruitment Positions (Including Reserves)</p>
+              <p>Recruitment Positions</p>
             </div>
           </div>
           <div className={styles.content}>
