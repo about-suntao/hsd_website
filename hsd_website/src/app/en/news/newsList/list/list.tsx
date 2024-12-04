@@ -33,6 +33,10 @@ function ListComponent({ inputValue, handleView }: any) {
     }))
   }
 
+  const openNewWindow = (url: string) => {
+    window.open(url, '_blank');
+  }
+
   useEffect(() => {
     getData(searchParams)
   }, []);
@@ -70,7 +74,7 @@ function ListComponent({ inputValue, handleView }: any) {
             {
               data.map((item: any) => {
                 return (
-                  <li className={styles.card} key={item.id} onClick={() => handleView(item.id)}>
+                  <li className={styles.card} key={item.id} onClick={() => openNewWindow(item.url)}>
                     <div className={styles.picture}>
                       <Image src={item.picture} alt='' width={400} height={300} priority></Image>
                     </div>

@@ -45,6 +45,9 @@ function NewsList({ articleId }: { articleId?: number }) {
     router.push(`/zh/news`)
   }
 
+  const openNewWindow = (url: string) => {
+    window.open(url, '_blank');
+  }
 
   useEffect(() => {
     getHotList()
@@ -98,7 +101,7 @@ function NewsList({ articleId }: { articleId?: number }) {
             {
               hotList.map((item: any) => {
                 return (
-                  <li key={item.id} onClick={() => handleView(item.id)}>
+                  <li key={item.id} onClick={() => openNewWindow(item.url)}>
                     <div className={styles.point}></div>
                     <p>{item.title}</p>
                   </li>

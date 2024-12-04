@@ -11,7 +11,7 @@ export default function Home() {
       <Division></Division>
       <Data></Data>
       <Features></Features>
-      {/* <News></News> */}
+      <News></News>
     </main>
   )
 }

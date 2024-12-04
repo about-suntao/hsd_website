@@ -87,6 +87,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
@@ -216,6 +217,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
@@ -345,6 +347,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
@@ -412,6 +415,7 @@
                 }
                 li {
                     min-width: 15rem;
+                    width: 33%;
                     .picture {
                         position: relative;
                         z-index: 1;
@@ -474,6 +478,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
@@ -541,6 +546,7 @@
                 }
                 li {
                     min-width: 12rem;
+                    width: 33%;
                     .picture {
                         position: relative;
                         z-index: 1;
@@ -603,6 +609,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
@@ -731,6 +738,7 @@
                                 -webkit-line-clamp: 4; /* 显示3行 */
                                 overflow: hidden;
                                 text-overflow: ellipsis; /* 可选，用来在文本末尾显示省略号 */
+                                min-height: 6.4rem;
                                 max-height: 6.4em; /* 行高1.5em的3行，如果行高不是1.5em，需要调整max-height */
                                 text-align: justify;
                             }
