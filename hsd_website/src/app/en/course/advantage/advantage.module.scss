@@ -122,11 +122,12 @@
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 .picture {
                     margin-left: 4rem;
                     img {
                         width: 43.13rem;
-                        height: 37.5rem;
+                        height: auto;
                     }
                 }
             }
@@ -257,11 +258,12 @@
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 .picture {
                     margin-left: 3rem;
                     img {
                         width: 40rem;
-                        height: 36rem;
+                        height: auto;
                     }
                 }
             }
@@ -390,11 +392,12 @@
                 margin-top: 5rem;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 .picture {
                     margin-left: 2rem;
                     img {
                         width: 36rem;
-                        height: 34rem;
+                        height: auto;
                     }
                 }
             }
@@ -530,7 +533,7 @@
                     margin-left: 2rem;
                     img {
                         width: 26rem;
-                        height: 25rem;
+                        height: auto;
                     }
                 }
             }

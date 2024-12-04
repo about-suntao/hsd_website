@@ -9,7 +9,7 @@ import linkImg from '../../../../../../public/img/school/link.webp'
 
 function Introduce() {
 
-  const str = `Deqing Huashengda Foreign Language School was listed as a foreign language experimental school by the National Experimental Centre for Basic Education, and runs a school that integrates Chinese and Western civilisations, epitomising the development history of private education in Deqing County. The school carries out the Party's education policy in a comprehensive manner, and fosters future elites with an international outlook and the roots of Chinese culture.`
+  const str = `Deqing Huashengda Foreign Language School integrates Chinese and Western civilizations and runs a school that fully implements the Party's education policy to cultivate future elites with both an international outlook and Chinese cultural roots.`
 
   function openNewWindow(url: string) {
     window.open(url, '_blank');
@@ -25,7 +25,7 @@ function Introduce() {
           <div className={styles.article}>
             <p>{str}</p>
           </div>
-          <button className={styles.link} onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>
+          <button className={styles.link} onClick={() => openNewWindow('http://www.hsdwyxx.com')}>
             <span>Partnership School</span>
             <Image src={linkImg} alt=''></Image>
           </button>

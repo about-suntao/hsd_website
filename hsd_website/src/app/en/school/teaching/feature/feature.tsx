@@ -39,9 +39,9 @@ function Feature() {
       ]
     }, {
       id: 3,
-      title: 'Institutional Management Model',
+      title: 'Rigorous Teaching to the Ground',
       serial: '03',
-      desc: 'Strict management with a regular routine, helping students to improve their self-management skills and achieve better results in higher education.',
+      desc: 'Teaching starts from the moment you enter the school: we offer IELTS courses, afternoon tutorials for remedial work or competitions, and evening classes for checking for deficiencies. Subject teachers and teaching assistants work together to ensure that the learning effect is realized, focusing on the overall growth of each student.',
       picture: tfImg3,
       tips: []
     }, {
@@ -52,14 +52,14 @@ function Feature() {
       picture: tfImg4,
       tips: [
         { id: 1, label: 'Arranging no less than 10 Chinese and foreign English lessons per week' },
-        { id: 2, label: 'Providing public interest IELTS / TOEFL classes every Sunday afternoon' },
+        { id: 2, label: 'Provide on-campus IELTS courses' },
         { id: 3, label: 'Organizing English Debate Clubs' },
       ]
     }, {
       id: 5,
       title: 'Personalised Study Services',
       serial: '05',
-      desc: 'Provide scientific and personalised one-on-one application planning guidance for each student, covering the whole academic year from the first to the third year of high school.',
+      desc: 'Provide scientific and personalized application planning guidance for each student, covering the whole school year from freshman to senior.',
       picture: tfImg5,
       tips: [
         { id: 1, label: 'Comprehensive assessment of academic performance, interests and strengths' },
@@ -73,7 +73,7 @@ function Feature() {
       desc: "Scientific assessment of academic performance, scientifically customised assessment system, full-time counselling to improve students' performance.",
       picture: tfImg6,
       tips: [
-        { id: 1, label: 'Organizing monthly, mid-term and final exams to comprehensively assess academic performance.' },
+        { id: 1, label: '' },
         { id: 2, label: 'Comparing the results with the requirements of target universities and provide suggestions for strengthening the subjects.' },
         { id: 3, label: 'Strict assessment of each assignment to ensure quality teaching and learning' },
       ]

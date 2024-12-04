@@ -44,7 +44,6 @@ function Feature() {
         { id: 2, label: 'Define the requirements for further studies and the direction of study' },
         { id: 3, label: 'Determine the matching of language enhancement and background enhancement programmes' },
         { id: 4, label: 'Students and tutors make two-way choices' },
-        { id: 5, label: 'Mentor pairing is completed in the first year of high school, with three years of follow-up ' },
         { id: 6, label: 'Support in four areas: mood, subject performance, background enhancement, and guidance for further studies.' },
 
       ]
