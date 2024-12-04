@@ -77,15 +77,15 @@ function Footer() {
           </div>
         </div>
         <div className={styles.situation}>
-          <h2>Website Overview</h2>
+          <h2 >Cooperation</h2>
+          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/')}>HuaShengDa Foreign Language School</p>
+          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft Academy</p>
+          <h2 className={styles.link}>Website Overview</h2>
           <p><Link href="/en/school/profile">School Profile</Link></p>
           <p><Link href="/en/course">Curriculum</Link></p>
           <p><Link href="/en/international">Cooperation</Link></p>
           <p><Link href="/en/team/management">Team</Link></p>
           <p><Link href="/en/campusClass">Campus</Link></p>
-          <h2 className={styles.link}>Cooperation</h2>
-          <p onClick={() => openNewWindow('http://www.hsdwyxx.com/dept/208.aspx')}>HuaShengDa Foreign Language School</p>
-          <p onClick={() => openNewWindow('https://foxcroftacademy.org/fa-partnership-schools')}>Foxcroft Academy</p>
         </div>
         {/* <div className={styles.news}>
           <h2>Information</h2>
