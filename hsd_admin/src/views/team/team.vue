@@ -50,12 +50,12 @@
                 <el-table-column prop="name" label="姓名" />
                 <el-table-column prop="enName" label="Name" />
                 <el-table-column prop="teamName" label="团队类型" />
-                <el-table-column prop="photograph" label="照片">
+                <el-table-column prop="photograph" label="照片" width="200">
                     <template #default="scoped">
                         <el-image class="Img" :src="scoped.row.photograph"></el-image>
                     </template>
                 </el-table-column>
-                <el-table-column prop="signature" label="签名照">
+                <el-table-column prop="signature" label="签名照" width="200">
                     <template #default="scoped">
                         <el-image v-if="scoped.row.signature" class="Img" :src="scoped.row.signature"></el-image>
                     </template>
@@ -319,7 +319,7 @@
     const openEditPopup = (data: any) => {
         userForm.value = { ...data }
         honorArr.value = [...data.honors]
-        honorEnArr.value = [...data.honors]
+        honorEnArr.value = [...data.enHonors]
         PopupStatus.value = 'edit'
         Popup.value = true
     }
@@ -398,8 +398,6 @@
         ruleFormRef.value.validate((valid: any) => {
             // 表单验证成功
             if (valid) {
-                console.log('1561')
-
                 // 获取规格信息
                 if (honorArr.value.filter((item) => item.name === '' || item.name === null).length != 0) {
                     ElMessage.warning('荣誉输入项不能为空')

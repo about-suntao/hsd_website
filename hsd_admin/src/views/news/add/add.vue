@@ -17,22 +17,25 @@
                         <el-form-item label="标题：" prop="title">
                             <el-input v-model="form.title" placeholder="请输入文章标题" clearable />
                         </el-form-item>
+                        <el-form-item label="描述:" prop="description">
+                            <el-input v-model="form.description" placeholder="请输入文章描述" clearable />
+                        </el-form-item>
                         <el-form-item label="关键字：" prop="keywords">
                             <el-input v-model="form.keywords" placeholder="请输入文章关键字" clearable />
                         </el-form-item>
-                        <el-form-item label="描述:" prop="description">
-                            <el-input v-model="form.description" placeholder="请输入文章描述" clearable />
+                        <el-form-item label="跳转链接：" prop="url">
+                            <el-input v-model="form.url" placeholder="请输入文章关键字" clearable />
                         </el-form-item>
                         <el-form-item label="发布时间：" prop="createTime">
                             <el-date-picker v-model="form.createTime" type="date" placeholder="请选择文章发布时间" />
                         </el-form-item>
-                        <el-form-item label="浏览数：" prop="viewCount">
+                        <!-- <el-form-item label="浏览数：" prop="viewCount">
                             <el-input
                                 v-model.number="form.viewCount"
                                 placeholder="请输入文章浏览数,不输入为默认"
                                 clearable
                             />
-                        </el-form-item>
+                        </el-form-item> -->
                     </el-col>
                     <el-col :span="2"> </el-col>
                     <el-col :span="10">
@@ -51,13 +54,13 @@
                         </el-form-item>
                     </el-col>
                 </el-row>
-                <el-row>
+                <!-- <el-row>
                     <el-col :span="22">
                         <el-form-item label="新闻内容：">
                             <Tinymce v-model="form.content"></Tinymce>
                         </el-form-item>
                     </el-col>
-                </el-row>
+                </el-row> -->
             </el-form>
         </div>
     </div>
@@ -76,6 +79,7 @@
         title: '',
         picture: '',
         keywords: '',
+        url: '',
         description: '',
         content: '',
         isHot: '0',
@@ -100,9 +104,9 @@
 
     const rules = reactive<FormRules>({
         title: [{ required: true, message: '请输入标题', trigger: 'blur' }],
-        keywords: [{ required: true, message: '请输入关键字', trigger: 'blur' }],
+        // keywords: [{ required: true, message: '请输入关键字', trigger: 'blur' }],
         description: [{ required: true, message: '请输入描述', trigger: 'blur' }],
-        viewCount: [{ type: 'number', message: '请输入正确的浏览量' }],
+        // viewCount: [{ type: 'number', message: '请输入正确的浏览量' }],
         picture: [{ required: true, validator: checkPicture, trigger: 'blur' }],
     })
 
@@ -152,6 +156,7 @@
             title: '',
             picture: '',
             keywords: '',
+            url: '',
             description: '',
             content: '',
             isHot: '0',
